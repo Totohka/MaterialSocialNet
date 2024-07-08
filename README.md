@@ -10,9 +10,9 @@
 ![image](https://github.com/Totohka/MaterialSocialNet/assets/118595315/e81ab2c7-0c78-4e70-b12a-5c1168c6af20)
 
 ### С4 - Component
-##Что имеем сейчас
+## Что имеем сейчас
 ![image](https://github.com/Totohka/MaterialSocialNet/assets/118595315/6139be41-12d5-49b6-bf84-8e845fa3d9c1)
 
-##К чему стремимся
+## К чему стремимся
 ![image](https://github.com/Totohka/MaterialSocialNet/assets/118595315/62db036e-eef8-4714-9001-22b1341a7c5b)
 
