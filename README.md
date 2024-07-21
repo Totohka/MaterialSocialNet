@@ -10,4 +10,5 @@
 ![image](https://github.com/Totohka/MaterialSocialNet/assets/118595315/e81ab2c7-0c78-4e70-b12a-5c1168c6af20)
 
 ### Component
-![image](https://github.com/Totohka/MaterialSocialNet/assets/118595315/6139be41-12d5-49b6-bf84-8e845fa3d9c1)
+![Диаграмма без названия](https://github.com/user-attachments/assets/67e2d110-37bc-4f98-8ff9-373a5947c6da)
+
