@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Goods.Social.Network.Web.API.props" />
+</Project>

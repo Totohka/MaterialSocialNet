@@ -1,0 +1,252 @@
+2024-06-03 18:00:09.1224|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:00:09.2807|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:01:10.0055|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:01:10.1033|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:06:42.3239|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:06:42.4284|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:06:49.4019|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:06:49.4914|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:07:11.3681|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:07:11.4632|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:08:12.4725|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:08:12.5666|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:08:35.5078|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:08:35.5994|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:08:54.2565|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:08:54.3695|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:19:32.3981|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:19:32.4897|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:20:10.5364|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:20:10.6160|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:20:55.1938|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:20:55.2900|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:22:44.7230|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:22:44.8034|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:22:53.1790|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:22:53.2725|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:24:28.1349|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:24:28.2391|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:24:37.1310|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:24:37.2108|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:24:45.1029|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:24:45.1931|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:25:53.6643|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:25:53.7439|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:26:01.3986|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:26:01.4883|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:26:11.4913|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:26:11.5872|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:28:05.0869|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:28:05.1823|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:28:11.4156|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:28:11.4948|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:28:31.1943|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:28:31.2902|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:29:06.1031|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:29:06.2114|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:30:49.8678|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:30:49.9627|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:31:06.0197|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:31:06.1325|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 18:31:56.0979|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 18:31:56.1799|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 22:09:58.5522|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 22:09:58.6315|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 
+2024-06-03 22:10:15.1617|0|DEBUG|Program|init main |url: |action: 
+2024-06-03 22:10:15.2552|0|ERROR|Program|Stopped PostMicroservice because of exception Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\Program.cs:line 97|url: |action: 

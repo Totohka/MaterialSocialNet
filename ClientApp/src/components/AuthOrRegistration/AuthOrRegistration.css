@@ -1,0 +1,83 @@
+article {
+    background: linear-gradient(
+      to right, 
+      hsl(100 60% 70%), 
+      hsl(180, 100%, 50%)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+  
+.titleAuthOrRegistration {
+    font-size: 5vmin;
+    line-height: 1.0;
+  }
+  
+.titleAuthOrRegistration, .helloAuthOrRegistration {
+    margin: 0;
+    font-family: "Dank Mono", ui-monospace, monospace;
+  }
+  
+  .formAuthOrRegistration {
+      background-color: #757575;
+      border-radius: 20px;
+      box-sizing: border-box;
+      height: 250px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 20px;
+      width: 320px;
+      position: relative;
+      margin: 8% auto 2% auto;
+      box-shadow: 0 0 10px 0 #757575 inset, 0 0 10px 4px aqua;
+    }
+
+.textAuthOrRegistration{
+    margin-bottom: 14%; 
+}
+
+.buttonAuthOrRegistration{
+    margin: 0 auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 1px solid aqua;
+    width: 85%;
+    height: 40%;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    transition: all 350ms ease-in-out;
+}
+
+.flexContainerForGoogleButton{
+  display: flex;
+  justify-content: center;
+}
+
+.buttonAuthOrRegistration:hover{
+    background-color: aqua;
+    border: 1px solid rgb(35, 35, 35);
+    scale: 1.01;
+    color: rgb(35, 35, 35);
+    box-shadow: 0 0 10px 0 aqua inset, 0 0 10px 4px aqua;
+  }
+
+.buttonAuthOrRegistration a{
+    color: white;
+    text-decoration: none;
+}
+
+.boxForAuthOrRegistration{
+    margin: 0 auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    /* border: 1px solid aqua; */
+    height: 80px;
+    /* background-color: rgb(110, 182, 161); */
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    transition: all 350ms ease-in-out;
+}

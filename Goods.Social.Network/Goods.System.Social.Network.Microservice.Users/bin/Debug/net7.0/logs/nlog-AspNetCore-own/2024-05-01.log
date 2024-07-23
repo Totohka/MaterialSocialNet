@@ -1,0 +1,39 @@
+2024-05-01 01:09:04.5849|0|DEBUG|Program|init main |url: |action: 
+2024-05-01 01:09:10.0336|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5148 |url: |action: 
+2024-05-01 01:09:10.0483|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-05-01 01:09:10.0483|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-05-01 01:09:10.0483|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users |url: |action: 
+2024-05-01 01:21:09.0654|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 
+2024-05-01 01:21:27.1283|0|DEBUG|Program|init main |url: |action: 
+2024-05-01 01:21:29.0642|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5148 |url: |action: 
+2024-05-01 01:21:29.0750|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-05-01 01:21:29.0750|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-05-01 01:21:29.0750|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users |url: |action: 
+2024-05-01 01:21:45.7082|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/User|action: Get
+2024-05-01 01:21:47.6789|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Get |url: http://localhost/api/User|action: Get
+2024-05-01 01:22:22.1632|0|DEBUG|Program|init main |url: |action: 
+2024-05-01 01:22:23.9461|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5148 |url: |action: 
+2024-05-01 01:22:23.9461|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-05-01 01:22:23.9461|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-05-01 01:22:23.9461|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users |url: |action: 
+2024-05-01 01:22:37.6779|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/User|action: Get
+2024-05-01 01:22:38.7717|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Get |url: http://localhost/api/User|action: Get
+2024-05-01 01:22:38.7717|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 6 |url: http://localhost/api/User|action: Get
+2024-05-01 01:22:38.7900|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User|action: Get
+2024-05-01 01:22:41.4977|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/User|action: Get
+2024-05-01 01:23:29.0178|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Get |url: http://localhost/api/User|action: Get
+2024-05-01 01:23:29.0178|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 6 |url: http://localhost/api/User|action: Get
+2024-05-01 01:23:29.0178|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User|action: Get
+2024-05-01 01:24:43.4997|0|DEBUG|Program|init main |url: |action: 
+2024-05-01 01:24:45.3541|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5148 |url: |action: 
+2024-05-01 01:24:45.3541|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-05-01 01:24:45.3541|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-05-01 01:24:45.3541|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users |url: |action: 
+2024-05-01 01:24:52.5595|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/User|action: 
+2024-05-01 01:25:01.6628|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Get |url: http://localhost/api/User/6|action: Get
+2024-05-01 01:25:01.6628|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 6 |url: http://localhost/api/User/6|action: Get
+2024-05-01 01:25:01.6628|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User/6|action: Get
+2024-05-01 01:25:04.2525|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/User/6|action: Get
+2024-05-01 01:25:30.4912|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Get |url: http://localhost/api/User/6|action: Get
+2024-05-01 01:25:30.4912|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 6 |url: http://localhost/api/User/6|action: Get
+2024-05-01 01:25:30.4912|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User/6|action: Get

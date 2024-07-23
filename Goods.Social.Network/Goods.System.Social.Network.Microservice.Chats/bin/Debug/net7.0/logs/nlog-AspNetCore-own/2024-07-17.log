@@ -1,0 +1,248 @@
+2024-07-17 00:13:23.0866|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:13:25.2017|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:13:25.2196|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:13:25.2320|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:13:25.2382|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:13:31.1253|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:13:49.8645|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:13:51.6292|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:13:51.6292|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:13:51.6292|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:13:51.6292|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:13:56.4105|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:13:56.7680|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:15:27.7952|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:15:29.4924|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:15:29.4924|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:15:29.4924|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:15:29.4924|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:15:34.8667|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:15:40.5575|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:15:40.5575|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:15:40.5915|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:15:53.2407|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:29:41.1056|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:29:42.6982|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:29:42.6982|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:29:42.6982|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:29:42.6982|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:29:46.0617|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:29:46.5011|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:29:46.5011|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:29:46.5253|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:29:47.1374|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:29:47.4256|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:29:48.0044|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:32:35.7738|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:32:37.4055|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:32:37.4100|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:32:37.4100|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:32:37.4100|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:32:43.1354|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:32:43.5759|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:32:43.5759|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:32:43.5990|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:32:44.2280|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:32:44.5211|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:32:45.0846|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:33:56.5072|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:33:58.0969|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:33:58.1023|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:33:58.1023|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:33:58.1023|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:34:01.4130|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:34:01.8551|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:34:01.8551|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:34:01.8782|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:34:02.4792|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:34:02.7743|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:34:03.3331|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:34:20.8967|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:34:20.8967|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:34:20.8967|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:37:28.9341|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:37:30.4889|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:37:30.4889|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:37:30.4889|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:37:30.4889|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:37:32.8851|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:37:33.3540|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:37:33.3540|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:37:33.3790|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:37:34.0038|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:37:34.3041|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:37:34.8830|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:37:43.1539|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:37:43.1539|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:37:43.1539|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:37:57.9577|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:37:57.9577|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:37:57.9577|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:39:33.0238|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:39:34.4340|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:39:34.4340|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:39:34.4340|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:39:34.4340|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:39:37.4341|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:39:37.8732|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:39:37.8732|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:39:37.8980|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:39:38.6023|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:39:38.9185|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:39:39.4904|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:40:15.3181|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:40:15.3181|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:40:15.3181|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:40:23.3293|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:40:24.6918|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:40:24.6918|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:40:24.6918|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:40:24.6918|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:40:30.2388|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:40:30.6576|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:40:30.6621|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:40:30.6867|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:40:31.2956|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:40:31.6083|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:40:32.1960|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:40:57.7438|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:40:57.7438|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:40:57.7438|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:41:35.6783|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:41:37.4029|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:41:37.4029|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:41:37.4029|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:41:37.4029|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:41:39.1611|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:41:39.6868|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:41:39.6868|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:41:39.7140|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:41:40.3722|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:41:40.7151|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:41:41.4570|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:42:45.3827|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:42:46.7973|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:42:46.8011|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:42:46.8011|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:42:46.8011|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:42:49.1132|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:42:49.5306|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:42:49.5306|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:42:49.5536|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:42:50.1964|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:42:50.5023|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:42:51.1762|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:43:56.8741|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:43:58.2926|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:43:58.2926|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:43:58.2926|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:43:58.2926|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:44:00.6775|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:44:01.1083|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:44:01.1083|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:44:01.1324|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:44:01.7539|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:44:02.0531|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:44:02.7227|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:44:51.8328|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:44:53.4533|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:44:53.4587|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:44:53.4587|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:44:53.4587|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:44:56.2540|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:44:56.6982|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:44:56.6982|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:44:56.7215|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:44:57.3328|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:44:57.6230|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:44:58.2726|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:45:20.2550|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:45:21.5816|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:45:21.5987|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:45:21.5987|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:45:21.5987|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:45:24.0844|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:45:24.5207|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:45:24.5207|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:45:24.5475|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:45:25.1923|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:45:25.4826|10108|WARN|Microsoft.EntityFrameworkCore.Query|Collection navigations are only considered null if their parent entity is null. Use 'Any' to check whether collection navigation 'ChatRoom.Messages' is empty. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:46:35.0886|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 00:46:36.2109|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 00:46:36.2312|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 00:46:36.2312|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 00:46:36.2312|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 00:46:39.2774|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/all|action: 
+2024-07-17 00:46:39.7120|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:46:39.7120|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 8, number: 0, search: |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:46:39.7361|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 00:46:40.3569|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/all|action: GetChats
+2024-07-17 01:06:19.5731|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 01:06:20.8459|0|ERROR|Program|Stopped ChatMicroservice because of exception System.InvalidOperationException: Action 'Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController.AddNewChat (Goods.System.Social.Network.Microservice.Chats)' has more than one parameter that was specified or inferred as bound from request body. Only one parameter per action may be bound from body. Inspect the following parameters, and use 'FromQueryAttribute' to specify bound from query, 'FromRouteAttribute' to specify bound from route, and 'FromBodyAttribute' for parameters to be bound from body:
+ChatRoom chatRoom
+List<int> userIdsByChat
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.InferParameterBindingSources(ActionModel action)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.InferParameterBindingInfoConvention.Apply(ActionModel action)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApiBehaviorApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory.CreateApplicationModel(IEnumerable`1 controllerTypes)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.GetChangeToken()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.<>c__DisplayClass13_0.<Subscribe>b__0()
+   at Microsoft.Extensions.Primitives.ChangeToken.OnChange(Func`1 changeTokenProducer, Action changeTokenConsumer)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Subscribe()
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource..ctor(ControllerActionEndpointDataSourceIdProvider dataSourceIdProvider, IActionDescriptorCollectionProvider actions, ActionEndpointFactory endpointFactory, OrderedEndpointsSequenceProvider orderSequence)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.GetOrCreateDataSource(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllers(IEndpointRouteBuilder endpoints)
+   at Program.<Main>$(String[] args) in C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats\Program.cs:line 129|url: |action: 
+2024-07-17 01:10:16.2612|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 01:10:17.6950|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 01:10:17.6950|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 01:10:17.6950|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 01:10:17.6950|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 01:16:28.3034|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 01:16:29.8306|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 01:16:29.8355|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 01:16:29.8355|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 01:16:29.8355|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 01:18:12.1088|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 01:18:13.4939|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 01:18:13.4939|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 01:18:13.4939|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 01:18:13.4939|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 01:19:59.2401|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 01:20:00.3370|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 01:20:00.3370|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 01:20:00.3370|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 01:20:00.3370|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 01:21:01.4518|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 01:21:03.0099|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 01:21:03.0099|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 01:21:03.0099|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 01:21:03.0099|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 01:21:18.4660|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 02:37:09.7489|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 02:37:11.7824|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 02:37:11.7876|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 02:37:11.7876|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 02:37:11.7876|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 02:37:22.3717|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat|action: 
+2024-07-17 02:37:22.8434|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод AddNewChat |url: http://localhost/api/Chat|action: AddNewChat
+2024-07-17 02:41:52.2609|0|DEBUG|Program|init main |url: |action: 
+2024-07-17 02:41:53.7580|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-17 02:41:53.7580|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-17 02:41:53.7580|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-17 02:41:53.7580|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-17 02:41:59.2880|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat|action: 
+2024-07-17 02:41:59.8532|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод AddNewChat |url: http://localhost/api/Chat|action: AddNewChat
+2024-07-17 02:42:08.4973|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод Create с параметрами: chatRoom: Goods.System.Social.Network.Microservice.Chats.Entities.ViewModels.ChatRoomViewModel, userId: 5 |url: http://localhost/api/Chat|action: AddNewChat
+2024-07-17 02:42:08.5352|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод Create с параметрами: chatRoom : 5 |url: http://localhost/api/Chat|action: AddNewChat
+2024-07-17 02:42:09.2896|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat|action: AddNewChat
+2024-07-17 02:42:12.8247|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод CreateAsync с параметрами: message: Goods.System.Social.Network.DomainModel.Entities.Message |url: http://localhost/api/Chat|action: AddNewChat
+2024-07-17 02:42:12.8247|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAsync с параметрами: id : 19 |url: http://localhost/api/Chat|action: AddNewChat
+2024-07-17 02:42:12.8883|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод Update с параметрами: chatRoom : Goods.System.Social.Network.DomainModel.Entities.ChatRoom |url: http://localhost/api/Chat|action: AddNewChat
+2024-07-17 02:42:12.8981|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.MessageRepository|Вызван метод Create с параметрами: message : Goods.System.Social.Network.DomainModel.Entities.Message |url: http://localhost/api/Chat|action: AddNewChat
+2024-07-17 02:42:44.0134|0|TRACE|DomainServices.Chat.Realization.InviteService|Вызван метод InvateUserInChatAsync с параметрами: chatRoomUser: Goods.System.Social.Network.DomainModel.Entities.ChatRoomUser |url: http://localhost/api/Chat|action: AddNewChat
+2024-07-17 02:42:44.0224|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAsync с параметрами: id : 19 |url: http://localhost/api/Chat|action: AddNewChat

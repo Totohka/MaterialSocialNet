@@ -1,0 +1,6 @@
+2024-05-02 21:03:01.8237|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.JWTService|Вызван метод AuthAsync с параметрами: email : dimap190603@gmail.com, password: 12345 |url: http://localhost/Auth|action: Auth
+2024-05-02 21:03:01.8344|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/Auth|action: Auth
+2024-05-02 21:03:04.9935|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.JWTService|Вызван метод GetJWT с параметрами: user : Goods.System.Social.Network.DomainModel.Entities.User |url: http://localhost/Auth|action: Auth
+2024-05-02 21:52:23.4964|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.JWTService|Вызван метод AuthAsync с параметрами: email : dimap190603@gmail.com, password: 12345 |url: http://localhost/Auth|action: Auth
+2024-05-02 21:52:23.4964|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/Auth|action: Auth
+2024-05-02 21:52:25.9128|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.JWTService|Вызван метод GetJWT с параметрами: user : Goods.System.Social.Network.DomainModel.Entities.User |url: http://localhost/Auth|action: Auth

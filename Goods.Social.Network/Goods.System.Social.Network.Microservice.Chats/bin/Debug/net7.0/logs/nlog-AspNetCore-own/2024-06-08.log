@@ -1,0 +1,6 @@
+2024-06-08 16:49:10.3828|0|DEBUG|Program|init main |url: |action: 
+2024-06-08 16:49:12.3002|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-06-08 16:49:12.3085|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-08 16:49:12.3085|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-08 16:49:12.3085|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-06-08 16:49:21.2708|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: 

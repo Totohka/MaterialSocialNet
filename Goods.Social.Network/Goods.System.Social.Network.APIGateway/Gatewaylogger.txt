@@ -1,0 +1,95 @@
+Now listening on: https://localhost:7051
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Настя\Desktop\Social\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+requestId: 0HMUP24TLOR1E:00000007, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+requestId: 0HMUP24TLOR1E:00000007, previousRequestId: no previous request id, message: No authentication needed for /ChatsService/getChats
+requestId: 0HMUP24TLOR1E:00000007, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+requestId: 0HMUP24TLOR1E:00000007, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7172/getChats?userId=1
+requestId: 0HMUP24TLOR1E:00000009, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+requestId: 0HMUP24TLOR1E:00000009, previousRequestId: no previous request id, message: No authentication needed for /ChatsService/createChat
+requestId: 0HMUP24TLOR1E:00000009, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+requestId: 0HMUP24TLOR1E:00000009, previousRequestId: no previous request id, message: 405 (Method Not Allowed) status code, request uri: https://localhost:7172/createChat?name=test
+Now listening on: https://localhost:7051
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Настя\Desktop\Social\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+requestId: 0HMUPBNRS2Q79:00000007, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+requestId: 0HMUPBNRS2Q79:00000007, previousRequestId: no previous request id, message: No authentication needed for /ChatsService/getChats
+requestId: 0HMUPBNRS2Q79:00000007, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+requestId: 0HMUPBNRS2Q79:00000007, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7172/getChats?userId=1
+requestId: 0HMUPBNRS2Q79:00000009, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+requestId: 0HMUPBNRS2Q79:00000009, previousRequestId: no previous request id, message: No authentication needed for /ChatsService/create
+requestId: 0HMUPBNRS2Q79:00000009, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+requestId: 0HMUPBNRS2Q79:00000009, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: https://localhost:7172/create
+requestId: 0HMUPBNRS2Q79:0000000B, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+requestId: 0HMUPBNRS2Q79:0000000B, previousRequestId: no previous request id, message: No authentication needed for /ChatsService/createChat
+requestId: 0HMUPBNRS2Q79:0000000B, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+requestId: 0HMUPBNRS2Q79:0000000B, previousRequestId: no previous request id, message: 405 (Method Not Allowed) status code, request uri: https://localhost:7172/createChat
+Now listening on: https://localhost:7051
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Настя\Desktop\Social\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+requestId: 0HMUPBPFLEN2C:00000007, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+requestId: 0HMUPBPFLEN2C:00000007, previousRequestId: no previous request id, message: No authentication needed for /ChatsService/createChat
+requestId: 0HMUPBPFLEN2C:00000007, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+requestId: 0HMUPBPFLEN2C:00000007, previousRequestId: no previous request id, message: 405 (Method Not Allowed) status code, request uri: https://localhost:7172/createChat
+Now listening on: https://localhost:7051
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Настя\Desktop\Social\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Now listening on: https://localhost:7051
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Настя\Desktop\Social\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Now listening on: https://localhost:7051
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Настя\Desktop\Social\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Now listening on: https://localhost:7051
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Настя\Desktop\Social\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+requestId: 0HMUQ0D1DN0PO:00000007, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+requestId: 0HMUQ0D1DN0PO:00000007, previousRequestId: no previous request id, message: No authentication needed for /UserServicehttp/users
+requestId: 0HMUQ0D1DN0PO:00000007, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+requestId: 0HMUQ0D1DN0PO:00000007, previousRequestId: no previous request id, message: 500 (Internal Server Error) status code, request uri: http://localhost:5148/users
+requestId: 0HMUQ0D1DN0PO:0000000F, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /favicon.ico, verb: GET.
+requestId: 0HMUQ0D1DN0PO:0000000F, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /favicon.ico, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/favicon.ico, request method: GET
+Now listening on: https://localhost:7051
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Настя\Desktop\Social\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Now listening on: https://localhost:7051
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Настя\Desktop\Social\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+requestId: 0HMUVH4PVMPGS:00000009, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /{everything}
+requestId: 0HMUVH4PVMPGS:00000009, previousRequestId: no previous request id, message: No authentication needed for /UserService/users
+requestId: 0HMUVH4PVMPGS:00000009, previousRequestId: no previous request id, message: /{everything} route does not require user to be authorized
+requestId: 0HMUVH4PVMPGS:00000009, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: https://localhost:7197/users
+requestId: 0HMUVH4PVMPGS:0000000B, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /favicon.ico, verb: GET.
+requestId: 0HMUVH4PVMPGS:0000000B, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /favicon.ico, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/favicon.ico, request method: GET
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Настя\Desktop\Social\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.

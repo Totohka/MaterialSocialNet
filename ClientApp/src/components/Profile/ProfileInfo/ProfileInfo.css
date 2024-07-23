@@ -1,0 +1,306 @@
+.profile_info{
+  position:relative;
+  width: 100%;
+  border-radius: 5px;
+  background: rgb(44, 44, 44);
+  padding-bottom: 10px;
+}
+.background{
+  position: relative;
+  margin-top:0;
+  width:100%;
+  height: 154px;
+}
+.background img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.changeFone{
+  visibility: hidden;
+  opacity:0;
+  position:absolute;
+  bottom: 0;
+  left:0;
+  background: linear-gradient(rgba(44, 44, 44, 0),rgba(44, 44, 44, 1)) ;
+  width:100%;
+  height:50%;
+  transition: all .5s;
+}
+.background:hover .changeFone{
+  visibility:visible;
+  opacity: 1;
+}
+.changeFone button{
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(44, 44, 44, 1);
+  border:none;
+  padding: 3px 10px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.changeFone button:hover{
+  background-color: rgb(82, 82, 82);;
+}
+.profilePicture{
+  /* Эллипс 1 */
+  position: relative;
+  margin-top: -41px;
+  margin-left: 30px;
+  width: 120px;
+  height: 120px; 
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(0,0,0);
+}
+.popup-overlay{
+  background-color: rgba(0,0,0,0.5);
+}
+
+.avatar{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: all .5s;
+}
+.editAvatar{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  border-radius: 0 50% 50% 0;
+  width:100%;
+  background:linear-gradient(rgba(44, 44, 44, 0),rgba(44, 44, 44, 1));
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* display:none; */
+  cursor:pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s;
+}
+.profilePicture:hover .editAvatar{
+  visibility: visible;
+  opacity: 1;
+} 
+.description{
+  margin-top: 15px;
+  margin-left: 50px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+.country, .city{
+  position: relative;
+  margin-left: -11.5px;
+}
+.country img, .city img{
+  width: 7.5px;
+  height: 10px;
+  margin-right: 4px;
+}
+.name{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.name div{
+  text-align: left;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+.name img{
+  position: relative;
+  width: 13.72px;
+  height: 13.72px;
+  margin-left: auto;
+  margin-right: 10%;
+}
+.country, .city, .birth{
+  margin-top: 5px;
+  display:flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.country div, .city div, .birth div{
+  margin-left: 10px;
+}
+.status{
+  /* Прямоугольник 3 */
+  position: relative;
+  width: 100%;
+  min-height: 115px;
+  margin-top: 10px;
+  padding-left:32px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background: rgb(44, 44, 44);
+}
+.status div{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+.status div img{
+  width: 13.72px;
+  height: 13.72px;
+   margin-left: auto; /*23% */
+  margin-right: 10%; 
+}
+.status div img:hover, .name img:hover{
+  width: 15.72px;
+  height: 15.72px;
+}
+.status div p{
+  width: 165px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding-left:18px;
+
+}
+#firstname_acc, #lastname_acc, #country_acc, #city_acc, #birthday_acc{
+  display: none;
+  background-color: rgb(44, 44, 44);
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right:10px;
+  padding: 5px;
+  width: 165px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.status textarea{
+  background-color: rgb(44, 44, 44);
+  border:none;
+  max-width: 90%;
+  min-width: 90%;
+  max-height: 300px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-left:18px;
+}
+#save_status, #save_description{
+  position: relative;
+  display: none;
+  border-radius: 5px;
+  background: rgb(50, 125, 231);
+  margin-left: 70%;
+  margin-top: 10px;
+  padding: 5px 10px 5px 10px;
+  border:none;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+#save_status:hover, #save_description:hover{
+  background-color: rgb(40, 101, 187);
+}
+.changeAvatar{
+  width: 100%;
+  /* height: 200px; */
+  margin-left:20%;
+  background: rgb(44, 44, 44);
+  box-shadow: 0px 0px 100px 30px rgb(0, 0, 0);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* box-shadow: 0 0 5px rgb(50, 125, 231); */
+}
+.downloadAvatar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.downloadAvatar label, .changeAvatar input{
+  color: rgb(255, 255, 255);
+  border:none;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  border-radius: 5px;
+  background: rgb(50, 125, 231);
+  padding: 5px 10px 5px 10px;
+}
+.changeAvatar input{
+  margin-bottom: 10px;
+  margin-top:auto;
+}
+.downloadAvatar label:hover, .changeAvatar input:hover{
+  background-color: rgb(40, 101, 187);
+}
+.changeAvatar span{
+  margin-top: 10px;
+  margin-bottom:10px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+#inputForDownloadAvatar{
+  display:none;
+}
+

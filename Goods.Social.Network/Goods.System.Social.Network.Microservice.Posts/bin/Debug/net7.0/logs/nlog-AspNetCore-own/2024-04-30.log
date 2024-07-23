@@ -1,0 +1,86 @@
+2024-04-30 00:03:01.5936|0|DEBUG|Program|init main |url: |action: 
+2024-04-30 00:03:03.6028|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-04-30 00:03:03.6028|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-04-30 00:03:03.6028|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-04-30 00:03:03.6028|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-04-30 00:03:31.8524|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/post/all|action: GetAll
+2024-04-30 00:03:32.1834|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Goods.System.Social.Network.DomainServices.Interface.IUserService' while attempting to activate 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: http://localhost/api/post/all|action: GetAll
+2024-04-30 00:04:53.9791|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Goods.System.Social.Network.DomainServices.Interface.IUserService' while attempting to activate 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:07:13.3994|0|DEBUG|Program|init main |url: |action: 
+2024-04-30 00:07:14.7383|0|ERROR|Program|Stopped PostMicroservice because of exception System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Goods.System.Social.Network.DomainServices.Interface.IUserService Lifetime: Scoped ImplementationType: Goods.System.Social.Network.DomainServices.Realization.UserService': Unable to resolve service for type 'Goods.System.Social.Network.DAL.Repository.Interface.ISettingPrivacyRepository' while attempting to activate 'Goods.System.Social.Network.DomainServices.Realization.UserService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Goods.System.Social.Network.DAL.Repository.Interface.ISettingPrivacyRepository' while attempting to activate 'Goods.System.Social.Network.DomainServices.Realization.UserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)|url: |action: 
+2024-04-30 00:09:38.8591|0|DEBUG|Program|init main |url: |action: 
+2024-04-30 00:09:40.2467|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-04-30 00:09:40.2467|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-04-30 00:09:40.2467|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-04-30 00:09:40.2467|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-04-30 00:09:47.9455|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:19.1774|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод GetAll |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:19.2162|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод GetAllAsync с параметрами: search: , userId: 0, number: 0 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:19.2277|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:19.8963|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:20.9475|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 5 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:20.9475|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 5 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.1407|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 5 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.1407|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 5 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.1509|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 3 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.1509|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 3 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.1509|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 5 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.1509|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 5 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.1509|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 5 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.1509|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 5 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.1509|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetRatingForEntityAsync с параметрами: postId: 3 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.2603|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetAllByEntityAsync с параметрами: postId: 3, number: -1 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.2900|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetRatingForEntityAsync с параметрами: postId: 5 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.2900|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetAllByEntityAsync с параметрами: postId: 5, number: -1 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.2900|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetRatingForEntityAsync с параметрами: postId: 7 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.2900|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetAllByEntityAsync с параметрами: postId: 7, number: -1 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.3056|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetRatingForEntityAsync с параметрами: postId: 8 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.3056|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetAllByEntityAsync с параметрами: postId: 8, number: -1 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.3206|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetRatingForEntityAsync с параметрами: postId: 9 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:10:21.3206|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetAllByEntityAsync с параметрами: postId: 9, number: -1 |url: http://localhost/api/Post/All|action: GetAll
+2024-04-30 00:19:29.9964|0|DEBUG|Program|init main |url: |action: 
+2024-04-30 00:19:31.7943|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-04-30 00:19:31.7943|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-04-30 00:19:31.7943|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-04-30 00:19:31.7943|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 

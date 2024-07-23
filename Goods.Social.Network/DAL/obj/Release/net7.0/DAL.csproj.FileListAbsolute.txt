@@ -1,0 +1,17 @@
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\bin\Release\net7.0\DAL.deps.json
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\bin\Release\net7.0\DAL.runtimeconfig.json
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\bin\Release\net7.0\DAL.dll
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\bin\Release\net7.0\DAL.pdb
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\bin\Release\net7.0\DomainModel.dll
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\bin\Release\net7.0\DomainModel.pdb
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\obj\Release\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\obj\Release\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\obj\Release\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\obj\Release\net7.0\DAL.AssemblyInfo.cs
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\obj\Release\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\obj\Release\net7.0\DAL.csproj.CopyComplete
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\obj\Release\net7.0\DAL.dll
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\obj\Release\net7.0\refint\DAL.dll
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\obj\Release\net7.0\DAL.pdb
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\obj\Release\net7.0\DAL.genruntimeconfig.cache
+C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\DAL\obj\Release\net7.0\ref\DAL.dll

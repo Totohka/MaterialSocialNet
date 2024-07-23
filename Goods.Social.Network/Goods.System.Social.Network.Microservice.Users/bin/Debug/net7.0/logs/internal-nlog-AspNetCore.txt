@@ -1,0 +1,620 @@
+2024-05-01 01:09:04.2492 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-05-01 01:09:04.2878 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-05-01 01:09:04.2878 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-05-01 01:09:04.2878 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-05-01 01:09:04.3661 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-01 01:09:04.4937 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-01 01:09:04.5394 Info Configuration initialized.
+2024-05-01 01:09:08.5085 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-01 01:21:09.2737 Info Shutdown() called. Logger closing...
+2024-05-01 01:21:09.2737 Info Closing old configuration.
+2024-05-01 01:21:09.2862 Info Logger has been closed down.
+2024-05-01 01:21:26.9452 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-05-01 01:21:26.9688 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-05-01 01:21:26.9688 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-05-01 01:21:26.9754 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-05-01 01:21:27.0188 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-01 01:21:27.0608 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-01 01:21:27.0853 Info Configuration initialized.
+2024-05-01 01:21:28.5274 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-01 01:22:21.8795 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-05-01 01:22:21.8981 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-05-01 01:22:21.8981 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-05-01 01:22:21.9275 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-05-01 01:22:22.0148 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-01 01:22:22.1204 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-01 01:22:22.1415 Info Configuration initialized.
+2024-05-01 01:22:23.4149 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-01 01:24:43.3563 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-05-01 01:24:43.3710 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-05-01 01:24:43.3710 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-05-01 01:24:43.3710 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-05-01 01:24:43.4018 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-01 01:24:43.4530 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-01 01:24:43.4778 Info Configuration initialized.
+2024-05-01 01:24:44.7876 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-02 16:17:40.8529 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-05-02 16:17:40.8672 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-05-02 16:17:40.8672 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-05-02 16:17:40.8672 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-05-02 16:17:40.8875 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-02 16:17:40.9164 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-02 16:17:40.9287 Info Configuration initialized.
+2024-05-02 16:18:19.0990 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-05-02 16:18:19.1097 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-05-02 16:18:19.1097 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-05-02 16:18:19.1097 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-05-02 16:18:19.1298 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-02 16:18:19.1607 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-02 16:18:19.1804 Info Configuration initialized.
+2024-05-02 16:19:17.1314 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-05-02 16:19:17.1314 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-05-02 16:19:17.1314 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-05-02 16:19:17.1314 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-05-02 16:19:17.1715 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-02 16:19:17.2495 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-02 16:19:17.2791 Info Configuration initialized.
+2024-05-02 16:19:18.2257 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-02 21:03:48.4059 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-05-02 21:03:48.4157 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-05-02 21:03:48.4157 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-05-02 21:03:48.4157 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-05-02 21:03:48.4362 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-02 21:03:48.4651 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-02 21:03:48.4806 Info Configuration initialized.
+2024-05-02 21:03:49.4754 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-02 21:13:35.2534 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-05-02 21:13:35.2877 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-05-02 21:13:35.2877 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-05-02 21:13:35.2877 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-05-02 21:13:35.3111 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-02 21:13:35.3371 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-02 21:13:35.3371 Info Configuration initialized.
+2024-05-02 21:13:36.2421 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-02 21:30:04.1335 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-05-02 21:30:04.1459 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-05-02 21:30:04.1459 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-05-02 21:30:04.1459 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-05-02 21:30:04.1668 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-02 21:30:04.1940 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-02 21:30:04.1940 Info Configuration initialized.
+2024-05-02 21:30:05.7043 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-02 21:55:37.4822 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-05-02 21:55:37.4932 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-05-02 21:55:37.4932 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-05-02 21:55:37.4932 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-05-02 21:55:37.5159 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-02 21:55:37.5435 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-02 21:55:37.5581 Info Configuration initialized.
+2024-05-02 21:55:38.6611 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-03 12:42:33.1836 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-05-03 12:42:33.1956 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-05-03 12:42:33.1956 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-05-03 12:42:33.1956 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-05-03 12:42:33.2227 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-03 12:42:33.2580 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-05-03 12:42:33.2732 Info Configuration initialized.
+2024-05-03 12:42:34.3773 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:00:09.0687 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:00:09.0687 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:00:09.0687 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:00:09.0687 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:00:09.0878 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:00:09.1011 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:00:09.1011 Info Configuration initialized.
+2024-06-03 18:00:09.2690 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:00:09.3032 Info Shutdown() called. Logger closing...
+2024-06-03 18:00:09.3032 Info Closing old configuration.
+2024-06-03 18:00:09.3032 Info Logger has been closed down.
+2024-06-03 18:01:09.9718 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:01:09.9718 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:01:09.9718 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:01:09.9718 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:01:09.9718 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:01:09.9959 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:01:10.0055 Info Configuration initialized.
+2024-06-03 18:01:10.0953 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:01:10.1033 Info Shutdown() called. Logger closing...
+2024-06-03 18:01:10.1130 Info Closing old configuration.
+2024-06-03 18:01:10.1130 Info Logger has been closed down.
+2024-06-03 18:06:42.2892 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:06:42.2892 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:06:42.2892 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:06:42.2892 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:06:42.3023 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:06:42.3023 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:06:42.3239 Info Configuration initialized.
+2024-06-03 18:06:42.4197 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:06:42.4284 Info Shutdown() called. Logger closing...
+2024-06-03 18:06:42.4284 Info Closing old configuration.
+2024-06-03 18:06:42.4489 Info Logger has been closed down.
+2024-06-03 18:06:49.3689 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:06:49.3689 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:06:49.3689 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:06:49.3689 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:06:49.3812 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:06:49.3812 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:06:49.4019 Info Configuration initialized.
+2024-06-03 18:06:49.4914 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:06:49.5103 Info Shutdown() called. Logger closing...
+2024-06-03 18:06:49.5103 Info Closing old configuration.
+2024-06-03 18:06:49.5249 Info Logger has been closed down.
+2024-06-03 18:07:11.3343 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:07:11.3343 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:07:11.3343 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:07:11.3343 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:07:11.3471 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:07:11.3471 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:07:11.3681 Info Configuration initialized.
+2024-06-03 18:07:11.4632 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:07:11.4824 Info Shutdown() called. Logger closing...
+2024-06-03 18:07:11.4824 Info Closing old configuration.
+2024-06-03 18:07:11.4940 Info Logger has been closed down.
+2024-06-03 18:08:12.4392 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:08:12.4419 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:08:12.4419 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:08:12.4419 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:08:12.4419 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:08:12.4628 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:08:12.4725 Info Configuration initialized.
+2024-06-03 18:08:12.5666 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:08:12.5855 Info Shutdown() called. Logger closing...
+2024-06-03 18:08:12.5855 Info Closing old configuration.
+2024-06-03 18:08:12.5972 Info Logger has been closed down.
+2024-06-03 18:08:35.4732 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:08:35.4732 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:08:35.4732 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:08:35.4732 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:08:35.4732 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:08:35.4981 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:08:35.5078 Info Configuration initialized.
+2024-06-03 18:08:35.5994 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:08:35.6168 Info Shutdown() called. Logger closing...
+2024-06-03 18:08:35.6168 Info Closing old configuration.
+2024-06-03 18:08:35.6168 Info Logger has been closed down.
+2024-06-03 18:08:54.2231 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:08:54.2231 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:08:54.2231 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:08:54.2231 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:08:54.2231 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:08:54.2470 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:08:54.2565 Info Configuration initialized.
+2024-06-03 18:08:54.3603 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:08:54.3814 Info Shutdown() called. Logger closing...
+2024-06-03 18:08:54.3814 Info Closing old configuration.
+2024-06-03 18:08:54.3814 Info Logger has been closed down.
+2024-06-03 18:19:32.3602 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:19:32.3627 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:19:32.3627 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:19:32.3627 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:19:32.3627 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:19:32.3825 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:19:32.3825 Info Configuration initialized.
+2024-06-03 18:19:32.4814 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:19:32.4897 Info Shutdown() called. Logger closing...
+2024-06-03 18:19:32.4897 Info Closing old configuration.
+2024-06-03 18:19:32.5105 Info Logger has been closed down.
+2024-06-03 18:20:10.4991 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:20:10.4991 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:20:10.4991 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:20:10.4991 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:20:10.5109 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:20:10.5214 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:20:10.5214 Info Configuration initialized.
+2024-06-03 18:20:10.6160 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:20:10.6333 Info Shutdown() called. Logger closing...
+2024-06-03 18:20:10.6333 Info Closing old configuration.
+2024-06-03 18:20:10.6450 Info Logger has been closed down.
+2024-06-03 18:20:55.1515 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:20:55.1515 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:20:55.1515 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:20:55.1515 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:20:55.1649 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:20:55.1767 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:20:55.1767 Info Configuration initialized.
+2024-06-03 18:20:55.2809 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:20:55.3009 Info Shutdown() called. Logger closing...
+2024-06-03 18:20:55.3009 Info Closing old configuration.
+2024-06-03 18:20:55.3009 Info Logger has been closed down.
+2024-06-03 18:22:44.6863 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:22:44.6863 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:22:44.6863 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:22:44.6863 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:22:44.6976 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:22:44.7079 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:22:44.7079 Info Configuration initialized.
+2024-06-03 18:22:44.8034 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:22:44.8195 Info Shutdown() called. Logger closing...
+2024-06-03 18:22:44.8195 Info Closing old configuration.
+2024-06-03 18:22:44.8195 Info Logger has been closed down.
+2024-06-03 18:22:53.1469 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:22:53.1469 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:22:53.1469 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:22:53.1469 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:22:53.1469 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:22:53.1699 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:22:53.1790 Info Configuration initialized.
+2024-06-03 18:22:53.2639 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:22:53.2725 Info Shutdown() called. Logger closing...
+2024-06-03 18:22:53.2725 Info Closing old configuration.
+2024-06-03 18:22:53.2931 Info Logger has been closed down.
+2024-06-03 18:24:28.1012 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:24:28.1012 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:24:28.1012 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:24:28.1012 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:24:28.1143 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:24:28.1143 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:24:28.1349 Info Configuration initialized.
+2024-06-03 18:24:28.2300 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:24:28.2391 Info Shutdown() called. Logger closing...
+2024-06-03 18:24:28.2391 Info Closing old configuration.
+2024-06-03 18:24:28.2621 Info Logger has been closed down.
+2024-06-03 18:24:37.0934 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:24:37.0934 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:24:37.0934 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:24:37.0934 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:24:37.1049 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:24:37.1157 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:24:37.1157 Info Configuration initialized.
+2024-06-03 18:24:37.2108 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:24:37.2274 Info Shutdown() called. Logger closing...
+2024-06-03 18:24:37.2274 Info Closing old configuration.
+2024-06-03 18:24:37.2387 Info Logger has been closed down.
+2024-06-03 18:24:45.0625 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:24:45.0625 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:24:45.0625 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:24:45.0625 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:24:45.0744 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:24:45.0860 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:24:45.0860 Info Configuration initialized.
+2024-06-03 18:24:45.1846 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:24:45.1931 Info Shutdown() called. Logger closing...
+2024-06-03 18:24:45.1931 Info Closing old configuration.
+2024-06-03 18:24:45.2152 Info Logger has been closed down.
+2024-06-03 18:25:53.6269 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:25:53.6294 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:25:53.6294 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:25:53.6294 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:25:53.6294 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:25:53.6492 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:25:53.6492 Info Configuration initialized.
+2024-06-03 18:25:53.7439 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:25:53.7606 Info Shutdown() called. Logger closing...
+2024-06-03 18:25:53.7606 Info Closing old configuration.
+2024-06-03 18:25:53.7713 Info Logger has been closed down.
+2024-06-03 18:26:01.3579 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:26:01.3579 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:26:01.3579 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:26:01.3579 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:26:01.3706 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:26:01.3834 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:26:01.3834 Info Configuration initialized.
+2024-06-03 18:26:01.4883 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:26:01.5064 Info Shutdown() called. Logger closing...
+2024-06-03 18:26:01.5064 Info Closing old configuration.
+2024-06-03 18:26:01.5064 Info Logger has been closed down.
+2024-06-03 18:26:11.4596 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:26:11.4596 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:26:11.4596 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:26:11.4596 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:26:11.4596 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:26:11.4821 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:26:11.4913 Info Configuration initialized.
+2024-06-03 18:26:11.5789 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:26:11.5872 Info Shutdown() called. Logger closing...
+2024-06-03 18:26:11.5872 Info Closing old configuration.
+2024-06-03 18:26:11.6069 Info Logger has been closed down.
+2024-06-03 18:28:05.0547 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:28:05.0547 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:28:05.0547 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:28:05.0547 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:28:05.0666 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:28:05.0666 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:28:05.0869 Info Configuration initialized.
+2024-06-03 18:28:05.1727 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:28:05.1913 Info Shutdown() called. Logger closing...
+2024-06-03 18:28:05.1913 Info Closing old configuration.
+2024-06-03 18:28:05.1913 Info Logger has been closed down.
+2024-06-03 18:28:11.3636 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:28:11.3801 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:28:11.3801 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:28:11.3801 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:28:11.3801 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:28:11.4005 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:28:11.4005 Info Configuration initialized.
+2024-06-03 18:28:11.4948 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:28:11.5118 Info Shutdown() called. Logger closing...
+2024-06-03 18:28:11.5118 Info Closing old configuration.
+2024-06-03 18:28:11.5223 Info Logger has been closed down.
+2024-06-03 18:28:31.1630 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:28:31.1630 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:28:31.1630 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:28:31.1630 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:28:31.1630 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:28:31.1852 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:28:31.1943 Info Configuration initialized.
+2024-06-03 18:28:31.2822 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:28:31.2902 Info Shutdown() called. Logger closing...
+2024-06-03 18:28:31.2902 Info Closing old configuration.
+2024-06-03 18:28:31.3112 Info Logger has been closed down.
+2024-06-03 18:29:06.0680 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:29:06.0680 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:29:06.0680 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:29:06.0680 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:29:06.0819 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:29:06.0819 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:29:06.1031 Info Configuration initialized.
+2024-06-03 18:29:06.2028 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:29:06.2114 Info Shutdown() called. Logger closing...
+2024-06-03 18:29:06.2222 Info Closing old configuration.
+2024-06-03 18:29:06.2222 Info Logger has been closed down.
+2024-06-03 18:30:49.8364 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:30:49.8364 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:30:49.8364 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:30:49.8364 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:30:49.8483 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:30:49.8483 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:30:49.8678 Info Configuration initialized.
+2024-06-03 18:30:49.9545 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:30:49.9627 Info Shutdown() called. Logger closing...
+2024-06-03 18:30:49.9627 Info Closing old configuration.
+2024-06-03 18:30:49.9824 Info Logger has been closed down.
+2024-06-03 18:31:05.9860 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:31:05.9880 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:31:05.9880 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:31:05.9880 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:31:05.9880 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:31:06.0096 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:31:06.0197 Info Configuration initialized.
+2024-06-03 18:31:06.1226 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:31:06.1325 Info Shutdown() called. Logger closing...
+2024-06-03 18:31:06.1325 Info Closing old configuration.
+2024-06-03 18:31:06.1557 Info Logger has been closed down.
+2024-06-03 18:31:56.0595 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 18:31:56.0595 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 18:31:56.0595 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 18:31:56.0595 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 18:31:56.0713 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 18:31:56.0821 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:31:56.0821 Info Configuration initialized.
+2024-06-03 18:31:56.1799 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 18:31:56.1969 Info Shutdown() called. Logger closing...
+2024-06-03 18:31:56.1969 Info Closing old configuration.
+2024-06-03 18:31:56.2086 Info Logger has been closed down.
+2024-06-03 22:09:58.5150 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 22:09:58.5150 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 22:09:58.5150 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 22:09:58.5150 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 22:09:58.5265 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 22:09:58.5372 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 22:09:58.5372 Info Configuration initialized.
+2024-06-03 22:09:58.6315 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 22:09:58.6495 Info Shutdown() called. Logger closing...
+2024-06-03 22:09:58.6495 Info Closing old configuration.
+2024-06-03 22:09:58.6610 Info Logger has been closed down.
+2024-06-03 22:10:15.1306 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-03 22:10:15.1306 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-03 22:10:15.1306 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-03 22:10:15.1306 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-03 22:10:15.1306 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-03 22:10:15.1528 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 22:10:15.1617 Info Configuration initialized.
+2024-06-03 22:10:15.2467 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-03 22:10:15.2552 Info Shutdown() called. Logger closing...
+2024-06-03 22:10:15.2552 Info Closing old configuration.
+2024-06-03 22:10:15.2776 Info Logger has been closed down.
+2024-06-04 00:40:21.7261 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-04 00:40:21.7261 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-04 00:40:21.7261 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-04 00:40:21.7261 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-04 00:40:21.7437 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-04 00:40:21.7596 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-04 00:40:21.7741 Info Configuration initialized.
+2024-06-04 00:40:21.9490 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-04 00:40:21.9820 Info Shutdown() called. Logger closing...
+2024-06-04 00:40:21.9820 Info Closing old configuration.
+2024-06-04 00:40:21.9977 Info Logger has been closed down.
+2024-06-04 00:40:34.8507 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-04 00:40:34.8507 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-04 00:40:34.8507 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-04 00:40:34.8507 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-04 00:40:34.8628 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-04 00:40:34.8628 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-04 00:40:34.8834 Info Configuration initialized.
+2024-06-04 00:40:34.9825 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-04 00:40:34.9912 Info Shutdown() called. Logger closing...
+2024-06-04 00:40:34.9912 Info Closing old configuration.
+2024-06-04 00:40:35.0131 Info Logger has been closed down.
+2024-06-04 03:43:20.7382 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-04 03:43:20.7382 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-04 03:43:20.7382 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-04 03:43:20.7382 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-04 03:43:20.7625 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-04 03:43:20.7808 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-04 03:43:20.7958 Info Configuration initialized.
+2024-06-04 03:43:20.9859 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-04 03:43:21.0301 Info Shutdown() called. Logger closing...
+2024-06-04 03:43:21.0301 Info Closing old configuration.
+2024-06-04 03:43:21.0605 Info Logger has been closed down.
+2024-06-04 03:49:26.6875 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-04 03:49:26.6875 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-04 03:49:26.6875 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-04 03:49:26.6911 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-04 03:49:26.6911 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-04 03:49:26.7178 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-04 03:49:26.7289 Info Configuration initialized.
+2024-06-04 03:49:26.8298 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-04 03:49:26.8481 Info Shutdown() called. Logger closing...
+2024-06-04 03:49:26.8481 Info Closing old configuration.
+2024-06-04 03:49:26.8481 Info Logger has been closed down.
+2024-06-04 03:49:40.4217 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-04 03:49:40.4217 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-04 03:49:40.4217 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-04 03:49:40.4253 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-04 03:49:40.4253 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-04 03:49:40.4444 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-04 03:49:40.4444 Info Configuration initialized.
+2024-06-04 03:49:40.5393 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-04 03:49:40.5566 Info Shutdown() called. Logger closing...
+2024-06-04 03:49:40.5566 Info Closing old configuration.
+2024-06-04 03:49:40.5677 Info Logger has been closed down.
+2024-06-06 18:00:41.0004 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-06 18:00:41.0040 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-06 18:00:41.0040 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-06 18:00:41.0040 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-06 18:00:41.0040 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-06 18:00:41.0309 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-06 18:00:41.0407 Info Configuration initialized.
+2024-06-06 18:00:41.1569 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-06 18:00:41.1789 Info Shutdown() called. Logger closing...
+2024-06-06 18:00:41.1789 Info Closing old configuration.
+2024-06-06 18:00:41.1789 Info Logger has been closed down.
+2024-06-06 18:01:14.7274 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-06 18:01:14.7274 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-06 18:01:14.7274 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-06 18:01:14.7274 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-06 18:01:14.7457 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-06 18:01:14.7613 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-06 18:01:14.7755 Info Configuration initialized.
+2024-06-06 18:01:14.8900 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-06 18:01:14.9134 Info Shutdown() called. Logger closing...
+2024-06-06 18:01:14.9134 Info Closing old configuration.
+2024-06-06 18:01:14.9134 Info Logger has been closed down.
+2024-06-07 12:44:24.2958 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-07 12:44:24.3024 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-07 12:44:24.3024 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-07 12:44:24.3024 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-07 12:44:24.3207 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-07 12:44:24.3397 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-07 12:44:24.3527 Info Configuration initialized.
+2024-06-07 12:44:24.5924 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-07 12:44:24.6331 Info Shutdown() called. Logger closing...
+2024-06-07 12:44:24.6331 Info Closing old configuration.
+2024-06-07 12:44:24.6474 Info Logger has been closed down.
+2024-06-07 12:45:48.0221 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-07 12:45:48.0221 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-07 12:45:48.0221 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-07 12:45:48.0221 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-07 12:45:48.0392 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-07 12:45:48.0535 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-07 12:45:48.0655 Info Configuration initialized.
+2024-06-07 12:45:48.1818 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-07 12:45:48.2047 Info Shutdown() called. Logger closing...
+2024-06-07 12:45:48.2047 Info Closing old configuration.
+2024-06-07 12:45:48.2047 Info Logger has been closed down.
+2024-06-08 16:49:35.2750 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-06-08 16:49:35.2750 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-06-08 16:49:35.2905 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-06-08 16:49:35.2905 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-06-08 16:49:35.3202 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-06-08 16:49:35.3591 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-08 16:49:35.3872 Info Configuration initialized.
+2024-06-08 16:49:36.4062 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-06-08 16:51:54.8999 Info Shutdown() called. Logger closing...
+2024-06-08 16:51:54.8999 Info Closing old configuration.
+2024-06-08 16:51:54.8999 Info Logger has been closed down.
+2024-07-10 23:20:18.2238 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-07-10 23:20:18.2396 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-07-10 23:20:18.2396 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-07-10 23:20:18.2396 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-07-10 23:20:18.2613 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-07-10 23:20:18.2922 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-10 23:20:18.3056 Info Configuration initialized.
+2024-07-10 23:20:19.7071 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-10 23:21:35.8367 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-07-10 23:21:35.8647 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-07-10 23:21:35.8647 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-07-10 23:21:35.8647 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-07-10 23:21:35.8957 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-07-10 23:21:35.9371 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-10 23:21:35.9532 Info Configuration initialized.
+2024-07-10 23:21:37.1810 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-10 23:32:04.6801 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-07-10 23:32:04.6914 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-07-10 23:32:04.6914 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-07-10 23:32:04.6914 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-07-10 23:32:04.7197 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-07-10 23:32:04.7500 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-10 23:32:04.7682 Info Configuration initialized.
+2024-07-10 23:32:05.7084 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-10 23:36:31.1680 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-07-10 23:36:31.1780 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-07-10 23:36:31.1780 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-07-10 23:36:31.1780 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-07-10 23:36:31.1985 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-07-10 23:36:31.2264 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-10 23:36:31.2264 Info Configuration initialized.
+2024-07-10 23:36:47.1661 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-07-10 23:36:47.2200 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-07-10 23:36:47.2229 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-07-10 23:36:47.2229 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-07-10 23:36:47.3300 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-07-10 23:36:47.4847 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-10 23:36:47.5104 Info Configuration initialized.
+2024-07-10 23:36:48.7145 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-12 01:01:38.2414 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-07-12 01:01:38.2414 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-07-12 01:01:38.2414 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-07-12 01:01:38.2414 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-07-12 01:01:38.2603 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-07-12 01:01:38.2741 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-12 01:01:38.2853 Info Configuration initialized.
+2024-07-12 01:01:38.5120 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-12 01:01:38.5629 Info Shutdown() called. Logger closing...
+2024-07-12 01:01:38.5629 Info Closing old configuration.
+2024-07-12 01:01:38.5789 Info Logger has been closed down.
+2024-07-21 16:05:23.7789 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-07-21 16:05:23.7968 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-07-21 16:05:23.7968 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-07-21 16:05:23.7968 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-07-21 16:05:23.8229 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-07-21 16:05:24.1541 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-21 16:05:24.1700 Info Configuration initialized.
+2024-07-21 16:05:25.8208 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-21 16:33:42.0826 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-07-21 16:33:42.1160 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-07-21 16:33:42.1160 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-07-21 16:33:42.1160 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-07-21 16:33:42.1661 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-07-21 16:33:42.2090 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-21 16:33:42.2271 Info Configuration initialized.
+2024-07-21 16:33:43.5199 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-21 16:35:32.4474 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-07-21 16:35:32.4621 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-07-21 16:35:32.4621 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-07-21 16:35:32.4621 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-07-21 16:35:32.4994 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-07-21 16:35:32.5407 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-21 16:35:32.5680 Info Configuration initialized.
+2024-07-21 16:35:33.9409 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-21 16:36:10.3864 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-07-21 16:36:10.3999 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-07-21 16:36:10.3999 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-07-21 16:36:10.3999 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-07-21 16:36:10.4303 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-07-21 16:36:10.4764 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-21 16:36:10.5041 Info Configuration initialized.
+2024-07-21 16:36:11.9477 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-21 16:42:46.3922 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-07-21 16:42:46.4111 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-07-21 16:42:46.4111 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-07-21 16:42:46.4111 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-07-21 16:42:46.4453 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-07-21 16:42:46.4794 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-21 16:42:46.4930 Info Configuration initialized.
+2024-07-21 17:12:37.7162 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-07-21 17:12:37.7289 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-07-21 17:12:37.7289 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-07-21 17:12:37.7289 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-07-21 17:12:37.7696 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-07-21 17:12:37.8317 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-21 17:12:37.8622 Info Configuration initialized.
+2024-07-21 17:12:39.6724 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-22 16:01:04.6830 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-07-22 16:01:04.6965 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-07-22 16:01:04.6965 Info Registered target NLog.Targets.FileTarget(Name=tracefile)
+2024-07-22 16:01:04.6965 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-07-22 16:01:04.7372 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-07-22 16:01:04.8151 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config
+2024-07-22 16:01:04.8804 Info Configuration initialized.
+2024-07-22 16:01:06.2546 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, tracefile, ConfigItems=80, FilePath=C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users\bin\Debug\net7.0\NLog.config

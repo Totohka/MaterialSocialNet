@@ -1,0 +1,76 @@
+2024-07-10 23:20:18.3276|0|DEBUG|Program|init main |url: |action: 
+2024-07-10 23:20:20.3135|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5148 |url: |action: 
+2024-07-10 23:20:20.3192|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-10 23:20:20.3192|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-10 23:20:20.3192|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users |url: |action: 
+2024-07-10 23:21:35.9727|0|DEBUG|Program|init main |url: |action: 
+2024-07-10 23:21:37.5594|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5148 |url: |action: 
+2024-07-10 23:21:37.5787|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-10 23:21:37.5787|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-10 23:21:37.5787|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users |url: |action: 
+2024-07-10 23:21:43.8655|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:21:44.6032|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод GetAll |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:32:04.7881|0|DEBUG|Program|init main |url: |action: 
+2024-07-10 23:32:06.1085|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5148 |url: |action: 
+2024-07-10 23:32:06.1131|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-10 23:32:06.1131|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-10 23:32:06.1131|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users |url: |action: 
+2024-07-10 23:32:16.6783|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:32:51.7198|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод GetAll |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:32:51.7238|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , number: 0, id: 8, who: 0 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:32:51.7238|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:32:52.3917|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:32:53.7391|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 8, idFriend: 3 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:32:53.7716|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 3 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:32:53.9119|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:32:53.9119|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:32:53.9518|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 8, idFriend: 5 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:32:53.9518|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 5 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:32:53.9571|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 8, idFriend: 6 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:32:53.9571|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 6 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:33:03.1923|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод GetAll |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:33:03.1923|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , number: 1, id: 8, who: 0 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:33:03.1923|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:33:08.8949|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод GetAll |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:33:08.9103|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , number: 0, id: 8, who: 0 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:33:08.9103|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:33:08.9103|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 8, idFriend: 3 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:33:08.9103|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 3 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:33:08.9103|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:33:08.9103|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:33:08.9103|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 8, idFriend: 5 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:33:08.9103|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 5 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:33:08.9103|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 8, idFriend: 6 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:33:08.9103|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 6 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:34:35.2624|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод GetAll |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:34:35.2624|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , number: 1, id: 8, who: 0 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:34:35.2624|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:35:58.6254|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод GetAll |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:35:58.6254|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , number: 1, id: 8, who: 0 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:35:58.6254|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:36:31.2558|0|DEBUG|Program|init main |url: |action: 
+2024-07-10 23:36:47.5388|0|DEBUG|Program|init main |url: |action: 
+2024-07-10 23:36:49.0975|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5148 |url: |action: 
+2024-07-10 23:36:49.0975|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-10 23:36:49.0975|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-10 23:36:49.0975|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users |url: |action: 
+2024-07-10 23:36:53.9276|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:36:54.6023|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод GetAll |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:36:54.6023|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , number: 1, id: 8, who: 0 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:36:54.6023|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:36:55.4252|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:05.0011|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 8, idFriend: 7 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:05.0222|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 7 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:05.1803|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 8, idFriend: 8 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:05.1803|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 8 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:16.2533|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод GetAll |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:16.2539|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , number: 0, id: 8, who: 0 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:16.2539|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:16.2539|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 8, idFriend: 3 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:16.2539|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 3 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:16.2539|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:16.2539|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:16.2539|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 8, idFriend: 5 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:16.2539|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 5 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:16.2700|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 8, idFriend: 6 |url: http://localhost/api/User/all|action: GetAll
+2024-07-10 23:37:16.2700|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 6 |url: http://localhost/api/User/all|action: GetAll

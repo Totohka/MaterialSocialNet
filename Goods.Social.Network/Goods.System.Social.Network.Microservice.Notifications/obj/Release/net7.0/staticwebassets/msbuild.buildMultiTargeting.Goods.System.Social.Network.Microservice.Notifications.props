@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Goods.System.Social.Network.Microservice.Notifications.props" />
+</Project>

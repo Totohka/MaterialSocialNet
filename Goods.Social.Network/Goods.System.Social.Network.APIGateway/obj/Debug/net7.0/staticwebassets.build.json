@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CmZW8NGDLK1TawNm3uTIV5d4q2jSKz7sojmmzD+owdY=",
+  "Source": "Goods.System.Social.Network.APIGateway",
+  "BasePath": "_content/Goods.System.Social.Network.APIGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

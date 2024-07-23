@@ -1,0 +1,13 @@
+2024-05-07 20:52:40.9107|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 5, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 20:54:59.7447|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 5, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 20:55:16.2657|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 5, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 20:59:35.1232|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 5, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 20:59:35.1411|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:13:10.8808|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 6, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:13:10.8808|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:13:47.9708|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 6, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:13:58.9211|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:14:23.6471|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 6, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:14:23.6471|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:18:22.2133|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 6, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:18:22.2299|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/All|action: GetChats

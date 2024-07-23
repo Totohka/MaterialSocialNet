@@ -1,0 +1,1123 @@
+2024-04-30 00:03:01.5936|0|DEBUG|Program|init main 
+2024-04-30 00:03:03.2110|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-04-30 00:03:03.2978|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-04-30 00:03:03.3514|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-04-30 00:03:03.3640|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-00e1b3b0-243c-4fc4-98a0-7ac999c74e24.xml'. 
+2024-04-30 00:03:03.3689|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-3a2da2d8-c8af-4792-bf1b-74c5066aed28.xml'. 
+2024-04-30 00:03:03.3689|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-883a64c9-9213-4f95-a1cd-dd639a6bcd07.xml'. 
+2024-04-30 00:03:03.3689|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-c23ed5e2-9422-4500-9128-63fd9ee58caf.xml'. 
+2024-04-30 00:03:03.3689|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {00e1b3b0-243c-4fc4-98a0-7ac999c74e24}. 
+2024-04-30 00:03:03.3890|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {3a2da2d8-c8af-4792-bf1b-74c5066aed28}. 
+2024-04-30 00:03:03.3890|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {883a64c9-9213-4f95-a1cd-dd639a6bcd07}. 
+2024-04-30 00:03:03.3890|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {c23ed5e2-9422-4500-9128-63fd9ee58caf}. 
+2024-04-30 00:03:03.3890|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} with expiration date 2024-05-21 16:24:47Z as default key. 
+2024-04-30 00:03:03.4018|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-04-30 00:03:03.4018|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-04-30 00:03:03.4018|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-04-30 00:03:03.4153|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-04-30 00:03:03.4153|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-04-30 00:03:03.4153|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} as the default key. 
+2024-04-30 00:03:03.4153|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} was loaded during application startup. 
+2024-04-30 00:03:03.6028|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 
+2024-04-30 00:03:03.6028|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Goods.System.Social.Network.Microservice.Posts 
+2024-04-30 00:03:03.6028|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-04-30 00:03:03.6028|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-04-30 00:03:03.6028|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-04-30 00:03:03.6028|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-04-30 00:03:03.6028|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts 
+2024-04-30 00:03:03.6028|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-04-30 00:03:04.2885|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGE" accepted. 
+2024-04-30 00:03:04.2885|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGD" accepted. 
+2024-04-30 00:03:04.2909|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGE" started. 
+2024-04-30 00:03:04.2909|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGD" started. 
+2024-04-30 00:03:04.9298|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGF" accepted. 
+2024-04-30 00:03:04.9302|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGF" started. 
+2024-04-30 00:03:04.9502|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGG" accepted. 
+2024-04-30 00:03:04.9502|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGG" started. 
+2024-04-30 00:03:05.0166|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/swagger - - 
+2024-04-30 00:03:05.0545|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-04-30 00:03:05.0545|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:03:05.0765|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger' 
+2024-04-30 00:03:05.0765|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-04-30 00:03:05.1292|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGF" completed keep alive response. 
+2024-04-30 00:03:05.1292|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/swagger - - - 301 0 - 115.8313ms 
+2024-04-30 00:03:05.1353|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - - 
+2024-04-30 00:03:05.1353|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:03:05.1353|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2024-04-30 00:03:05.1353|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-04-30 00:03:05.2243|1|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-04-30 00:03:05.3699|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGH" accepted. 
+2024-04-30 00:03:05.3699|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/swagger/swagger-ui.css - - 
+2024-04-30 00:03:05.3699|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGH" started. 
+2024-04-30 00:03:05.3699|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGI" accepted. 
+2024-04-30 00:03:05.3699|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGI" started. 
+2024-04-30 00:03:05.3699|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGJ" accepted. 
+2024-04-30 00:03:05.3699|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:03:05.3699|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/swagger/swagger-ui-bundle.js - - 
+2024-04-30 00:03:05.3699|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/swagger/swagger-ui-standalone-preset.js - - 
+2024-04-30 00:03:05.3699|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:03:05.3699|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2024-04-30 00:03:05.3699|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-04-30 00:03:05.3699|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:03:05.3699|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui.css' 
+2024-04-30 00:03:05.3699|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2024-04-30 00:03:05.3699|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-04-30 00:03:05.3699|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-04-30 00:03:05.3862|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGK" accepted. 
+2024-04-30 00:03:05.3862|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGJ" started. 
+2024-04-30 00:03:05.3862|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGK" started. 
+2024-04-30 00:03:05.3862|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - - 
+2024-04-30 00:03:05.3862|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - - 
+2024-04-30 00:03:05.3994|2|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-04-30 00:03:05.3994|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGF" completed keep alive response. 
+2024-04-30 00:03:05.3994|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - - - 200 - text/html;charset=utf-8 268.8559ms 
+2024-04-30 00:03:05.3994|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-04-30 00:03:05.3994|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-04-30 00:03:05.3994|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-04-30 00:03:05.3994|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGJ" completed keep alive response. 
+2024-04-30 00:03:05.3994|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - - - 200 12062 application/javascript;+charset=utf-8 22.9592ms 
+2024-04-30 00:03:05.4527|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2024-04-30 00:03:05.4527|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGG" completed keep alive response. 
+2024-04-30 00:03:05.4527|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/swagger/swagger-ui.css - - - 200 144929 text/css 82.4532ms 
+2024-04-30 00:03:05.4527|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2024-04-30 00:03:05.4527|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGI" completed keep alive response. 
+2024-04-30 00:03:05.4527|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 78.9121ms 
+2024-04-30 00:03:05.4527|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGK" completed keep alive response. 
+2024-04-30 00:03:05.4527|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.5577ms 
+2024-04-30 00:03:05.4665|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2024-04-30 00:03:05.4665|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGH" completed keep alive response. 
+2024-04-30 00:03:05.4665|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 92.4083ms 
+2024-04-30 00:03:05.6197|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - - 
+2024-04-30 00:03:05.6197|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:03:05.6197|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-04-30 00:03:05.6197|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-04-30 00:03:05.6452|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/swagger/favicon-32x32.png - - 
+2024-04-30 00:03:05.6452|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:03:05.6452|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/favicon-32x32.png' 
+2024-04-30 00:03:05.6452|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-04-30 00:03:05.6452|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-04-30 00:03:05.6452|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2024-04-30 00:03:05.6452|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGK" completed keep alive response. 
+2024-04-30 00:03:05.6452|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/swagger/favicon-32x32.png - - - 200 628 image/png 1.3252ms 
+2024-04-30 00:03:05.7727|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGH" completed keep alive response. 
+2024-04-30 00:03:05.7727|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.1797ms 
+2024-04-30 00:03:31.8238|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGL" accepted. 
+2024-04-30 00:03:31.8238|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGL" started. 
+2024-04-30 00:03:31.8238|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/api/post/all - - 
+2024-04-30 00:03:31.8360|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:03:31.8360|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/post/all' 
+2024-04-30 00:03:31.8524|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts)' with route pattern 'api/Post/all' is valid for the request path '/api/post/all' 
+2024-04-30 00:03:31.8524|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts)' 
+2024-04-30 00:03:31.8524|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-04-30 00:03:31.8524|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-04-30 00:03:32.1532|2|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2024-04-30 00:03:32.1532|8|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2024-04-30 00:03:32.1532|1|DEBUG|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2024-04-30 00:03:32.1532|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-04-30 00:03:32.1532|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts)' 
+2024-04-30 00:03:32.1834|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Goods.System.Social.Network.Microservice.Posts.Entities.Pagination.PagePostDTO] GetAll(System.String, Int32, Int32) on controller Goods.System.Social.Network.Microservice.Posts.Controllers.PostController (Goods.System.Social.Network.Microservice.Posts). 
+2024-04-30 00:03:32.1834|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-04-30 00:03:32.1834|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-04-30 00:03:32.1834|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-04-30 00:03:32.1834|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-04-30 00:03:32.1834|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-04-30 00:03:32.1834|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Goods.System.Social.Network.Microservice.Posts.Controllers.PostController (Goods.System.Social.Network.Microservice.Posts) 
+2024-04-30 00:03:32.1834|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts) in 4.1277ms 
+2024-04-30 00:03:32.1834|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts)' 
+2024-04-30 00:03:32.1834|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Goods.System.Social.Network.DomainServices.Interface.IUserService' while attempting to activate 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-30 00:03:32.2334|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/api/post/all - - - 500 - text/plain;+charset=utf-8 397.5041ms 
+2024-04-30 00:03:32.2334|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGL" disconnecting. 
+2024-04-30 00:03:32.2334|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGL" stopped. 
+2024-04-30 00:03:32.2334|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN38DOU0NVGL" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-30 00:04:19.9871|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGM" accepted. 
+2024-04-30 00:04:19.9871|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGM" started. 
+2024-04-30 00:04:19.9927|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/api/Post/All - - 
+2024-04-30 00:04:19.9927|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:04:19.9927|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Post/All' 
+2024-04-30 00:04:19.9927|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts)' with route pattern 'api/Post/all' is valid for the request path '/api/Post/All' 
+2024-04-30 00:04:19.9927|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts)' 
+2024-04-30 00:04:19.9927|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-04-30 00:04:20.0208|1|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignatureAndIssuerSecurityKey(String token, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-04-30 00:04:20.0208|7|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details. 
+2024-04-30 00:04:20.0208|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2024-04-30 00:04:20.0289|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2024-04-30 00:04:20.0289|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/api/Post/All - - - 401 0 - 36.3277ms 
+2024-04-30 00:04:20.0289|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGM" disconnecting. 
+2024-04-30 00:04:20.0289|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGM" stopped. 
+2024-04-30 00:04:20.0289|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN38DOU0NVGM" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-30 00:04:53.9640|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGN" accepted. 
+2024-04-30 00:04:53.9640|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGN" started. 
+2024-04-30 00:04:53.9640|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/api/Post/All - - 
+2024-04-30 00:04:53.9640|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:04:53.9640|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Post/All' 
+2024-04-30 00:04:53.9640|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts)' with route pattern 'api/Post/all' is valid for the request path '/api/Post/All' 
+2024-04-30 00:04:53.9640|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts)' 
+2024-04-30 00:04:53.9640|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-04-30 00:04:53.9791|2|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2024-04-30 00:04:53.9791|8|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2024-04-30 00:04:53.9791|1|DEBUG|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2024-04-30 00:04:53.9791|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-04-30 00:04:53.9791|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts)' 
+2024-04-30 00:04:53.9791|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Goods.System.Social.Network.Microservice.Posts.Entities.Pagination.PagePostDTO] GetAll(System.String, Int32, Int32) on controller Goods.System.Social.Network.Microservice.Posts.Controllers.PostController (Goods.System.Social.Network.Microservice.Posts). 
+2024-04-30 00:04:53.9791|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-04-30 00:04:53.9791|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-04-30 00:04:53.9791|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-04-30 00:04:53.9791|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-04-30 00:04:53.9791|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-04-30 00:04:53.9791|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Goods.System.Social.Network.Microservice.Posts.Controllers.PostController (Goods.System.Social.Network.Microservice.Posts) 
+2024-04-30 00:04:53.9791|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts) in 0.6506ms 
+2024-04-30 00:04:53.9791|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts)' 
+2024-04-30 00:04:53.9791|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Goods.System.Social.Network.DomainServices.Interface.IUserService' while attempting to activate 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-30 00:04:53.9791|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/api/Post/All - - - 500 - text/plain;+charset=utf-8 14.3503ms 
+2024-04-30 00:04:53.9791|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN38DOU0NVGN" received FIN. 
+2024-04-30 00:04:53.9791|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGN" disconnecting. 
+2024-04-30 00:04:53.9791|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN38DOU0NVGN" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-30 00:04:53.9941|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DOU0NVGN" stopped. 
+2024-04-30 00:07:13.3994|0|DEBUG|Program|init main 
+2024-04-30 00:07:14.7383|0|ERROR|Program|Stopped PostMicroservice because of exception System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Goods.System.Social.Network.DomainServices.Interface.IUserService Lifetime: Scoped ImplementationType: Goods.System.Social.Network.DomainServices.Realization.UserService': Unable to resolve service for type 'Goods.System.Social.Network.DAL.Repository.Interface.ISettingPrivacyRepository' while attempting to activate 'Goods.System.Social.Network.DomainServices.Realization.UserService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Goods.System.Social.Network.DAL.Repository.Interface.ISettingPrivacyRepository' while attempting to activate 'Goods.System.Social.Network.DomainServices.Realization.UserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+2024-04-30 00:09:38.8591|0|DEBUG|Program|init main 
+2024-04-30 00:09:40.0219|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-04-30 00:09:40.0707|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-04-30 00:09:40.0990|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-04-30 00:09:40.1043|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-00e1b3b0-243c-4fc4-98a0-7ac999c74e24.xml'. 
+2024-04-30 00:09:40.1043|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-3a2da2d8-c8af-4792-bf1b-74c5066aed28.xml'. 
+2024-04-30 00:09:40.1043|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-883a64c9-9213-4f95-a1cd-dd639a6bcd07.xml'. 
+2024-04-30 00:09:40.1043|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-c23ed5e2-9422-4500-9128-63fd9ee58caf.xml'. 
+2024-04-30 00:09:40.1043|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {00e1b3b0-243c-4fc4-98a0-7ac999c74e24}. 
+2024-04-30 00:09:40.1043|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {3a2da2d8-c8af-4792-bf1b-74c5066aed28}. 
+2024-04-30 00:09:40.1043|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {883a64c9-9213-4f95-a1cd-dd639a6bcd07}. 
+2024-04-30 00:09:40.1043|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {c23ed5e2-9422-4500-9128-63fd9ee58caf}. 
+2024-04-30 00:09:40.1202|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} with expiration date 2024-05-21 16:24:47Z as default key. 
+2024-04-30 00:09:40.1202|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-04-30 00:09:40.1202|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-04-30 00:09:40.1202|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-04-30 00:09:40.1202|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-04-30 00:09:40.1202|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-04-30 00:09:40.1202|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} as the default key. 
+2024-04-30 00:09:40.1202|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} was loaded during application startup. 
+2024-04-30 00:09:40.2467|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 
+2024-04-30 00:09:40.2467|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Goods.System.Social.Network.Microservice.Posts 
+2024-04-30 00:09:40.2467|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-04-30 00:09:40.2467|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-04-30 00:09:40.2467|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-04-30 00:09:40.2467|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-04-30 00:09:40.2467|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts 
+2024-04-30 00:09:40.2467|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-04-30 00:09:40.6377|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98K" accepted. 
+2024-04-30 00:09:40.6377|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98L" accepted. 
+2024-04-30 00:09:40.6377|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98K" started. 
+2024-04-30 00:09:40.6377|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98L" started. 
+2024-04-30 00:09:40.6636|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN38DSK4K98L" received FIN. 
+2024-04-30 00:09:40.6636|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN38DSK4K98K" received FIN. 
+2024-04-30 00:09:40.6845|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN38DSK4K98K" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-30 00:09:40.6845|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN38DSK4K98L" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-30 00:09:40.6845|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98L" disconnecting. 
+2024-04-30 00:09:40.6845|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98K" disconnecting. 
+2024-04-30 00:09:40.6845|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98K" stopped. 
+2024-04-30 00:09:40.6845|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98L" stopped. 
+2024-04-30 00:09:40.7893|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98M" accepted. 
+2024-04-30 00:09:40.7895|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98M" started. 
+2024-04-30 00:09:40.8069|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98N" accepted. 
+2024-04-30 00:09:40.8069|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98N" started. 
+2024-04-30 00:09:40.8533|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - - 
+2024-04-30 00:09:40.8852|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-04-30 00:09:40.8852|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:09:40.9099|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2024-04-30 00:09:40.9099|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-04-30 00:09:41.0188|1|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-04-30 00:09:41.1293|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98O" accepted. 
+2024-04-30 00:09:41.1293|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - - 
+2024-04-30 00:09:41.1293|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98O" started. 
+2024-04-30 00:09:41.1293|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - - 
+2024-04-30 00:09:41.1293|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98N" completed keep alive response. 
+2024-04-30 00:09:41.1351|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - - - 200 12062 application/javascript;+charset=utf-8 3.6459ms 
+2024-04-30 00:09:41.1351|2|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-04-30 00:09:41.1351|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98M" completed keep alive response. 
+2024-04-30 00:09:41.1351|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - - - 200 - text/html;charset=utf-8 285.5416ms 
+2024-04-30 00:09:41.1635|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98O" completed keep alive response. 
+2024-04-30 00:09:41.1635|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.5818ms 
+2024-04-30 00:09:41.3350|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - - 
+2024-04-30 00:09:41.3350|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:09:41.3350|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-04-30 00:09:41.3350|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-04-30 00:09:41.5067|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98O" completed keep alive response. 
+2024-04-30 00:09:41.5067|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.9283ms 
+2024-04-30 00:09:47.9455|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98P" accepted. 
+2024-04-30 00:09:47.9455|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98P" started. 
+2024-04-30 00:09:47.9455|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/api/Post/All - - 
+2024-04-30 00:09:47.9455|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:09:47.9455|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Post/All' 
+2024-04-30 00:09:47.9455|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts)' with route pattern 'api/Post/all' is valid for the request path '/api/Post/All' 
+2024-04-30 00:09:47.9455|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts)' 
+2024-04-30 00:09:47.9455|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-04-30 00:09:47.9455|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-04-30 00:09:48.1711|2|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2024-04-30 00:09:48.1711|8|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2024-04-30 00:09:48.1711|1|DEBUG|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2024-04-30 00:09:48.1711|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-04-30 00:09:48.1711|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts)' 
+2024-04-30 00:09:48.1979|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Goods.System.Social.Network.Microservice.Posts.Entities.Pagination.PagePostDTO] GetAll(System.String, Int32, Int32) on controller Goods.System.Social.Network.Microservice.Posts.Controllers.PostController (Goods.System.Social.Network.Microservice.Posts). 
+2024-04-30 00:09:48.1979|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-04-30 00:09:48.1979|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-04-30 00:09:48.1979|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-04-30 00:09:48.1979|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-04-30 00:09:48.1979|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-04-30 00:09:48.1979|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Goods.System.Social.Network.Microservice.Posts.Controllers.PostController (Goods.System.Social.Network.Microservice.Posts) 
+2024-04-30 00:09:48.3710|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Goods.System.Social.Network.Microservice.Posts.Controllers.PostController (Goods.System.Social.Network.Microservice.Posts) 
+2024-04-30 00:09:48.3710|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'search' of type 'System.String' ... 
+2024-04-30 00:09:48.3710|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'search' of type 'System.String' using the name '' in request data ... 
+2024-04-30 00:09:48.3710|16|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Could not find a value in the request with name '' for binding parameter 'search' of type 'System.String'. 
+2024-04-30 00:09:48.3710|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'search' of type 'System.String'. 
+2024-04-30 00:09:48.3710|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'search' of type 'System.String'. 
+2024-04-30 00:09:48.3710|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'search' of type 'System.String' ... 
+2024-04-30 00:09:48.3710|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'search' of type 'System.String'. 
+2024-04-30 00:09:48.3710|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'userId' of type 'System.Int32' ... 
+2024-04-30 00:09:48.3710|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'userId' of type 'System.Int32' using the name '' in request data ... 
+2024-04-30 00:09:48.3710|16|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Could not find a value in the request with name '' for binding parameter 'userId' of type 'System.Int32'. 
+2024-04-30 00:09:48.3710|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'userId' of type 'System.Int32'. 
+2024-04-30 00:09:48.3710|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'userId' of type 'System.Int32'. 
+2024-04-30 00:09:48.3710|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'userId' of type 'System.Int32' ... 
+2024-04-30 00:09:48.3710|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'userId' of type 'System.Int32'. 
+2024-04-30 00:09:48.3710|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'number' of type 'System.Int32' ... 
+2024-04-30 00:09:48.3710|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'number' of type 'System.Int32' using the name '' in request data ... 
+2024-04-30 00:09:48.3710|16|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Could not find a value in the request with name '' for binding parameter 'number' of type 'System.Int32'. 
+2024-04-30 00:09:48.3710|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'number' of type 'System.Int32'. 
+2024-04-30 00:09:48.3710|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'number' of type 'System.Int32'. 
+2024-04-30 00:09:48.3710|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'number' of type 'System.Int32' ... 
+2024-04-30 00:09:48.3710|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'number' of type 'System.Int32'. 
+2024-04-30 00:09:48.3710|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-04-30 00:09:48.3710|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-30 00:09:48.3710|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-30 00:09:48.3710|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-30 00:09:48.3710|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-30 00:09:48.4561|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts) - Validation state: Valid 
+2024-04-30 00:09:48.4561|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts) with arguments (, 0, 0) 
+2024-04-30 00:10:19.1774|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод GetAll 
+2024-04-30 00:10:19.2162|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод GetAllAsync с параметрами: search: , userId: 0, number: 0 
+2024-04-30 00:10:19.2277|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetAllAsync 
+2024-04-30 00:10:19.3204|10401|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-04-30 00:10:19.8963|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. 
+2024-04-30 00:10:20.1106|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:20.2226|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Post>()' 
+2024-04-30 00:10:20.4204|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Post>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Post.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Post.DateCreate (DateTime) Required, 1], [Property: Post.Image (string) Required MaxLength(30), 2], [Property: Post.Tags (string) Required MaxLength(100), 3], [Property: Post.Text (string) Required MaxLength(10000), 4], [Property: Post.Title (string) Required MaxLength(100), 5], [Property: Post.UserId (int) Required FK Index, 6] }
+        SELECT p.Id, p.DateCreate, p.Image, p.Tags, p.Text, p.Title, p.UserId
+        FROM Posts AS p), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Post>, 
+    Goods.System.Social.Network.DAL.UserContext, 
+    False, 
+    False, 
+    True
+)' 
+2024-04-30 00:10:20.4492|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:20.4492|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:20.4756|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (23ms). 
+2024-04-30 00:10:20.4822|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (32ms). 
+2024-04-30 00:10:20.4822|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (35ms). 
+2024-04-30 00:10:20.4822|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:20.7944|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:20.7944|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[DateCreate], [p].[Image], [p].[Tags], [p].[Text], [p].[Title], [p].[UserId]
+FROM [Posts] AS [p] 
+2024-04-30 00:10:20.8354|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[DateCreate], [p].[Image], [p].[Tags], [p].[Text], [p].[Title], [p].[UserId]
+FROM [Posts] AS [p] 
+2024-04-30 00:10:20.9023|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'Post' entity with key '{Id: 3}'. 
+2024-04-30 00:10:20.9233|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'Post' entity with key '{Id: 5}'. 
+2024-04-30 00:10:20.9233|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'Post' entity with key '{Id: 7}'. 
+2024-04-30 00:10:20.9233|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'Post' entity with key '{Id: 8}'. 
+2024-04-30 00:10:20.9233|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'Post' entity with key '{Id: 9}'. 
+2024-04-30 00:10:20.9233|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:20.9298|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 91ms reading results. 
+2024-04-30 00:10:20.9298|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:20.9298|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (4ms). 
+2024-04-30 00:10:20.9298|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:20.9298|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:20.9298|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:20.9475|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 5 
+2024-04-30 00:10:20.9475|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 5 
+2024-04-30 00:10:20.9871|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.0026|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(e => EF.Property<int>(e, "Id") == __p_0)' 
+2024-04-30 00:10:21.0540|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Avatar (string) Required MaxLength(20), 1], [Property: User.Background (string) Required MaxLength(20), 2], [Property: User.City (string) Required MaxLength(25), 3], [Property: User.Country (string) Required MaxLength(25), 4], [Property: User.DateBirthday (DateTime) Required, 5], [Property: User.Email (string) Required MaxLength(182), 6], [Property: User.FirstName (string) Required MaxLength(25), 7], [Property: User.LastName (string) Required MaxLength(25), 8], [Property: User.Password (string) Required MaxLength(100), 9], [Property: User.Phone (string) Required MaxLength(11), 10], [Property: User.SettingNotificationId (int) Required FK Index, 11], [Property: User.SettingPrivacyId (int) Required FK Index, 12], [Property: User.Status (string) Required MaxLength(100), 13] }
+            SELECT TOP(1) u.Id, u.Avatar, u.Background, u.City, u.Country, u.DateBirthday, u.Email, u.FirstName, u.LastName, u.Password, u.Phone, u.SettingNotificationId, u.SettingPrivacyId, u.Status
+            FROM Users AS u
+            WHERE u.Id == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        Goods.System.Social.Network.DAL.UserContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)' 
+2024-04-30 00:10:21.0600|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.0600|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.0600|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.0600|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.0600|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (2ms). 
+2024-04-30 00:10:21.0600|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.0600|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.0600|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__p_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+2024-04-30 00:10:21.1041|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (41ms) [Parameters=[@__p_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+2024-04-30 00:10:21.1041|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 5}'. 
+2024-04-30 00:10:21.1285|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1407|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 36ms reading results. 
+2024-04-30 00:10:21.1407|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1407|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.1407|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.1407|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1407|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.1407|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 5 
+2024-04-30 00:10:21.1407|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 5 
+2024-04-30 00:10:21.1407|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.1509|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.1509|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.1509|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.1509|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.1509|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.1509|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__p_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+2024-04-30 00:10:21.1509|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__p_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+2024-04-30 00:10:21.1509|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 5}'. 
+2024-04-30 00:10:21.1509|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.1509|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.1509|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.1509|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.1509|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 3 
+2024-04-30 00:10:21.1509|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 3 
+2024-04-30 00:10:21.1509|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.1509|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.1509|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.1509|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.1509|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.1509|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.1509|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__p_0='3'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+2024-04-30 00:10:21.1509|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__p_0='3'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+2024-04-30 00:10:21.1509|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 3}'. 
+2024-04-30 00:10:21.1509|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.1509|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.1509|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.1509|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.1509|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 5 
+2024-04-30 00:10:21.1509|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 5 
+2024-04-30 00:10:21.1509|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.1509|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.1509|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.1509|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.1509|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.1509|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.1509|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__p_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+2024-04-30 00:10:21.1509|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__p_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+2024-04-30 00:10:21.1509|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 5}'. 
+2024-04-30 00:10:21.1509|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.1509|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.1509|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.1509|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.1509|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 5 
+2024-04-30 00:10:21.1509|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 5 
+2024-04-30 00:10:21.1509|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.1509|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.1509|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.1509|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.1509|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.1509|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.1509|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__p_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+2024-04-30 00:10:21.1509|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__p_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+2024-04-30 00:10:21.1509|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 5}'. 
+2024-04-30 00:10:21.1509|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.1509|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.1509|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.1509|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.1509|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.1509|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetRatingForEntityAsync с параметрами: postId: 3 
+2024-04-30 00:10:21.1762|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.1762|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<ReactionPost>()
+    .Where(rp => rp.PostId == __entityId_0)
+    .Include(rp => rp.Reaction)
+    .ThenInclude(r => r.TypeReaction)
+    .Include(rp => rp.Reaction)
+    .ThenInclude(r => r.User)' 
+2024-04-30 00:10:21.1896|10112|DEBUG|Microsoft.EntityFrameworkCore.Query|Including navigation: 'ReactionPost.Reaction'. 
+2024-04-30 00:10:21.1896|10112|DEBUG|Microsoft.EntityFrameworkCore.Query|Including navigation: 'Reaction.TypeReaction'. 
+2024-04-30 00:10:21.1896|10112|DEBUG|Microsoft.EntityFrameworkCore.Query|Including navigation: 'Reaction.User'. 
+2024-04-30 00:10:21.2291|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<ReactionPost>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: ReactionPost.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: ReactionPost.PostId (int) Required FK Index, 1], [Property: ReactionPost.ReactionId (int) Required FK Index, 2] }
+            1 -> Dictionary<IProperty, int> { [Property: Reaction.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 3], [Property: Reaction.TypeReactionId (int) Required FK Index, 4], [Property: Reaction.UserId (int) Required FK Index, 5] }
+            2 -> Dictionary<IProperty, int> { [Property: ReactionType.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 6], [Property: ReactionType.Description (string) Required MaxLength(100), 7], [Property: ReactionType.Name (string) Required MaxLength(20), 8] }
+            3 -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 9], [Property: User.Avatar (string) Required MaxLength(20), 10], [Property: User.Background (string) Required MaxLength(20), 11], [Property: User.City (string) Required MaxLength(25), 12], [Property: User.Country (string) Required MaxLength(25), 13], [Property: User.DateBirthday (DateTime) Required, 14], [Property: User.Email (string) Required MaxLength(182), 15], [Property: User.FirstName (string) Required MaxLength(25), 16], [Property: User.LastName (string) Required MaxLength(25), 17], [Property: User.Password (string) Required MaxLength(100), 18], [Property: User.Phone (string) Required MaxLength(11), 19], [Property: User.SettingNotificationId (int) Required FK Index, 20], [Property: User.SettingPrivacyId (int) Required FK Index, 21], [Property: User.Status (string) Required MaxLength(100), 22] }
+        SELECT r.Id, r.PostId, r.ReactionId, r0.Id, r0.TypeReactionId, r0.UserId, t.Id, t.Description, t.Name, u.Id, u.Avatar, u.Background, u.City, u.Country, u.DateBirthday, u.Email, u.FirstName, u.LastName, u.Password, u.Phone, u.SettingNotificationId, u.SettingPrivacyId, u.Status
+        FROM ReactionPosts AS r
+        INNER JOIN Reactions AS r0 ON r.ReactionId == r0.Id
+        INNER JOIN TypeReaction AS t ON r0.TypeReactionId == t.Id
+        INNER JOIN Users AS u ON r0.UserId == u.Id
+        WHERE r.PostId == @__entityId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ReactionPost>, 
+    Goods.System.Social.Network.DAL.UserContext, 
+    False, 
+    False, 
+    True
+)' 
+2024-04-30 00:10:21.2291|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.2291|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.2291|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.2291|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2291|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2291|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2291|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2291|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='3'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.2291|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[@__entityId_0='3'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.2291|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'ReactionPost' entity with key '{Id: 5}'. 
+2024-04-30 00:10:21.2494|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'ReactionPost.Reaction' for entity with key '{Id: 5}' was detected as changed. 
+2024-04-30 00:10:21.2494|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'Reaction' entity with key '{Id: 1}'. 
+2024-04-30 00:10:21.2494|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'Reaction.TypeReaction' for entity with key '{Id: 1}' was detected as changed. 
+2024-04-30 00:10:21.2494|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'ReactionType' entity with key '{Id: 1}'. 
+2024-04-30 00:10:21.2603|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'Reaction.User' for entity with key '{Id: 1}' was detected as changed. 
+2024-04-30 00:10:21.2603|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 3}'. 
+2024-04-30 00:10:21.2603|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2603|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 24ms reading results. 
+2024-04-30 00:10:21.2603|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2603|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.2603|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.2603|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2603|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.2603|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetAllByEntityAsync с параметрами: postId: 3, number: -1 
+2024-04-30 00:10:21.2603|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.2603|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.2603|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.2603|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.2603|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2603|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2603|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2603|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2603|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='3'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.2603|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__entityId_0='3'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.2603|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'ReactionPost' entity with key '{Id: 5}'. 
+2024-04-30 00:10:21.2603|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'ReactionPost.Reaction' for entity with key '{Id: 5}' was detected as changed. 
+2024-04-30 00:10:21.2603|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'Reaction' entity with key '{Id: 1}'. 
+2024-04-30 00:10:21.2603|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'Reaction.TypeReaction' for entity with key '{Id: 1}' was detected as changed. 
+2024-04-30 00:10:21.2603|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'ReactionType' entity with key '{Id: 1}'. 
+2024-04-30 00:10:21.2603|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'Reaction.User' for entity with key '{Id: 1}' was detected as changed. 
+2024-04-30 00:10:21.2603|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 3}'. 
+2024-04-30 00:10:21.2603|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2603|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.2603|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2603|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.2603|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.2603|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2603|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.2603|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.2603|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<ReactionPost>()
+    .Where(rp => rp.PostId == __entityId_0)
+    .Count()' 
+2024-04-30 00:10:21.2847|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: new SingleQueryingEnumerable<int>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT COUNT(*)
+            FROM ReactionPosts AS r
+            WHERE r.PostId == @__entityId_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+        Goods.System.Social.Network.DAL.UserContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)' 
+2024-04-30 00:10:21.2900|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.2900|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.2900|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.2900|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2900|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2900|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='3'], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ReactionPosts] AS [r]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.2900|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__entityId_0='3'], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ReactionPosts] AS [r]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.2900|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 2ms reading results. 
+2024-04-30 00:10:21.2900|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.2900|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.2900|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.2900|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetRatingForEntityAsync с параметрами: postId: 5 
+2024-04-30 00:10:21.2900|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.2900|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.2900|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.2900|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.2900|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2900|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2900|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.2900|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__entityId_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.2900|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.2900|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.2900|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.2900|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.2900|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetAllByEntityAsync с параметрами: postId: 5, number: -1 
+2024-04-30 00:10:21.2900|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.2900|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.2900|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.2900|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.2900|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2900|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2900|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.2900|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__entityId_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.2900|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.2900|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.2900|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.2900|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.2900|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.2900|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.2900|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.2900|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.2900|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2900|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2900|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ReactionPosts] AS [r]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.2900|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__entityId_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ReactionPosts] AS [r]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.2900|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.2900|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.2900|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.2900|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.2900|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetRatingForEntityAsync с параметрами: postId: 7 
+2024-04-30 00:10:21.2900|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.2900|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.2900|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.2900|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.2900|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2900|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2900|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='7'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.2900|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__entityId_0='7'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.2900|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.2900|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.2900|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.2900|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.2900|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetAllByEntityAsync с параметрами: postId: 7, number: -1 
+2024-04-30 00:10:21.2900|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.2900|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.2900|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.2900|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.2900|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2900|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.2900|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.2900|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='7'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3056|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__entityId_0='7'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3056|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.3056|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.3056|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.3056|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.3056|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.3056|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.3056|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.3056|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.3056|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.3056|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.3056|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='7'], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ReactionPosts] AS [r]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3056|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__entityId_0='7'], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ReactionPosts] AS [r]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3056|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.3056|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.3056|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.3056|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.3056|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetRatingForEntityAsync с параметрами: postId: 8 
+2024-04-30 00:10:21.3056|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.3056|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.3056|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.3056|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.3056|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.3056|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.3056|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='8'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3056|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__entityId_0='8'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3056|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.3056|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.3056|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.3056|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.3056|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetAllByEntityAsync с параметрами: postId: 8, number: -1 
+2024-04-30 00:10:21.3056|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.3056|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.3056|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.3056|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.3056|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.3056|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.3056|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3056|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='8'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3056|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__entityId_0='8'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3056|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.3206|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.3206|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.3206|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.3206|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.3206|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.3206|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.3206|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.3206|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.3206|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.3206|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='8'], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ReactionPosts] AS [r]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3206|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__entityId_0='8'], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ReactionPosts] AS [r]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3206|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.3206|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.3206|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.3206|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.3206|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetRatingForEntityAsync с параметрами: postId: 9 
+2024-04-30 00:10:21.3206|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.3206|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.3206|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.3206|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.3206|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.3206|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.3206|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='9'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3206|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__entityId_0='9'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3206|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.3206|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.3206|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.3206|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.3206|0|TRACE|Goods.System.Social.Network.DomainServices.Interface.ReactionPostService|Вызван метод GetAllByEntityAsync с параметрами: postId: 9, number: -1 
+2024-04-30 00:10:21.3206|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.3206|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.3206|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.3206|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.3206|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.3206|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.3206|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='9'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3206|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__entityId_0='9'], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[PostId], [r].[ReactionId], [r0].[Id], [r0].[TypeReactionId], [r0].[UserId], [t].[Id], [t].[Description], [t].[Name], [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [ReactionPosts] AS [r]
+INNER JOIN [Reactions] AS [r0] ON [r].[ReactionId] = [r0].[Id]
+INNER JOIN [TypeReaction] AS [t] ON [r0].[TypeReactionId] = [t].[Id]
+INNER JOIN [Users] AS [u] ON [r0].[UserId] = [u].[Id]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3206|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.3206|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.3206|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.3206|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.3206|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-04-30 00:10:21.3206|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-04-30 00:10:21.3206|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-04-30 00:10:21.3206|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-04-30 00:10:21.3206|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.3206|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-30 00:10:21.3206|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__entityId_0='9'], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ReactionPosts] AS [r]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3206|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__entityId_0='9'], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ReactionPosts] AS [r]
+WHERE [r].[PostId] = @__entityId_0 
+2024-04-30 00:10:21.3206|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-04-30 00:10:21.3206|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-04-30 00:10:21.3206|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-04-30 00:10:21.3206|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-04-30 00:10:21.3206|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-04-30 00:10:21.3206|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 32872.6588ms. 
+2024-04-30 00:10:21.3206|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-30 00:10:21.3206|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-04-30 00:10:21.3206|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-30 00:10:21.3206|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-04-30 00:10:21.3206|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-04-30 00:10:21.3206|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-30 00:10:21.3206|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-30 00:10:21.3206|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-04-30 00:10:21.3366|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-04-30 00:10:21.3366|4|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-04-30 00:10:21.3366|8|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-04-30 00:10:21.3366|10|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-04-30 00:10:21.3366|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-04-30 00:10:21.3366|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Goods.System.Social.Network.Microservice.Posts.Entities.Pagination.PagePostDTO'. 
+2024-04-30 00:10:21.3524|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-04-30 00:10:21.3524|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-30 00:10:21.3524|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-04-30 00:10:21.3524|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts) in 33154.5372ms 
+2024-04-30 00:10:21.3524|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Goods.System.Social.Network.Microservice.Posts.Controllers.PostController.GetAll (Goods.System.Social.Network.Microservice.Posts)' 
+2024-04-30 00:10:21.3524|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/api/Post/All - - - 200 - application/json;+charset=utf-8 33408.3404ms 
+2024-04-30 00:10:21.3524|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98P" disconnecting. 
+2024-04-30 00:10:21.3524|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38DSK4K98P" stopped. 
+2024-04-30 00:10:21.3524|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN38DSK4K98P" received FIN. 
+2024-04-30 00:10:21.3524|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN38DSK4K98P" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-30 00:19:29.9964|0|DEBUG|Program|init main 
+2024-04-30 00:19:31.4887|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-04-30 00:19:31.5534|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-04-30 00:19:31.5877|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-04-30 00:19:31.5877|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-00e1b3b0-243c-4fc4-98a0-7ac999c74e24.xml'. 
+2024-04-30 00:19:31.5877|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-3a2da2d8-c8af-4792-bf1b-74c5066aed28.xml'. 
+2024-04-30 00:19:31.5877|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-883a64c9-9213-4f95-a1cd-dd639a6bcd07.xml'. 
+2024-04-30 00:19:31.5877|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-c23ed5e2-9422-4500-9128-63fd9ee58caf.xml'. 
+2024-04-30 00:19:31.6041|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {00e1b3b0-243c-4fc4-98a0-7ac999c74e24}. 
+2024-04-30 00:19:31.6041|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {3a2da2d8-c8af-4792-bf1b-74c5066aed28}. 
+2024-04-30 00:19:31.6041|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {883a64c9-9213-4f95-a1cd-dd639a6bcd07}. 
+2024-04-30 00:19:31.6041|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {c23ed5e2-9422-4500-9128-63fd9ee58caf}. 
+2024-04-30 00:19:31.6041|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} with expiration date 2024-05-21 16:24:47Z as default key. 
+2024-04-30 00:19:31.6041|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-04-30 00:19:31.6041|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-04-30 00:19:31.6185|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-04-30 00:19:31.6185|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-04-30 00:19:31.6185|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-04-30 00:19:31.6185|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} as the default key. 
+2024-04-30 00:19:31.6185|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} was loaded during application startup. 
+2024-04-30 00:19:31.7943|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 
+2024-04-30 00:19:31.7943|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Goods.System.Social.Network.Microservice.Posts 
+2024-04-30 00:19:31.7943|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-04-30 00:19:31.7943|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-04-30 00:19:31.7943|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-04-30 00:19:31.7943|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-04-30 00:19:31.7943|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts 
+2024-04-30 00:19:31.7943|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-04-30 00:19:32.1514|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUIT" accepted. 
+2024-04-30 00:19:32.1514|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUIT" started. 
+2024-04-30 00:19:32.1514|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUIU" accepted. 
+2024-04-30 00:19:32.1514|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUIU" started. 
+2024-04-30 00:19:32.1908|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN38E24DNUIU" received FIN. 
+2024-04-30 00:19:32.1908|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN38E24DNUIT" received FIN. 
+2024-04-30 00:19:32.1988|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN38E24DNUIU" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-30 00:19:32.1988|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN38E24DNUIT" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-30 00:19:32.1988|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUIT" disconnecting. 
+2024-04-30 00:19:32.1988|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUIU" disconnecting. 
+2024-04-30 00:19:32.2208|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUIT" stopped. 
+2024-04-30 00:19:32.2208|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUIU" stopped. 
+2024-04-30 00:19:32.2979|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUIV" accepted. 
+2024-04-30 00:19:32.2979|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUIV" started. 
+2024-04-30 00:19:32.3194|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUJ0" accepted. 
+2024-04-30 00:19:32.3194|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUJ0" started. 
+2024-04-30 00:19:32.3595|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/swagger/index.html - - 
+2024-04-30 00:19:32.3937|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-04-30 00:19:32.3937|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:19:32.4137|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2024-04-30 00:19:32.4137|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-04-30 00:19:32.5362|1|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-04-30 00:19:32.6667|2|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-04-30 00:19:32.6667|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUIV" completed keep alive response. 
+2024-04-30 00:19:32.6667|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/swagger/index.html - - - 200 - text/html;charset=utf-8 309.3159ms 
+2024-04-30 00:19:32.6667|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/_vs/browserLink - - 
+2024-04-30 00:19:32.6667|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - - 
+2024-04-30 00:19:32.6840|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUIV" completed keep alive response. 
+2024-04-30 00:19:32.6840|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/_framework/aspnetcore-browser-refresh.js - - - 200 12062 application/javascript;+charset=utf-8 12.9230ms 
+2024-04-30 00:19:32.7003|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUJ0" completed keep alive response. 
+2024-04-30 00:19:32.7003|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.6489ms 
+2024-04-30 00:19:32.7593|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - - 
+2024-04-30 00:19:32.7593|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-04-30 00:19:32.7593|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-04-30 00:19:32.7593|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-04-30 00:19:32.8840|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN38E24DNUJ0" completed keep alive response. 
+2024-04-30 00:19:32.8840|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5037/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.9409ms 

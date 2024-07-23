@@ -1,0 +1,406 @@
+2024-06-06 17:51:30.3186|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 17:51:32.3554|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 17:51:32.3630|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 17:51:32.3630|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 17:51:32.3630|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:01:49.4683|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:01:51.4941|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:01:51.4941|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:01:51.4941|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:01:51.4941|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:05:14.0524|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:05:15.8781|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:05:15.8844|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:05:15.8844|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:05:15.8844|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:08:37.0749|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:08:38.9110|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:08:38.9110|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:08:38.9110|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:08:38.9110|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:13:48.0339|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:13:49.6696|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:13:49.6696|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:13:49.6696|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:13:49.6751|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:23:08.7943|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:23:10.1579|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:23:10.1638|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:23:10.1638|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:23:10.1638|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:24:30.5687|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:31.3177|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:31.3358|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:31.3709|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:32.5724|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:34.3477|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:35.1448|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 4, postId: 23 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:35.1662|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 4, id: 23 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:35.1662|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:35.1938|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 4, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:35.1938|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:35.2866|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:35.3049|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:35.3162|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:35.3325|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:35.3325|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:24:35.3325|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:27:19.8885|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:27:21.5340|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:27:21.5421|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:27:21.5421|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:27:21.5421|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:33:20.9985|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:33:22.5392|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:33:22.5392|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:33:22.5392|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:33:22.5392|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:34:05.2703|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:05.9964|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:06.0182|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:06.0426|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:07.2706|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:08.7901|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:09.4567|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 4, postId: 24 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:09.4739|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 4, id: 24 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:09.4739|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:09.4880|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 4, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:09.4880|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:09.5580|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:09.5881|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:09.6126|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:09.6318|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:09.6436|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:34:09.6436|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:37:01.1874|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:37:03.8257|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:37:03.8327|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:37:03.8327|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:37:03.8327|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:40:32.8118|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:40:34.1257|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:40:34.1296|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:40:34.1296|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:40:34.1296|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:42:48.8921|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:42:51.2178|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:42:51.2266|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:42:51.2266|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:42:51.2266|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:44:36.6795|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:44:38.3064|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:44:38.3064|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:44:38.3064|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:44:38.3064|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:48:43.9565|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:48:45.5815|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:48:45.5858|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:48:45.5858|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:48:45.5858|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:48:58.4601|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:49:00.6594|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:49:00.6594|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:49:00.6594|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:49:00.6594|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:51:20.8360|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:51:22.4555|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:51:22.4603|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:51:22.4603|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:51:22.4603|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:54:26.7847|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 18:54:29.1089|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 18:54:29.1156|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 18:54:29.1156|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 18:54:29.1156|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 18:55:12.8266|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:13.5996|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:13.6309|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:13.6635|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:14.9868|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:16.5035|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:17.1913|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 4, postId: 25 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:17.2152|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 4, id: 25 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:17.2291|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:17.2544|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 4, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:17.2544|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:17.3219|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:17.3343|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:17.3477|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:17.3477|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:17.3477|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:17.3626|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.2697|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.2697|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.2697|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.2697|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.2871|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 4, postId: 26 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.2871|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 4, id: 26 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.2871|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.2871|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 4, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.2871|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.2871|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.3008|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.3008|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.3008|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.3157|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:55:53.3157|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4450|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4450|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4450|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4450|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4572|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 4, postId: 27 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4572|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 4, id: 27 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4572|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4572|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 4, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4572|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4572|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4723|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4723|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4723|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4723|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:56:30.4723|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.3670|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.3670|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.3670|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.3670|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.3788|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 4, postId: 28 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.3788|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 4, id: 28 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.3788|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.3938|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 4, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.3938|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.3938|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.3938|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.4094|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.4094|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.4094|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 18:59:06.4094|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:24.4413|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 19:07:25.9239|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 19:07:25.9277|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 19:07:25.9277|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 19:07:25.9277|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 19:07:55.3396|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:56.0313|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:56.0461|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:56.0683|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:57.2709|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:58.8069|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:59.4562|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 4, postId: 29 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:59.4562|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 4, id: 29 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:59.4562|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:59.5048|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 4, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:59.5048|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:59.5664|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:59.5821|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:59.5981|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:59.5981|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:59.6138|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:07:59.6138|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2007|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2007|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2007|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2073|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2073|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 4, postId: 30 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2073|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 4, id: 30 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2073|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2238|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 4, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2238|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2238|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2238|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2238|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2381|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2381|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:08:16.2381|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:16:57.8274|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 19:16:59.4160|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 19:16:59.4160|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 19:16:59.4160|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 19:16:59.4160|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 19:17:25.7860|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:26.3480|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:26.3634|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:26.3896|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:27.4163|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:28.9903|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:29.6315|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 4, postId: 31 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:29.6461|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 4, id: 31 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:29.6461|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:29.6759|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 4, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:29.6924|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:29.7456|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:29.7603|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:29.7706|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:29.7706|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:29.7843|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:29.7843|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.5763|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.5763|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.5763|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.5820|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.5820|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 4, postId: 32 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.5820|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 4, id: 32 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.5820|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.5820|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 4, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.5973|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.5973|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.5973|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.5973|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.5973|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.5973|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:45.6126|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6053|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6053|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6053|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6053|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6132|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 4, postId: 33 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6132|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 4, id: 33 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6132|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6132|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 4, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6132|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6132|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6287|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6287|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6287|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6287|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:17:52.6287|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6200|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6200|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6200|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6292|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6292|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 4, postId: 34 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6292|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 4, id: 34 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6292|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6479|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 4, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6479|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6479|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6479|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6596|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6596|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6596|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:12.6596|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:16.9758|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:16.9758|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:16.9758|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:16.9758|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:16.9904|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 4, postId: 35 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:16.9904|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 4, id: 35 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:16.9904|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:17.0060|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 4, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:17.0060|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:17.0060|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:17.0060|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:17.0060|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:17.0194|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:17.0194|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 19:20:17.0194|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 4 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:37:05.7666|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 23:37:06.9792|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 23:37:06.9792|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 23:37:06.9792|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 23:37:06.9792|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 23:46:46.7216|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:47.4026|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:47.4169|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:47.4365|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:48.1247|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:49.2397|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:49.5802|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 5, postId: 36 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:49.6047|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 5, id: 36 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:49.6047|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:49.6124|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 5, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:49.6272|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:49.6597|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:49.6755|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:49.6755|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:49.6755|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:49.6755|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:46:49.6898|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.2953|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.2953|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.2953|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.3062|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.3062|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 5, postId: 37 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.3194|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 5, id: 37 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.3194|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.3194|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 5, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.3194|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.3194|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.3194|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.3302|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.3302|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.3302|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:17.3302|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7288|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7288|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7288|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7288|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7365|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 5, postId: 38 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7365|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 5, id: 38 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7365|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7365|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 5, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7365|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7365|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7365|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7520|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7520|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7520|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:25.7520|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8303|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8303|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8303|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8303|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8303|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 5, postId: 39 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8485|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 5, id: 39 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8485|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8485|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 5, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8485|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8485|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8485|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8485|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8485|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8614|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:47:58.8614|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:49:45.7891|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 23:49:47.6350|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 23:49:47.6350|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 23:49:47.6422|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 23:49:47.6422|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 23:50:42.8333|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:43.6048|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:43.6263|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:43.6510|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:44.8584|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:46.1947|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:46.8677|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 5, postId: 40 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:46.8928|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 5, id: 40 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:46.8928|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:46.9092|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 5, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:46.9092|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:46.9878|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:47.0038|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:47.0176|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:47.0176|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:47.0176|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:50:47.0176|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:51:59.2291|0|DEBUG|Program|init main |url: |action: 
+2024-06-06 23:52:01.3239|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5037 |url: |action: 
+2024-06-06 23:52:01.3299|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-06-06 23:52:01.3299|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-06-06 23:52:01.3299|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Posts |url: |action: 
+2024-06-06 23:52:43.9901|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:44.5594|0|INFO|Goods.System.Social.Network.Microservice.Posts.Controllers.PostController|Вызван метод CreatePost |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:44.5729|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.PostService|Вызван метод CreateAsync с параметрами: post: Goods.System.Social.Network.DomainModel.Entities.Post, image: Microsoft.AspNetCore.Http.FormFile |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:44.5893|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Create с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:45.8145|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:47.3944|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод GetByUserAsync с параметрами: userId: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:48.0172|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод CreateAsync с параметрами: file: -, userId: 5, postId: 41 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:48.0408|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ImagePostRepository|Вызван метод Get с параметрами: userId: 5, id: 41 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:48.0408|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.PostRepository|Вызван метод Update с параметрами: item: Goods.System.Social.Network.DomainModel.Entities.Post |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:48.0834|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: -1, id: 5, who: 1 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:48.0834|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:48.1485|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 3, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:48.1594|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 4, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:48.1754|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 5, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:48.1754|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:48.1754|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 7, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost
+2024-06-06 23:52:48.1895|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 8, idFriend: 5 |url: http://localhost/api/Post|action: CreatePost

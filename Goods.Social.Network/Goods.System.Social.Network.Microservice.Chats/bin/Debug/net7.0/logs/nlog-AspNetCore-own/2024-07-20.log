@@ -1,0 +1,15 @@
+2024-07-20 16:53:40.4019|0|DEBUG|Program|init main |url: |action: 
+2024-07-20 16:53:42.4046|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-20 16:53:42.4105|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-20 16:53:42.4105|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-20 16:53:42.4105|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-20 16:56:45.7065|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Message|action: 
+2024-07-20 16:56:46.3230|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.MessageController|Вызван метод AddNewMessage |url: http://localhost/api/Message|action: AddNewMessage
+2024-07-20 16:56:46.3335|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод CreateAsync с параметрами: message: Goods.System.Social.Network.DomainModel.Entities.Message |url: http://localhost/api/Message|action: AddNewMessage
+2024-07-20 16:56:46.3478|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAsync с параметрами: id : 1 |url: http://localhost/api/Message|action: AddNewMessage
+2024-07-20 16:56:46.9749|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Message|action: AddNewMessage
+2024-07-20 16:56:48.0341|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод Update с параметрами: chatRoom : Goods.System.Social.Network.DomainModel.Entities.ChatRoom |url: http://localhost/api/Message|action: AddNewMessage
+2024-07-20 16:56:48.1572|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.MessageRepository|Вызван метод Create с параметрами: message : Goods.System.Social.Network.DomainModel.Entities.Message |url: http://localhost/api/Message|action: AddNewMessage
+2024-07-20 16:56:48.2682|0|TRACE|DomainServices.Chat.Realization.InviteService|Вызван метод GetUsersInChatAsync с параметрами: chatId: 1 |url: http://localhost/api/Message|action: AddNewMessage
+2024-07-20 16:57:21.5455|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 5 |url: http://localhost/api/Message|action: AddNewMessage
+2024-07-20 16:57:25.0852|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/Message|action: AddNewMessage

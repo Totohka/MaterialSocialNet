@@ -1,0 +1,7 @@
+2024-07-20 16:56:46.3335|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод CreateAsync с параметрами: message: Goods.System.Social.Network.DomainModel.Entities.Message |url: http://localhost/api/Message|action: AddNewMessage
+2024-07-20 16:56:46.3478|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAsync с параметрами: id : 1 |url: http://localhost/api/Message|action: AddNewMessage
+2024-07-20 16:56:48.0341|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод Update с параметрами: chatRoom : Goods.System.Social.Network.DomainModel.Entities.ChatRoom |url: http://localhost/api/Message|action: AddNewMessage
+2024-07-20 16:56:48.1572|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.MessageRepository|Вызван метод Create с параметрами: message : Goods.System.Social.Network.DomainModel.Entities.Message |url: http://localhost/api/Message|action: AddNewMessage
+2024-07-20 16:56:48.2682|0|TRACE|DomainServices.Chat.Realization.InviteService|Вызван метод GetUsersInChatAsync с параметрами: chatId: 1 |url: http://localhost/api/Message|action: AddNewMessage
+2024-07-20 16:57:21.5455|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 5 |url: http://localhost/api/Message|action: AddNewMessage
+2024-07-20 16:57:25.0852|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/Message|action: AddNewMessage

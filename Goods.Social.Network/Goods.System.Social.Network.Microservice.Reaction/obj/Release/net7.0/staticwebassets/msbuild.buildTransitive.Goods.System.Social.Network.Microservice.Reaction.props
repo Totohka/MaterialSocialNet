@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Goods.System.Social.Network.Microservice.Reaction.props" />
+</Project>

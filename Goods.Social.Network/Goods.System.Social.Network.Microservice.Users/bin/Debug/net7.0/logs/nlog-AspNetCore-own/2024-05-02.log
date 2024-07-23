@@ -1,0 +1,132 @@
+2024-05-02 16:17:40.9493|0|DEBUG|Program|init main |url: |action: 
+2024-05-02 16:17:43.0630|0|ERROR|Program|Stopped PostMicroservice because of exception System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Goods.System.Social.Network.DomainServices.Interface.IUserService Lifetime: Scoped ImplementationType: Goods.System.Social.Network.DomainServices.Realization.UserService': Unable to resolve service for type 'DomainServices.Validation.PostValidator' while attempting to activate 'DomainServices.Validation.UserValidator'.) (Error while validating the service descriptor 'ServiceType: FluentValidation.IValidator`1[Goods.System.Social.Network.DomainModel.Entities.User] Lifetime: Scoped ImplementationType: DomainServices.Validation.UserValidator': Unable to resolve service for type 'DomainServices.Validation.PostValidator' while attempting to activate 'DomainServices.Validation.UserValidator'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Goods.System.Social.Network.DomainServices.Interface.IUserService Lifetime: Scoped ImplementationType: Goods.System.Social.Network.DomainServices.Realization.UserService': Unable to resolve service for type 'DomainServices.Validation.PostValidator' while attempting to activate 'DomainServices.Validation.UserValidator'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'DomainServices.Validation.PostValidator' while attempting to activate 'DomainServices.Validation.UserValidator'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: FluentValidation.IValidator`1[Goods.System.Social.Network.DomainModel.Entities.User] Lifetime: Scoped ImplementationType: DomainServices.Validation.UserValidator': Unable to resolve service for type 'DomainServices.Validation.PostValidator' while attempting to activate 'DomainServices.Validation.UserValidator'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'DomainServices.Validation.PostValidator' while attempting to activate 'DomainServices.Validation.UserValidator'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+|url: |action: 
+2024-05-02 16:18:19.1999|0|DEBUG|Program|init main |url: |action: 
+2024-05-02 16:18:20.9044|0|ERROR|Program|Stopped PostMicroservice because of exception System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Goods.System.Social.Network.DomainServices.Interface.IUserService Lifetime: Scoped ImplementationType: Goods.System.Social.Network.DomainServices.Realization.UserService': Unable to resolve service for type 'DomainServices.Validation.PostValidator' while attempting to activate 'DomainServices.Validation.UserValidator'.) (Error while validating the service descriptor 'ServiceType: FluentValidation.IValidator`1[Goods.System.Social.Network.DomainModel.Entities.User] Lifetime: Scoped ImplementationType: DomainServices.Validation.UserValidator': Unable to resolve service for type 'DomainServices.Validation.PostValidator' while attempting to activate 'DomainServices.Validation.UserValidator'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Goods.System.Social.Network.DomainServices.Interface.IUserService Lifetime: Scoped ImplementationType: Goods.System.Social.Network.DomainServices.Realization.UserService': Unable to resolve service for type 'DomainServices.Validation.PostValidator' while attempting to activate 'DomainServices.Validation.UserValidator'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'DomainServices.Validation.PostValidator' while attempting to activate 'DomainServices.Validation.UserValidator'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: FluentValidation.IValidator`1[Goods.System.Social.Network.DomainModel.Entities.User] Lifetime: Scoped ImplementationType: DomainServices.Validation.UserValidator': Unable to resolve service for type 'DomainServices.Validation.PostValidator' while attempting to activate 'DomainServices.Validation.UserValidator'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'DomainServices.Validation.PostValidator' while attempting to activate 'DomainServices.Validation.UserValidator'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+|url: |action: 
+2024-05-02 16:19:17.4003|0|DEBUG|Program|init main |url: |action: 
+2024-05-02 16:19:18.7212|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5148 |url: |action: 
+2024-05-02 16:19:18.7252|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-05-02 16:19:18.7252|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-05-02 16:19:18.7252|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users |url: |action: 
+2024-05-02 16:19:27.4811|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/User/all|action: GetAll
+2024-05-02 16:19:28.0051|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод GetAll |url: http://localhost/api/User/all|action: GetAll
+2024-05-02 16:19:28.0051|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAllAsync с параметрами: search: , numberPage: 1, id: 6, who: 0 |url: http://localhost/api/User/all|action: GetAll
+2024-05-02 16:19:28.0051|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync |url: http://localhost/api/User/all|action: GetAll
+2024-05-02 16:19:28.9669|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/User/all|action: GetAll
+2024-05-02 16:19:30.7789|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 6, idFriend: 3 |url: http://localhost/api/User/all|action: GetAll
+2024-05-02 16:19:30.7789|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 3 |url: http://localhost/api/User/all|action: GetAll
+2024-05-02 16:19:30.9611|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/User/all|action: GetAll
+2024-05-02 16:19:30.9611|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 4 |url: http://localhost/api/User/all|action: GetAll
+2024-05-02 16:19:31.0254|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 6, idFriend: 5 |url: http://localhost/api/User/all|action: GetAll
+2024-05-02 16:19:31.0254|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 5 |url: http://localhost/api/User/all|action: GetAll
+2024-05-02 16:19:31.0375|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.SubscribeService|Вызван метод GetCheckSubscriberAsync с параметрами: id: 6, idFriend: 6 |url: http://localhost/api/User/all|action: GetAll
+2024-05-02 16:19:31.0375|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.SubscribeRepository|Вызван метод GetCheckAsync с параметрами: id: 6, idFriend: 6 |url: http://localhost/api/User/all|action: GetAll
+2024-05-02 21:03:48.4995|0|DEBUG|Program|init main |url: |action: 
+2024-05-02 21:03:50.0481|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5148 |url: |action: 
+2024-05-02 21:03:50.0615|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-05-02 21:03:50.0615|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-05-02 21:03:50.0615|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users |url: |action: 
+2024-05-02 21:06:10.4807|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/User|action: Update
+2024-05-02 21:06:11.0931|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Update |url: http://localhost/api/User|action: Update
+2024-05-02 21:06:11.1062|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод UpdateAsync с параметрами: changeUserViewModel: Goods.System.Social.Network.DomainModel.Entities.User |url: http://localhost/api/User|action: Update
+2024-05-02 21:06:11.1062|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User|action: Update
+2024-05-02 21:06:11.7458|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/User|action: Update
+2024-05-02 21:07:34.1657|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Update |url: http://localhost/api/User|action: Update
+2024-05-02 21:07:34.1657|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод UpdateAsync с параметрами: changeUserViewModel: Goods.System.Social.Network.DomainModel.Entities.User |url: http://localhost/api/User|action: Update
+2024-05-02 21:07:34.1657|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User|action: Update
+2024-05-02 21:08:21.2262|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Update |url: http://localhost/api/User|action: Update
+2024-05-02 21:08:21.2262|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод UpdateAsync с параметрами: changeUserViewModel: Goods.System.Social.Network.DomainModel.Entities.User |url: http://localhost/api/User|action: Update
+2024-05-02 21:08:21.2262|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User|action: Update
+2024-05-02 21:08:29.9921|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Update |url: http://localhost/api/User|action: Update
+2024-05-02 21:08:29.9921|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод UpdateAsync с параметрами: changeUserViewModel: Goods.System.Social.Network.DomainModel.Entities.User |url: http://localhost/api/User|action: Update
+2024-05-02 21:08:29.9921|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User|action: Update
+2024-05-02 21:09:04.4867|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Update |url: http://localhost/api/User|action: Update
+2024-05-02 21:09:45.6251|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод UpdateAsync с параметрами: changeUserViewModel: Goods.System.Social.Network.DomainModel.Entities.User |url: http://localhost/api/User|action: Update
+2024-05-02 21:09:45.9911|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User|action: Update
+2024-05-02 21:11:00.8069|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Update |url: http://localhost/api/User|action: Update
+2024-05-02 21:11:00.8069|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод UpdateAsync с параметрами: changeUserViewModel: Goods.System.Social.Network.DomainModel.Entities.User |url: http://localhost/api/User|action: Update
+2024-05-02 21:11:00.8069|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User|action: Update
+2024-05-02 21:11:03.1068|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Update |url: http://localhost/api/User|action: Update
+2024-05-02 21:11:03.1068|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод UpdateAsync с параметрами: changeUserViewModel: Goods.System.Social.Network.DomainModel.Entities.User |url: http://localhost/api/User|action: Update
+2024-05-02 21:11:03.1068|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User|action: Update
+2024-05-02 21:11:32.2641|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Update |url: http://localhost/api/User|action: Update
+2024-05-02 21:11:32.2641|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод UpdateAsync с параметрами: changeUserViewModel: Goods.System.Social.Network.DomainModel.Entities.User |url: http://localhost/api/User|action: Update
+2024-05-02 21:11:32.2641|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User|action: Update
+2024-05-02 21:13:35.3627|0|DEBUG|Program|init main |url: |action: 
+2024-05-02 21:13:36.7953|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5148 |url: |action: 
+2024-05-02 21:13:36.7953|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-05-02 21:13:36.7953|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-05-02 21:13:36.8020|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users |url: |action: 
+2024-05-02 21:30:04.2213|0|DEBUG|Program|init main |url: |action: 
+2024-05-02 21:30:06.0571|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5148 |url: |action: 
+2024-05-02 21:30:06.0571|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-05-02 21:30:06.0571|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-05-02 21:30:06.0571|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users |url: |action: 
+2024-05-02 21:30:11.9285|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/User|action: Update
+2024-05-02 21:30:12.8129|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Update |url: http://localhost/api/User|action: Update
+2024-05-02 21:30:12.8331|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод UpdateAsync с параметрами: changeUserViewModel: Goods.System.Social.Network.DomainModel.Entities.User |url: http://localhost/api/User|action: Update
+2024-05-02 21:30:12.8350|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User|action: Update
+2024-05-02 21:30:13.8068|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/User|action: Update
+2024-05-02 21:55:37.5735|0|DEBUG|Program|init main |url: |action: 
+2024-05-02 21:55:39.0708|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5148 |url: |action: 
+2024-05-02 21:55:39.0708|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-05-02 21:55:39.0708|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-05-02 21:55:39.0708|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users |url: |action: 
+2024-05-02 21:56:41.6193|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/User|action: Update
+2024-05-02 21:56:42.4612|0|INFO|Goods.System.Social.Network.Microservice.Users.Controllers.UserController|Вызван метод Update |url: http://localhost/api/User|action: Update
+2024-05-02 21:56:42.4845|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод UpdateAsync с параметрами: changeUserViewModel: Goods.System.Social.Network.DomainModel.Entities.User |url: http://localhost/api/User|action: Update
+2024-05-02 21:56:42.4845|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User|action: Update
+2024-05-02 21:56:43.4268|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/User|action: Update

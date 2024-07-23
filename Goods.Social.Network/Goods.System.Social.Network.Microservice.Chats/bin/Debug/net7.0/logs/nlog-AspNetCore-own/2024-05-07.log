@@ -1,0 +1,53 @@
+2024-05-07 20:50:32.6008|0|DEBUG|Program|init main |url: |action: 
+2024-05-07 20:50:35.0274|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-05-07 20:50:35.0274|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-05-07 20:50:35.0274|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-05-07 20:50:35.0274|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-05-07 20:52:39.8796|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/All|action: 
+2024-05-07 20:52:40.9063|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 20:52:40.9107|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 5, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 20:54:59.7447|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 20:54:59.7447|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 5, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 20:55:16.2657|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 20:55:16.2657|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 5, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 20:59:29.3007|0|DEBUG|Program|init main |url: |action: 
+2024-05-07 20:59:30.2849|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-05-07 20:59:30.2849|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-05-07 20:59:30.2849|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-05-07 20:59:30.2849|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-05-07 20:59:34.5979|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/All|action: 
+2024-05-07 20:59:35.1232|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 20:59:35.1232|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 5, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 20:59:35.1411|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 20:59:36.3012|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:12:47.5751|0|DEBUG|Program|init main |url: |action: 
+2024-05-07 21:12:48.9936|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-05-07 21:12:48.9936|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-05-07 21:12:48.9936|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-05-07 21:12:48.9936|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-05-07 21:13:10.4113|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/All|action: 
+2024-05-07 21:13:10.8780|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:13:10.8808|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 6, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:13:10.8808|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:13:11.4889|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:13:35.7710|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:13:47.9708|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 6, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:13:58.9211|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:14:23.6471|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:14:23.6471|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 6, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:14:23.6471|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:18:17.0869|0|DEBUG|Program|init main |url: |action: 
+2024-05-07 21:18:18.2709|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-05-07 21:18:18.2709|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-05-07 21:18:18.2709|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-05-07 21:18:18.2709|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-05-07 21:18:21.7438|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/api/Chat/All|action: 
+2024-05-07 21:18:22.2133|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.ChatController|Вызван метод GetChats |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:18:22.2133|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод GetChatsAsync с параметрами: userId: 6, number: 0, search: |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:18:22.2299|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAllAsync |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 21:18:22.8217|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: http://localhost/api/Chat/All|action: GetChats
+2024-05-07 22:08:36.7243|0|DEBUG|Program|init main |url: |action: 
+2024-05-07 22:08:38.0891|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-05-07 22:08:38.0891|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-05-07 22:08:38.0891|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-05-07 22:08:38.0891|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 

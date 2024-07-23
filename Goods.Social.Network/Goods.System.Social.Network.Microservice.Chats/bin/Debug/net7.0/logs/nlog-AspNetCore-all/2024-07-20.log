@@ -1,0 +1,376 @@
+2024-07-20 16:53:40.4019|0|DEBUG|Program|init main 
+2024-07-20 16:53:41.9406|1|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-07-20 16:53:42.0187|9|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ChatHub' hub method 'OnConnectedChatAsync' is bound. 
+2024-07-20 16:53:42.0187|9|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ChatHub' hub method 'OnDisconnectedChatAsync' is bound. 
+2024-07-20 16:53:42.0187|9|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'ChatHub' hub method 'Send' is bound. 
+2024-07-20 16:53:42.1068|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-07-20 16:53:42.1690|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-07-20 16:53:42.2129|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-07-20 16:53:42.2202|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-00e1b3b0-243c-4fc4-98a0-7ac999c74e24.xml'. 
+2024-07-20 16:53:42.2202|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-3a2da2d8-c8af-4792-bf1b-74c5066aed28.xml'. 
+2024-07-20 16:53:42.2202|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-55dfbc97-4ea2-4bf5-88f0-9444a512c4ac.xml'. 
+2024-07-20 16:53:42.2202|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-883a64c9-9213-4f95-a1cd-dd639a6bcd07.xml'. 
+2024-07-20 16:53:42.2202|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-c23ed5e2-9422-4500-9128-63fd9ee58caf.xml'. 
+2024-07-20 16:53:42.2202|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {00e1b3b0-243c-4fc4-98a0-7ac999c74e24}. 
+2024-07-20 16:53:42.2386|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {3a2da2d8-c8af-4792-bf1b-74c5066aed28}. 
+2024-07-20 16:53:42.2386|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {55dfbc97-4ea2-4bf5-88f0-9444a512c4ac}. 
+2024-07-20 16:53:42.2386|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {883a64c9-9213-4f95-a1cd-dd639a6bcd07}. 
+2024-07-20 16:53:42.2386|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {c23ed5e2-9422-4500-9128-63fd9ee58caf}. 
+2024-07-20 16:53:42.2386|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {55dfbc97-4ea2-4bf5-88f0-9444a512c4ac} with expiration date 2024-08-22 10:25:31Z as default key. 
+2024-07-20 16:53:42.2386|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-07-20 16:53:42.2386|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-07-20 16:53:42.2504|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-07-20 16:53:42.2504|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-07-20 16:53:42.2504|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-07-20 16:53:42.2504|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {55dfbc97-4ea2-4bf5-88f0-9444a512c4ac} as the default key. 
+2024-07-20 16:53:42.2504|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {55dfbc97-4ea2-4bf5-88f0-9444a512c4ac} was loaded during application startup. 
+2024-07-20 16:53:42.4046|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 
+2024-07-20 16:53:42.4105|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Goods.System.Social.Network.Microservice.Chats 
+2024-07-20 16:53:42.4105|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-07-20 16:53:42.4105|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-07-20 16:53:42.4105|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-07-20 16:53:42.4105|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-07-20 16:53:42.4105|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats 
+2024-07-20 16:53:42.4105|9|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-07-20 16:53:42.4105|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-07-20 16:53:42.8209|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71V6" accepted. 
+2024-07-20 16:53:42.8209|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71V6" started. 
+2024-07-20 16:53:42.8291|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71V7" accepted. 
+2024-07-20 16:53:42.8291|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71V7" started. 
+2024-07-20 16:53:42.9627|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71V8" accepted. 
+2024-07-20 16:53:42.9627|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71V8" started. 
+2024-07-20 16:53:42.9737|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71V9" accepted. 
+2024-07-20 16:53:42.9737|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71V9" started. 
+2024-07-20 16:53:43.0172|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/swagger/index.html - - 
+2024-07-20 16:53:43.0526|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-07-20 16:53:43.0526|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-07-20 16:53:43.1724|1|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-07-20 16:53:43.3201|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - - 
+2024-07-20 16:53:43.3201|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71V9" completed keep alive response. 
+2024-07-20 16:53:43.3201|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - - - 200 12062 application/javascript;+charset=utf-8 2.1024ms 
+2024-07-20 16:53:43.3201|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/_vs/browserLink - - 
+2024-07-20 16:53:43.3201|2|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-07-20 16:53:43.3201|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71V8" completed keep alive response. 
+2024-07-20 16:53:43.3201|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/swagger/index.html - - - 200 - text/html;charset=utf-8 311.5121ms 
+2024-07-20 16:53:43.3693|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71V9" completed keep alive response. 
+2024-07-20 16:53:43.3693|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.4576ms 
+2024-07-20 16:53:43.4689|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - - 
+2024-07-20 16:53:43.4689|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-07-20 16:53:43.6057|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71V9" completed keep alive response. 
+2024-07-20 16:53:43.6057|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 136.9819ms 
+2024-07-20 16:56:45.6901|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71VA" accepted. 
+2024-07-20 16:56:45.6901|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN58K7BE71VA" received FIN. 
+2024-07-20 16:56:45.6901|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71VB" accepted. 
+2024-07-20 16:56:45.6901|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71VA" started. 
+2024-07-20 16:56:45.7065|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71VB" started. 
+2024-07-20 16:56:45.7065|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN58K7BE71VA" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-07-20 16:56:45.7065|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5289/api/Message application/json 188 
+2024-07-20 16:56:45.7065|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-07-20 16:56:45.7065|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71VA" disconnecting. 
+2024-07-20 16:56:45.7065|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN58K7BE71VA" stopped. 
+2024-07-20 16:56:45.7065|1|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2024-07-20 16:56:45.7065|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-07-20 16:56:45.9677|2|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2024-07-20 16:56:45.9677|8|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2024-07-20 16:56:45.9906|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Message' 
+2024-07-20 16:56:45.9906|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Goods.System.Social.Network.Microservice.Chats.Controllers.MessageController.AddNewMessage (Goods.System.Social.Network.Microservice.Chats)' with route pattern 'api/Message' is valid for the request path '/api/Message' 
+2024-07-20 16:56:45.9906|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Goods.System.Social.Network.Microservice.Chats.Controllers.MessageController.AddNewMessage (Goods.System.Social.Network.Microservice.Chats)' 
+2024-07-20 16:56:45.9906|1|DEBUG|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2024-07-20 16:56:45.9906|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Goods.System.Social.Network.Microservice.Chats.Controllers.MessageController.AddNewMessage (Goods.System.Social.Network.Microservice.Chats)' 
+2024-07-20 16:56:46.0177|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AddNewMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddNewMessage(Goods.System.Social.Network.Microservice.Chats.Entities.ViewModels.MessageViewModel) on controller Goods.System.Social.Network.Microservice.Chats.Controllers.MessageController (Goods.System.Social.Network.Microservice.Chats). 
+2024-07-20 16:56:46.0177|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-07-20 16:56:46.0177|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-07-20 16:56:46.0177|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-07-20 16:56:46.0177|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-07-20 16:56:46.0177|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-07-20 16:56:46.0177|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Goods.System.Social.Network.Microservice.Chats.Controllers.MessageController (Goods.System.Social.Network.Microservice.Chats) 
+2024-07-20 16:56:46.2111|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Goods.System.Social.Network.Microservice.Chats.Controllers.MessageController (Goods.System.Social.Network.Microservice.Chats) 
+2024-07-20 16:56:46.2111|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'messageViewModel' of type 'Goods.System.Social.Network.Microservice.Chats.Entities.ViewModels.MessageViewModel' ... 
+2024-07-20 16:56:46.2111|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'messageViewModel' of type 'Goods.System.Social.Network.Microservice.Chats.Entities.ViewModels.MessageViewModel' using the name '' in request data ... 
+2024-07-20 16:56:46.2111|1|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-07-20 16:56:46.2227|25|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN58K7BE71VB", Request id "0HN58K7BE71VB:00000001": started reading request body. 
+2024-07-20 16:56:46.2227|26|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN58K7BE71VB", Request id "0HN58K7BE71VB:00000001": done reading request body. 
+2024-07-20 16:56:46.2227|2|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Goods.System.Social.Network.Microservice.Chats.Entities.ViewModels.MessageViewModel' 
+2024-07-20 16:56:46.2227|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'messageViewModel' of type 'Goods.System.Social.Network.Microservice.Chats.Entities.ViewModels.MessageViewModel'. 
+2024-07-20 16:56:46.2227|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'messageViewModel' of type 'Goods.System.Social.Network.Microservice.Chats.Entities.ViewModels.MessageViewModel'. 
+2024-07-20 16:56:46.2227|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'messageViewModel' of type 'Goods.System.Social.Network.Microservice.Chats.Entities.ViewModels.MessageViewModel' ... 
+2024-07-20 16:56:46.2351|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'messageViewModel' of type 'Goods.System.Social.Network.Microservice.Chats.Entities.ViewModels.MessageViewModel'. 
+2024-07-20 16:56:46.2351|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-07-20 16:56:46.2351|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-20 16:56:46.2351|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-07-20 16:56:46.2351|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-20 16:56:46.2351|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-07-20 16:56:46.3230|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Goods.System.Social.Network.Microservice.Chats.Controllers.MessageController.AddNewMessage (Goods.System.Social.Network.Microservice.Chats) - Validation state: Valid 
+2024-07-20 16:56:46.3230|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Goods.System.Social.Network.Microservice.Chats.Controllers.MessageController.AddNewMessage (Goods.System.Social.Network.Microservice.Chats) with arguments (Goods.System.Social.Network.Microservice.Chats.Entities.ViewModels.MessageViewModel) 
+2024-07-20 16:56:46.3230|0|INFO|Goods.System.Social.Network.Microservice.Chats.Controllers.MessageController|Вызван метод AddNewMessage 
+2024-07-20 16:56:46.3335|0|TRACE|DomainServices.Chat.Realization.ChatService|Вызван метод CreateAsync с параметрами: message: Goods.System.Social.Network.DomainModel.Entities.Message 
+2024-07-20 16:56:46.3478|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод GetAsync с параметрами: id : 1 
+2024-07-20 16:56:46.4193|10401|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-07-20 16:56:46.9749|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. 
+2024-07-20 16:56:47.1595|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-07-20 16:56:47.2675|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<ChatRoom>()
+    .FirstOrDefault(e => EF.Property<int>(e, "Id") == __p_0)' 
+2024-07-20 16:56:47.4318|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<ChatRoom>(
+    asyncEnumerable: new SingleQueryingEnumerable<ChatRoom>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ChatRoom.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: ChatRoom.Description (string) Required MaxLength(100), 1], [Property: ChatRoom.LastMessage (string) Required MaxLength(500), 2], [Property: ChatRoom.Name (string) Required MaxLength(50), 3] }
+            SELECT TOP(1) c.Id, c.Description, c.LastMessage, c.Name
+            FROM ChatRooms AS c
+            WHERE c.Id == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ChatRoom>, 
+        Goods.System.Social.Network.DAL.UserContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)' 
+2024-07-20 16:56:47.5089|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-07-20 16:56:47.5089|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-07-20 16:56:47.5393|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (27ms). 
+2024-07-20 16:56:47.5493|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (37ms). 
+2024-07-20 16:56:47.5618|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (53ms). 
+2024-07-20 16:56:47.5618|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:47.8954|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:47.8954|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__p_0='1'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Description], [c].[LastMessage], [c].[Name]
+FROM [ChatRooms] AS [c]
+WHERE [c].[Id] = @__p_0 
+2024-07-20 16:56:47.9645|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (63ms) [Parameters=[@__p_0='1'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Description], [c].[LastMessage], [c].[Name]
+FROM [ChatRooms] AS [c]
+WHERE [c].[Id] = @__p_0 
+2024-07-20 16:56:48.0080|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'ChatRoom' entity with key '{Id: 1}'. 
+2024-07-20 16:56:48.0281|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.0341|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 66ms reading results. 
+2024-07-20 16:56:48.0341|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.0341|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (4ms). 
+2024-07-20 16:56:48.0341|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-07-20 16:56:48.0341|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.0341|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-07-20 16:56:48.0341|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.ChatRepository|Вызван метод Update с параметрами: chatRoom : Goods.System.Social.Network.DomainModel.Entities.ChatRoom 
+2024-07-20 16:56:48.0789|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-07-20 16:56:48.0789|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'ChatRoom' entity with key '{Id: 1}'. 
+2024-07-20 16:56:48.0789|10004|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'UserContext'. 
+2024-07-20 16:56:48.0947|10800|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'UserContext'. 
+2024-07-20 16:56:48.0947|10801|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'UserContext'. 
+2024-07-20 16:56:48.1475|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-07-20 16:56:48.1475|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-07-20 16:56:48.1475|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.1475|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.1475|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-07-20 16:56:48.1475|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-20 16:56:48.1475|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-07-20 16:56:48.1475|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p3='1', @p0='ЧАТ1' (Nullable = false) (Size = 100), @p1='ntr' (Nullable = false) (Size = 500), @p2='ЧАТ1' (Nullable = false) (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [ChatRooms] SET [Description] = @p0, [LastMessage] = @p1, [Name] = @p2
+OUTPUT 1
+WHERE [Id] = @p3; 
+2024-07-20 16:56:48.1572|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[@p3='1', @p0='ЧАТ1' (Nullable = false) (Size = 100), @p1='ntr' (Nullable = false) (Size = 500), @p2='ЧАТ1' (Nullable = false) (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [ChatRooms] SET [Description] = @p0, [LastMessage] = @p1, [Name] = @p2
+OUTPUT 1
+WHERE [Id] = @p3; 
+2024-07-20 16:56:48.1572|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.1572|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 4ms reading results. 
+2024-07-20 16:56:48.1572|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.1572|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-07-20 16:56:48.1572|10807|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The 'ChatRoom' entity with key '{Id: 1}' tracked by 'UserContext' changed state from 'Modified' to 'Unchanged'. 
+2024-07-20 16:56:48.1572|10005|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'UserContext' with 1 entities written to the database. 
+2024-07-20 16:56:48.1572|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-07-20 16:56:48.1572|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.1572|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-07-20 16:56:48.1572|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.MessageRepository|Вызван метод Create с параметрами: message : Goods.System.Social.Network.DomainModel.Entities.Message 
+2024-07-20 16:56:48.1737|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-07-20 16:56:48.1737|10808|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"UserContext"' generated temporary value '-2147482647' for the property '"Id"."Message"'. 
+2024-07-20 16:56:48.2001|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'Message' entity with key '{Id: -2147482647}'. 
+2024-07-20 16:56:48.2001|10004|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'UserContext'. 
+2024-07-20 16:56:48.2001|10800|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'UserContext'. 
+2024-07-20 16:56:48.2001|10801|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'UserContext'. 
+2024-07-20 16:56:48.2176|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-07-20 16:56:48.2176|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-07-20 16:56:48.2176|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.2176|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.2176|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-07-20 16:56:48.2176|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-20 16:56:48.2182|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-07-20 16:56:48.2182|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='1', @p1='2024-07-20T09:46:01.1990000Z', @p2='ntr' (Nullable = false) (Size = 500), @p3='8'], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Messages] ([ChatRoomId], [DateSend], [Msg], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3); 
+2024-07-20 16:56:48.2182|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[@p0='1', @p1='2024-07-20T09:46:01.1990000Z', @p2='ntr' (Nullable = false) (Size = 500), @p3='8'], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Messages] ([ChatRoomId], [DateSend], [Msg], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3); 
+2024-07-20 16:56:48.2182|10803|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'Message.Id' was detected as changed from '-2147482647' to '73' for entity with key '{Id: 73}'. 
+2024-07-20 16:56:48.2359|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.2359|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 11ms reading results. 
+2024-07-20 16:56:48.2359|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.2359|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-07-20 16:56:48.2359|10807|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The 'Message' entity with key '{Id: 73}' tracked by 'UserContext' changed state from 'Added' to 'Unchanged'. 
+2024-07-20 16:56:48.2359|10005|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'UserContext' with 1 entities written to the database. 
+2024-07-20 16:56:48.2359|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Message>()
+    .Max(m => m.Id)' 
+2024-07-20 16:56:48.2682|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<int>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT MAX(m.Id)
+        FROM Messages AS m), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+    Goods.System.Social.Network.DAL.UserContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()' 
+2024-07-20 16:56:48.2682|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-07-20 16:56:48.2682|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-20 16:56:48.2682|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-07-20 16:56:48.2682|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.2682|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.2682|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT MAX([m].[Id])
+FROM [Messages] AS [m] 
+2024-07-20 16:56:48.2682|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT MAX([m].[Id])
+FROM [Messages] AS [m] 
+2024-07-20 16:56:48.2682|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.2682|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-07-20 16:56:48.2682|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.2682|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-07-20 16:56:48.2682|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-07-20 16:56:48.2682|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.2682|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-07-20 16:56:48.2682|0|TRACE|DomainServices.Chat.Realization.InviteService|Вызван метод GetUsersInChatAsync с параметрами: chatId: 1 
+2024-07-20 16:56:48.2873|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-07-20 16:56:48.2873|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<ChatRoomUser>()' 
+2024-07-20 16:56:48.2873|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<ChatRoomUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ChatRoomUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: ChatRoomUser.ChatRoomId (int) Required FK Index, 1], [Property: ChatRoomUser.UserId (int) Required FK Index, 2] }
+        SELECT c.Id, c.ChatRoomId, c.UserId
+        FROM ChatRoomUsers AS c), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ChatRoomUser>, 
+    Goods.System.Social.Network.DAL.UserContext, 
+    False, 
+    False, 
+    True
+)' 
+2024-07-20 16:56:48.2873|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-07-20 16:56:48.2873|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-07-20 16:56:48.2873|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-07-20 16:56:48.2873|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-20 16:56:48.2873|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-07-20 16:56:48.2873|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.2873|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.2873|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[ChatRoomId], [c].[UserId]
+FROM [ChatRoomUsers] AS [c] 
+2024-07-20 16:56:48.2966|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[ChatRoomId], [c].[UserId]
+FROM [ChatRoomUsers] AS [c] 
+2024-07-20 16:56:48.2966|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'ChatRoomUser' entity with key '{Id: 1}'. 
+2024-07-20 16:56:48.2966|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'ChatRoomUser' entity with key '{Id: 2}'. 
+2024-07-20 16:56:48.2966|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'ChatRoomUser' entity with key '{Id: 3}'. 
+2024-07-20 16:56:48.2966|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'ChatRoomUser' entity with key '{Id: 16}'. 
+2024-07-20 16:56:48.2966|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'ChatRoomUser' entity with key '{Id: 23}'. 
+2024-07-20 16:56:48.2966|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'ChatRoomUser' entity with key '{Id: 24}'. 
+2024-07-20 16:56:48.2966|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'ChatRoomUser' entity with key '{Id: 25}'. 
+2024-07-20 16:56:48.2966|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'ChatRoomUser' entity with key '{Id: 26}'. 
+2024-07-20 16:56:48.2966|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.2966|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 4ms reading results. 
+2024-07-20 16:56:48.2966|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.2966|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-07-20 16:56:48.2966|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-07-20 16:56:48.2966|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:56:48.2966|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-07-20 16:57:21.5455|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 5 
+2024-07-20 16:57:21.5567|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-07-20 16:57:21.5567|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(e => EF.Property<int>(e, "Id") == __p_0)' 
+2024-07-20 16:57:21.5629|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Avatar (string) Required MaxLength(20), 1], [Property: User.Background (string) Required MaxLength(20), 2], [Property: User.City (string) Required MaxLength(25), 3], [Property: User.Country (string) Required MaxLength(25), 4], [Property: User.DateBirthday (DateTime) Required, 5], [Property: User.Email (string) Required MaxLength(182), 6], [Property: User.FirstName (string) Required MaxLength(25), 7], [Property: User.LastName (string) Required MaxLength(25), 8], [Property: User.Password (string) Required MaxLength(100), 9], [Property: User.Phone (string) Required MaxLength(11), 10], [Property: User.SettingNotificationId (int) Required FK Index, 11], [Property: User.SettingPrivacyId (int) Required FK Index, 12], [Property: User.Status (string) Required MaxLength(100), 13] }
+            SELECT TOP(1) u.Id, u.Avatar, u.Background, u.City, u.Country, u.DateBirthday, u.Email, u.FirstName, u.LastName, u.Password, u.Phone, u.SettingNotificationId, u.SettingPrivacyId, u.Status
+            FROM Users AS u
+            WHERE u.Id == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        Goods.System.Social.Network.DAL.UserContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)' 
+2024-07-20 16:57:21.5629|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-07-20 16:57:21.5629|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-07-20 16:57:21.5629|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-07-20 16:57:21.5629|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-20 16:57:21.5629|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-07-20 16:57:21.5629|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:57:21.5629|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:57:21.5629|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__p_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+2024-07-20 16:57:21.5629|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__p_0='5'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+2024-07-20 16:57:21.6016|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 5}'. 
+2024-07-20 16:57:21.6158|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:57:21.6158|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 48ms reading results. 
+2024-07-20 16:57:21.6158|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:57:21.6158|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-07-20 16:57:21.6158|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-07-20 16:57:21.6158|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:57:21.6158|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-07-20 16:57:25.0852|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 
+2024-07-20 16:57:25.0852|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-07-20 16:57:25.0852|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-07-20 16:57:25.0852|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-07-20 16:57:25.0852|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2024-07-20 16:57:25.0852|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2024-07-20 16:57:25.0852|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-07-20 16:57:25.0852|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:57:25.0852|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:57:25.0852|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__p_0='6'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+2024-07-20 16:57:25.1059|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (16ms) [Parameters=[@__p_0='6'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0 
+2024-07-20 16:57:25.1059|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 6}'. 
+2024-07-20 16:57:25.1059|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:57:25.1059|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 0ms reading results. 
+2024-07-20 16:57:25.1059|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:57:25.1059|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (0ms). 
+2024-07-20 16:57:25.1059|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-07-20 16:57:25.1059|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-07-20 16:57:25.1059|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 

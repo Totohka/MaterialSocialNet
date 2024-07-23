@@ -1,0 +1,8 @@
+2024-05-01 01:22:38.7717|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 6 |url: http://localhost/api/User|action: Get
+2024-05-01 01:22:38.7900|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User|action: Get
+2024-05-01 01:23:29.0178|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 6 |url: http://localhost/api/User|action: Get
+2024-05-01 01:23:29.0178|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User|action: Get
+2024-05-01 01:25:01.6628|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 6 |url: http://localhost/api/User/6|action: Get
+2024-05-01 01:25:01.6628|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User/6|action: Get
+2024-05-01 01:25:30.4912|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.UserService|Вызван метод GetAsync с параметрами: id: 6 |url: http://localhost/api/User/6|action: Get
+2024-05-01 01:25:30.4912|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAsync с параметрами: id : 6 |url: http://localhost/api/User/6|action: Get

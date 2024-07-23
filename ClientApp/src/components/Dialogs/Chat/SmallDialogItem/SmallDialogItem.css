@@ -1,0 +1,29 @@
+.small-item-chat{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.small-item-chat a{
+    display: flex;
+    width:100%;
+    text-decoration: none;
+}
+.small-item-chat-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgb(196, 196, 196);
+}
+.small-item-chat a p{
+    max-width: 75%;
+    white-space: nowrap; /* Текст не переносится */
+    overflow: hidden; /* Обрезаем всё за пределами блока */
+    text-overflow: ellipsis;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+}

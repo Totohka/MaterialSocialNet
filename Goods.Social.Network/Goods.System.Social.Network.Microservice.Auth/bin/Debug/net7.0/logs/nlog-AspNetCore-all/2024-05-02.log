@@ -1,0 +1,389 @@
+2024-05-02 21:02:46.0623|0|DEBUG|Program|init main 
+2024-05-02 21:02:47.3486|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-02 21:02:47.4262|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-05-02 21:02:47.4614|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-05-02 21:02:47.4614|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-00e1b3b0-243c-4fc4-98a0-7ac999c74e24.xml'. 
+2024-05-02 21:02:47.4614|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-3a2da2d8-c8af-4792-bf1b-74c5066aed28.xml'. 
+2024-05-02 21:02:47.4737|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-883a64c9-9213-4f95-a1cd-dd639a6bcd07.xml'. 
+2024-05-02 21:02:47.4737|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-c23ed5e2-9422-4500-9128-63fd9ee58caf.xml'. 
+2024-05-02 21:02:47.4737|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {00e1b3b0-243c-4fc4-98a0-7ac999c74e24}. 
+2024-05-02 21:02:47.4737|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {3a2da2d8-c8af-4792-bf1b-74c5066aed28}. 
+2024-05-02 21:02:47.4737|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {883a64c9-9213-4f95-a1cd-dd639a6bcd07}. 
+2024-05-02 21:02:47.4737|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {c23ed5e2-9422-4500-9128-63fd9ee58caf}. 
+2024-05-02 21:02:47.4921|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} with expiration date 2024-05-21 16:24:47Z as default key. 
+2024-05-02 21:02:47.4921|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-02 21:02:47.4921|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-05-02 21:02:47.4921|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-02 21:02:47.4921|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-05-02 21:02:47.4921|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-05-02 21:02:47.4921|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} as the default key. 
+2024-05-02 21:02:47.4921|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} was loaded during application startup. 
+2024-05-02 21:02:47.6364|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152 
+2024-05-02 21:02:47.6364|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Goods.System.Social.Network.Microservice.Auth 
+2024-05-02 21:02:47.6364|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-02 21:02:47.6364|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-02 21:02:47.6364|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-02 21:02:47.6364|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-02 21:02:47.6364|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Auth 
+2024-05-02 21:02:47.6364|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-05-02 21:02:48.1381|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3AM265NBBG" received FIN. 
+2024-05-02 21:02:48.1466|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBG" accepted. 
+2024-05-02 21:02:48.1466|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBG" started. 
+2024-05-02 21:02:48.1632|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3AM265NBBG" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-02 21:02:48.1632|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBG" disconnecting. 
+2024-05-02 21:02:48.1632|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBG" stopped. 
+2024-05-02 21:02:48.3149|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBH" accepted. 
+2024-05-02 21:02:48.3149|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBH" started. 
+2024-05-02 21:02:48.3323|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBI" accepted. 
+2024-05-02 21:02:48.3323|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBI" started. 
+2024-05-02 21:02:48.3775|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/swagger - - 
+2024-05-02 21:02:48.4142|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-05-02 21:02:48.4142|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-02 21:02:48.4371|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger' 
+2024-05-02 21:02:48.4371|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-05-02 21:02:48.4899|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBH" completed keep alive response. 
+2024-05-02 21:02:48.4899|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/swagger - - - 301 0 - 115.2443ms 
+2024-05-02 21:02:48.4899|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/swagger/index.html - - 
+2024-05-02 21:02:48.4899|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-02 21:02:48.4899|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2024-05-02 21:02:48.4899|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-05-02 21:02:48.5854|1|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-05-02 21:02:48.6969|2|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-05-02 21:02:48.6969|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBH" completed keep alive response. 
+2024-05-02 21:02:48.6969|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/swagger/index.html - - - 200 - text/html;charset=utf-8 196.0868ms 
+2024-05-02 21:02:48.7183|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBJ" accepted. 
+2024-05-02 21:02:48.7183|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBJ" started. 
+2024-05-02 21:02:48.7183|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBK" accepted. 
+2024-05-02 21:02:48.7183|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/swagger/swagger-ui.css - - 
+2024-05-02 21:02:48.7183|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/swagger/swagger-ui-bundle.js - - 
+2024-05-02 21:02:48.7183|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/swagger/swagger-ui-standalone-preset.js - - 
+2024-05-02 21:02:48.7183|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-02 21:02:48.7183|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-02 21:02:48.7183|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui.css' 
+2024-05-02 21:02:48.7183|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2024-05-02 21:02:48.7183|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-05-02 21:02:48.7183|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-02 21:02:48.7183|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-05-02 21:02:48.7183|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2024-05-02 21:02:48.7183|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-05-02 21:02:48.7183|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBK" started. 
+2024-05-02 21:02:48.7183|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/_framework/aspnetcore-browser-refresh.js - - 
+2024-05-02 21:02:48.7353|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBK" completed keep alive response. 
+2024-05-02 21:02:48.7353|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/_framework/aspnetcore-browser-refresh.js - - - 200 12060 application/javascript;+charset=utf-8 13.4029ms 
+2024-05-02 21:02:48.7443|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-05-02 21:02:48.7443|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-05-02 21:02:48.7443|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-05-02 21:02:48.8027|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2024-05-02 21:02:48.8027|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2024-05-02 21:02:48.8027|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBJ" completed keep alive response. 
+2024-05-02 21:02:48.8027|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBH" completed keep alive response. 
+2024-05-02 21:02:48.8027|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/swagger/swagger-ui.css - - - 200 144929 text/css 83.6081ms 
+2024-05-02 21:02:48.8027|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 83.2635ms 
+2024-05-02 21:02:48.8027|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/_vs/browserLink - - 
+2024-05-02 21:02:48.8027|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2024-05-02 21:02:48.8027|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBI" completed keep alive response. 
+2024-05-02 21:02:48.8027|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 84.2998ms 
+2024-05-02 21:02:48.8295|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBH" completed keep alive response. 
+2024-05-02 21:02:48.8295|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.2653ms 
+2024-05-02 21:02:48.9910|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/swagger/v1/swagger.json - - 
+2024-05-02 21:02:48.9910|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-02 21:02:48.9910|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-05-02 21:02:48.9910|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-05-02 21:02:49.0283|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/swagger/favicon-32x32.png - - 
+2024-05-02 21:02:49.0283|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-02 21:02:49.0283|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/favicon-32x32.png' 
+2024-05-02 21:02:49.0283|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-05-02 21:02:49.0283|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-05-02 21:02:49.0283|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2024-05-02 21:02:49.0283|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBH" completed keep alive response. 
+2024-05-02 21:02:49.0283|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/swagger/favicon-32x32.png - - - 200 628 image/png 0.9929ms 
+2024-05-02 21:02:49.1021|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBJ" completed keep alive response. 
+2024-05-02 21:02:49.1021|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.2544ms 
+2024-05-02 21:03:01.1328|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/Auth?email=dimap190603%40gmail.com&password=12345 - - 
+2024-05-02 21:03:01.1328|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-02 21:03:01.1328|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Auth' 
+2024-05-02 21:03:01.1328|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth)' with route pattern 'Auth' is valid for the request path '/Auth' 
+2024-05-02 21:03:01.1328|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth)' 
+2024-05-02 21:03:01.1328|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-05-02 21:03:01.1328|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-05-02 21:03:01.2759|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-05-02 21:03:01.2759|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth)' 
+2024-05-02 21:03:01.3094|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Auth", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Auth(System.String, System.String) on controller Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController (Goods.System.Social.Network.Microservice.Auth). 
+2024-05-02 21:03:01.3094|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-05-02 21:03:01.3094|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-05-02 21:03:01.3094|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-05-02 21:03:01.3094|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-05-02 21:03:01.3094|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-05-02 21:03:01.3094|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController (Goods.System.Social.Network.Microservice.Auth) 
+2024-05-02 21:03:01.6507|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController (Goods.System.Social.Network.Microservice.Auth) 
+2024-05-02 21:03:01.6662|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'email' of type 'System.String' ... 
+2024-05-02 21:03:01.6662|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ... 
+2024-05-02 21:03:01.6662|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2024-05-02 21:03:01.6662|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2024-05-02 21:03:01.6662|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'email' of type 'System.String' ... 
+2024-05-02 21:03:01.6817|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'email' of type 'System.String'. 
+2024-05-02 21:03:01.6817|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'password' of type 'System.String' ... 
+2024-05-02 21:03:01.6817|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'password' of type 'System.String' using the name 'password' in request data ... 
+2024-05-02 21:03:01.6817|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'password' of type 'System.String'. 
+2024-05-02 21:03:01.6817|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'password' of type 'System.String'. 
+2024-05-02 21:03:01.6817|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'password' of type 'System.String' ... 
+2024-05-02 21:03:01.6817|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'password' of type 'System.String'. 
+2024-05-02 21:03:01.6817|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-05-02 21:03:01.6817|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-02 21:03:01.6817|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-02 21:03:01.6817|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-02 21:03:01.6817|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-02 21:03:01.8237|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth) - Validation state: Valid 
+2024-05-02 21:03:01.8237|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth) with arguments (dimap190603@gmail.com, 12345) 
+2024-05-02 21:03:01.8237|0|INFO|Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController|Вызван метод Auth 
+2024-05-02 21:03:01.8237|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.JWTService|Вызван метод AuthAsync с параметрами: email : dimap190603@gmail.com, password: 12345 
+2024-05-02 21:03:01.8344|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync 
+2024-05-02 21:03:01.9651|10401|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-05-02 21:03:02.9202|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. 
+2024-05-02 21:03:03.2152|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-05-02 21:03:03.5012|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<User>()' 
+2024-05-02 21:03:03.8309|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Avatar (string) Required MaxLength(20), 1], [Property: User.Background (string) Required MaxLength(20), 2], [Property: User.City (string) Required MaxLength(25), 3], [Property: User.Country (string) Required MaxLength(25), 4], [Property: User.DateBirthday (DateTime) Required, 5], [Property: User.Email (string) Required MaxLength(182), 6], [Property: User.FirstName (string) Required MaxLength(25), 7], [Property: User.LastName (string) Required MaxLength(25), 8], [Property: User.Password (string) Required MaxLength(100), 9], [Property: User.Phone (string) Required MaxLength(11), 10], [Property: User.SettingNotificationId (int) Required FK Index, 11], [Property: User.SettingPrivacyId (int) Required FK Index, 12], [Property: User.Status (string) Required MaxLength(100), 13] }
+        SELECT u.Id, u.Avatar, u.Background, u.City, u.Country, u.DateBirthday, u.Email, u.FirstName, u.LastName, u.Password, u.Phone, u.SettingNotificationId, u.SettingPrivacyId, u.Status
+        FROM Users AS u), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    Goods.System.Social.Network.DAL.UserContext, 
+    False, 
+    False, 
+    True
+)' 
+2024-05-02 21:03:03.8760|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-05-02 21:03:03.8760|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-05-02 21:03:03.9158|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (35ms). 
+2024-05-02 21:03:03.9158|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (45ms). 
+2024-05-02 21:03:03.9158|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (50ms). 
+2024-05-02 21:03:03.9298|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-05-02 21:03:04.7189|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-05-02 21:03:04.7345|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u] 
+2024-05-02 21:03:04.8009|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (75ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u] 
+2024-05-02 21:03:04.8931|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 3}'. 
+2024-05-02 21:03:04.9702|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 4}'. 
+2024-05-02 21:03:04.9702|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 5}'. 
+2024-05-02 21:03:04.9702|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 6}'. 
+2024-05-02 21:03:04.9782|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-05-02 21:03:04.9782|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 178ms reading results. 
+2024-05-02 21:03:04.9782|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-05-02 21:03:04.9935|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (7ms). 
+2024-05-02 21:03:04.9935|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-05-02 21:03:04.9935|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-05-02 21:03:04.9935|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (1ms). 
+2024-05-02 21:03:04.9935|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.JWTService|Вызван метод GetJWT с параметрами: user : Goods.System.Social.Network.DomainModel.Entities.User 
+2024-05-02 21:03:05.2395|0|INFO|Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController|Вход в аккаунт: dimap190603@gmail.com 
+2024-05-02 21:03:05.2446|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3417.2113ms. 
+2024-05-02 21:03:05.2446|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-02 21:03:05.2446|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-02 21:03:05.2446|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-02 21:03:05.2446|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-02 21:03:05.2446|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-05-02 21:03:05.2446|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-02 21:03:05.2446|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-02 21:03:05.2446|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-05-02 21:03:05.2446|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-05-02 21:03:05.2446|4|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-05-02 21:03:05.2446|8|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-05-02 21:03:05.2446|10|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-05-02 21:03:05.2446|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2024-05-02 21:03:05.2446|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'. 
+2024-05-02 21:03:05.2446|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-05-02 21:03:05.2446|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-02 21:03:05.2446|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-02 21:03:05.2575|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth) in 3943.4565ms 
+2024-05-02 21:03:05.2575|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth)' 
+2024-05-02 21:03:05.2575|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBJ" completed keep alive response. 
+2024-05-02 21:03:05.2575|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/Auth?email=dimap190603%40gmail.com&password=12345 - - - 200 - text/plain;+charset=utf-8 4127.3910ms 
+2024-05-02 21:03:17.1789|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2024-05-02 21:03:17.1789|3|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping 
+2024-05-02 21:03:17.1925|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBI" disconnecting. 
+2024-05-02 21:03:17.1925|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBK" disconnecting. 
+2024-05-02 21:03:17.1925|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBH" disconnecting. 
+2024-05-02 21:03:17.1925|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBJ" disconnecting. 
+2024-05-02 21:03:17.1925|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBI" stopped. 
+2024-05-02 21:03:17.1925|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBK" stopped. 
+2024-05-02 21:03:17.1925|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBH" stopped. 
+2024-05-02 21:03:17.1925|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AM265NBBJ" stopped. 
+2024-05-02 21:03:17.1925|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3AM265NBBI" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-02 21:03:17.1925|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3AM265NBBK" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-02 21:03:17.1925|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3AM265NBBH" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-02 21:03:17.1925|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3AM265NBBJ" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-02 21:03:17.1925|4|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped 
+2024-05-02 21:52:11.1673|0|DEBUG|Program|init main 
+2024-05-02 21:52:12.0156|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-02 21:52:12.0716|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-05-02 21:52:12.0996|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-05-02 21:52:12.0996|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-00e1b3b0-243c-4fc4-98a0-7ac999c74e24.xml'. 
+2024-05-02 21:52:12.0996|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-3a2da2d8-c8af-4792-bf1b-74c5066aed28.xml'. 
+2024-05-02 21:52:12.0996|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-883a64c9-9213-4f95-a1cd-dd639a6bcd07.xml'. 
+2024-05-02 21:52:12.0996|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-c23ed5e2-9422-4500-9128-63fd9ee58caf.xml'. 
+2024-05-02 21:52:12.0996|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {00e1b3b0-243c-4fc4-98a0-7ac999c74e24}. 
+2024-05-02 21:52:12.0996|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {3a2da2d8-c8af-4792-bf1b-74c5066aed28}. 
+2024-05-02 21:52:12.0996|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {883a64c9-9213-4f95-a1cd-dd639a6bcd07}. 
+2024-05-02 21:52:12.0996|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {c23ed5e2-9422-4500-9128-63fd9ee58caf}. 
+2024-05-02 21:52:12.0996|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} with expiration date 2024-05-21 16:24:47Z as default key. 
+2024-05-02 21:52:12.1160|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-02 21:52:12.1160|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-05-02 21:52:12.1160|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-02 21:52:12.1160|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-05-02 21:52:12.1160|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-05-02 21:52:12.1160|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} as the default key. 
+2024-05-02 21:52:12.1160|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} was loaded during application startup. 
+2024-05-02 21:52:12.2173|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152 
+2024-05-02 21:52:12.2173|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Goods.System.Social.Network.Microservice.Auth 
+2024-05-02 21:52:12.2173|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-02 21:52:12.2173|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-02 21:52:12.2173|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-02 21:52:12.2173|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-02 21:52:12.2173|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Auth 
+2024-05-02 21:52:12.2173|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-05-02 21:52:12.5869|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AMTPKTET0" accepted. 
+2024-05-02 21:52:12.5869|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AMTPKTET0" started. 
+2024-05-02 21:52:12.6280|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3AMTPKTET0" received FIN. 
+2024-05-02 21:52:12.6280|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3AMTPKTET0" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-02 21:52:12.6301|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AMTPKTET0" disconnecting. 
+2024-05-02 21:52:12.6301|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AMTPKTET0" stopped. 
+2024-05-02 21:52:12.7498|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AMTPKTET1" accepted. 
+2024-05-02 21:52:12.7498|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AMTPKTET1" started. 
+2024-05-02 21:52:12.7593|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AMTPKTET2" accepted. 
+2024-05-02 21:52:12.7593|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AMTPKTET2" started. 
+2024-05-02 21:52:12.8008|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/swagger/index.html - - 
+2024-05-02 21:52:12.8319|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-05-02 21:52:12.8319|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-02 21:52:12.8513|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2024-05-02 21:52:12.8513|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-05-02 21:52:12.9658|1|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-05-02 21:52:13.0824|2|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-05-02 21:52:13.0824|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AMTPKTET1" completed keep alive response. 
+2024-05-02 21:52:13.0824|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/swagger/index.html - - - 200 - text/html;charset=utf-8 284.2734ms 
+2024-05-02 21:52:13.1088|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/_framework/aspnetcore-browser-refresh.js - - 
+2024-05-02 21:52:13.1088|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AMTPKTET1" completed keep alive response. 
+2024-05-02 21:52:13.1088|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/_framework/aspnetcore-browser-refresh.js - - - 200 12060 application/javascript;+charset=utf-8 2.4803ms 
+2024-05-02 21:52:13.1411|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/_vs/browserLink - - 
+2024-05-02 21:52:13.1668|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AMTPKTET1" completed keep alive response. 
+2024-05-02 21:52:13.1668|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.7753ms 
+2024-05-02 21:52:13.3584|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/swagger/v1/swagger.json - - 
+2024-05-02 21:52:13.3584|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-02 21:52:13.3584|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-05-02 21:52:13.3584|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-05-02 21:52:13.4609|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AMTPKTET1" completed keep alive response. 
+2024-05-02 21:52:13.4609|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.7407ms 
+2024-05-02 21:52:23.1311|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5152/Auth?email=dimap190603%40gmail.com&password=12345 - - 
+2024-05-02 21:52:23.1311|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-02 21:52:23.1311|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Auth' 
+2024-05-02 21:52:23.1311|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth)' with route pattern 'Auth' is valid for the request path '/Auth' 
+2024-05-02 21:52:23.1311|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth)' 
+2024-05-02 21:52:23.1311|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-05-02 21:52:23.1311|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-05-02 21:52:23.2249|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-05-02 21:52:23.2249|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth)' 
+2024-05-02 21:52:23.2692|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Auth", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Auth(System.String, System.String) on controller Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController (Goods.System.Social.Network.Microservice.Auth). 
+2024-05-02 21:52:23.2692|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-05-02 21:52:23.2692|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-05-02 21:52:23.2704|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-05-02 21:52:23.2704|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-05-02 21:52:23.2704|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-05-02 21:52:23.2704|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController (Goods.System.Social.Network.Microservice.Auth) 
+2024-05-02 21:52:23.3826|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController (Goods.System.Social.Network.Microservice.Auth) 
+2024-05-02 21:52:23.3970|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'email' of type 'System.String' ... 
+2024-05-02 21:52:23.3970|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ... 
+2024-05-02 21:52:23.3970|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2024-05-02 21:52:23.3970|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2024-05-02 21:52:23.3970|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'email' of type 'System.String' ... 
+2024-05-02 21:52:23.3970|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'email' of type 'System.String'. 
+2024-05-02 21:52:23.3970|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'password' of type 'System.String' ... 
+2024-05-02 21:52:23.3970|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'password' of type 'System.String' using the name 'password' in request data ... 
+2024-05-02 21:52:23.3970|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'password' of type 'System.String'. 
+2024-05-02 21:52:23.3970|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'password' of type 'System.String'. 
+2024-05-02 21:52:23.3970|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'password' of type 'System.String' ... 
+2024-05-02 21:52:23.3970|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'password' of type 'System.String'. 
+2024-05-02 21:52:23.3970|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-05-02 21:52:23.3970|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-02 21:52:23.3970|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-02 21:52:23.3970|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-02 21:52:23.3970|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-02 21:52:23.4964|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth) - Validation state: Valid 
+2024-05-02 21:52:23.4964|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth) with arguments (dimap190603@gmail.com, 12345) 
+2024-05-02 21:52:23.4964|0|INFO|Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController|Вызван метод Auth 
+2024-05-02 21:52:23.4964|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.JWTService|Вызван метод AuthAsync с параметрами: email : dimap190603@gmail.com, password: 12345 
+2024-05-02 21:52:23.4964|0|TRACE|Goods.System.Social.Network.DAL.Repository.Realization.UserRepository|Вызван метод GetAllAsync 
+2024-05-02 21:52:23.6311|10401|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-05-02 21:52:24.4712|10400|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. 
+2024-05-02 21:52:24.7486|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.13 initialized 'UserContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.13' with options: SensitiveDataLoggingEnabled  
+2024-05-02 21:52:24.8358|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<User>()' 
+2024-05-02 21:52:25.0650|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Avatar (string) Required MaxLength(20), 1], [Property: User.Background (string) Required MaxLength(20), 2], [Property: User.City (string) Required MaxLength(25), 3], [Property: User.Country (string) Required MaxLength(25), 4], [Property: User.DateBirthday (DateTime) Required, 5], [Property: User.Email (string) Required MaxLength(182), 6], [Property: User.FirstName (string) Required MaxLength(25), 7], [Property: User.LastName (string) Required MaxLength(25), 8], [Property: User.Password (string) Required MaxLength(100), 9], [Property: User.Phone (string) Required MaxLength(11), 10], [Property: User.SettingNotificationId (int) Required FK Index, 11], [Property: User.SettingPrivacyId (int) Required FK Index, 12], [Property: User.Status (string) Required MaxLength(100), 13] }
+        SELECT u.Id, u.Avatar, u.Background, u.City, u.Country, u.DateBirthday, u.Email, u.FirstName, u.LastName, u.Password, u.Phone, u.SettingNotificationId, u.SettingPrivacyId, u.Status
+        FROM Users AS u), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    Goods.System.Social.Network.DAL.UserContext, 
+    False, 
+    False, 
+    True
+)' 
+2024-05-02 21:52:25.1000|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2024-05-02 21:52:25.1000|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2024-05-02 21:52:25.1426|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (37ms). 
+2024-05-02 21:52:25.1522|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (52ms). 
+2024-05-02 21:52:25.1522|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (57ms). 
+2024-05-02 21:52:25.1640|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-05-02 21:52:25.7379|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-05-02 21:52:25.7460|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u] 
+2024-05-02 21:52:25.7905|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Avatar], [u].[Background], [u].[City], [u].[Country], [u].[DateBirthday], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Phone], [u].[SettingNotificationId], [u].[SettingPrivacyId], [u].[Status]
+FROM [Users] AS [u] 
+2024-05-02 21:52:25.8501|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 3}'. 
+2024-05-02 21:52:25.8849|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 4}'. 
+2024-05-02 21:52:25.8849|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 5}'. 
+2024-05-02 21:52:25.8849|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'UserContext' started tracking 'User' entity with key '{Id: 6}'. 
+2024-05-02 21:52:25.8849|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-05-02 21:52:25.9015|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'SocialNetwork' on server 'DESKTOP-M8O19L4' is being disposed after spending 102ms reading results. 
+2024-05-02 21:52:25.9015|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-05-02 21:52:25.9128|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4' (5ms). 
+2024-05-02 21:52:25.9128|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserContext' disposed. 
+2024-05-02 21:52:25.9128|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'SocialNetwork' on server 'DESKTOP-M8O19L4'. 
+2024-05-02 21:52:25.9128|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2024-05-02 21:52:25.9128|0|TRACE|Goods.System.Social.Network.DomainServices.Realization.JWTService|Вызван метод GetJWT с параметрами: user : Goods.System.Social.Network.DomainModel.Entities.User 
+2024-05-02 21:52:26.0934|0|INFO|Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController|Вход в аккаунт: dimap190603@gmail.com 
+2024-05-02 21:52:26.1019|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2598.5131ms. 
+2024-05-02 21:52:26.1019|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-02 21:52:26.1019|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-02 21:52:26.1019|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-02 21:52:26.1019|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-02 21:52:26.1019|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2024-05-02 21:52:26.1019|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-02 21:52:26.1019|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-02 21:52:26.1019|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-05-02 21:52:26.1019|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-05-02 21:52:26.1176|4|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-05-02 21:52:26.1176|8|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-05-02 21:52:26.1176|10|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-05-02 21:52:26.1176|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2024-05-02 21:52:26.1176|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'. 
+2024-05-02 21:52:26.1176|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2024-05-02 21:52:26.1176|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-02 21:52:26.1176|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-05-02 21:52:26.1176|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth) in 2853.2197ms 
+2024-05-02 21:52:26.1176|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Goods.System.Social.Network.Microservice.Auth.Controllers.AuthController.Auth (Goods.System.Social.Network.Microservice.Auth)' 
+2024-05-02 21:52:26.1313|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3AMTPKTET1" completed keep alive response. 
+2024-05-02 21:52:26.1313|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5152/Auth?email=dimap190603%40gmail.com&password=12345 - - - 200 - text/plain;+charset=utf-8 3000.4115ms 

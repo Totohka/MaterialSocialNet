@@ -1,0 +1,124 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7197
+        }
+      ],
+      "UpstreamPathTemplate": "/UserService/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Put", "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7172
+        }
+      ],
+      "UpstreamPathTemplate": "/ChatsService/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Put", "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5148
+        }
+      ],
+      "UpstreamPathTemplate": "/UserServicehttp/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Put", "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5289
+        }
+      ],
+      "UpstreamPathTemplate": "/ChatsServicehttp/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Put", "Post" ]
+    }
+    //{
+    //  "DownstreamPathTemplate": "/{thing}?{anything}",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 7197
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/UserService/{thing}?{anything}",
+    //  "UpstreamHttpMethod": [ "Get", "Put", "Post" ]
+    //},
+    //{
+    //  "DownstreamPathTemplate": "/{thing}?{anything}",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 7172
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/UserService/{thing}?{anything}",
+    //  "UpstreamHttpMethod": [ "Get", "Put", "Post" ]
+    //}
+    //{
+    //  "DownstreamPathTemplate": "/Registration",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 7197
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/Registration",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ]
+    //},
+    //{
+    //  "DownstreamPathTemplate": "/token",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 7197
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/token",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ]
+    //}//,
+    //{
+    //  "DownstreamPathTemplate": "/api/Values/getlogin",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 7197
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "getlogin",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ]
+    //},
+    //{
+    //  "DownstreamPathTemplate": "/api/Values/getrole",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 7197
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/getrole",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ]
+    //}
+  ]
+}

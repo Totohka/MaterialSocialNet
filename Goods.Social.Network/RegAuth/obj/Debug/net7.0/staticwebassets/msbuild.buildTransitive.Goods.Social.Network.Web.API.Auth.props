@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Goods.Social.Network.Web.API.Auth.props" />
+</Project>

@@ -1,0 +1,18 @@
+2024-07-15 01:08:00.8217|0|DEBUG|Program|init main |url: |action: 
+2024-07-15 01:08:02.2982|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-15 01:08:02.3025|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-15 01:08:02.3025|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-15 01:08:02.3025|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-15 01:08:15.0696|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/chat|action: 
+2024-07-15 01:20:18.9095|0|DEBUG|Program|init main |url: |action: 
+2024-07-15 01:20:20.4802|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-15 01:20:20.4802|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-15 01:20:20.4802|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-15 01:20:20.4802|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-15 01:20:26.9190|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/chat|action: 
+2024-07-15 01:22:58.4594|0|DEBUG|Program|init main |url: |action: 
+2024-07-15 01:23:00.0558|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289 |url: |action: 
+2024-07-15 01:23:00.0558|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-07-15 01:23:00.0558|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-07-15 01:23:00.0558|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Chats |url: |action: 
+2024-07-15 01:23:09.5381|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/chat|action: 

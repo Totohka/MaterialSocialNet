@@ -1,0 +1,138 @@
+2024-05-03 12:42:33.2885|0|DEBUG|Program|init main 
+2024-05-03 12:42:34.4986|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-03 12:42:34.5498|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-05-03 12:42:34.5776|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-05-03 12:42:34.5776|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-00e1b3b0-243c-4fc4-98a0-7ac999c74e24.xml'. 
+2024-05-03 12:42:34.5843|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-3a2da2d8-c8af-4792-bf1b-74c5066aed28.xml'. 
+2024-05-03 12:42:34.5843|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-883a64c9-9213-4f95-a1cd-dd639a6bcd07.xml'. 
+2024-05-03 12:42:34.5843|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\димон\AppData\Local\ASP.NET\DataProtection-Keys\key-c23ed5e2-9422-4500-9128-63fd9ee58caf.xml'. 
+2024-05-03 12:42:34.5843|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {00e1b3b0-243c-4fc4-98a0-7ac999c74e24}. 
+2024-05-03 12:42:34.5843|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {3a2da2d8-c8af-4792-bf1b-74c5066aed28}. 
+2024-05-03 12:42:34.5843|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {883a64c9-9213-4f95-a1cd-dd639a6bcd07}. 
+2024-05-03 12:42:34.5843|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {c23ed5e2-9422-4500-9128-63fd9ee58caf}. 
+2024-05-03 12:42:34.5843|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} with expiration date 2024-05-21 16:24:47Z as default key. 
+2024-05-03 12:42:34.5843|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-03 12:42:34.5843|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-05-03 12:42:34.5843|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-03 12:42:34.5996|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-05-03 12:42:34.5996|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-05-03 12:42:34.5996|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} as the default key. 
+2024-05-03 12:42:34.5996|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {883a64c9-9213-4f95-a1cd-dd639a6bcd07} was loaded during application startup. 
+2024-05-03 12:42:34.6980|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5148 
+2024-05-03 12:42:34.6980|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Goods.System.Social.Network.Microservice.Users 
+2024-05-03 12:42:34.6980|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-03 12:42:34.6980|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-03 12:42:34.6980|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-03 12:42:34.6980|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-03 12:42:34.6980|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\димон\Desktop\Я\РУСАЛ\SocialNet\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.Microservice.Users 
+2024-05-03 12:42:34.6980|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-05-03 12:42:34.9550|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACM8" accepted. 
+2024-05-03 12:42:34.9550|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACM9" accepted. 
+2024-05-03 12:42:34.9550|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACM9" started. 
+2024-05-03 12:42:34.9550|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACM8" started. 
+2024-05-03 12:42:34.9657|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3B6FAOACM8" received FIN. 
+2024-05-03 12:42:34.9657|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3B6FAOACM9" received FIN. 
+2024-05-03 12:42:34.9756|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3B6FAOACM9" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-03 12:42:34.9756|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3B6FAOACM8" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-03 12:42:34.9756|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACM8" disconnecting. 
+2024-05-03 12:42:34.9756|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACM9" disconnecting. 
+2024-05-03 12:42:34.9916|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACM9" stopped. 
+2024-05-03 12:42:34.9916|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACM8" stopped. 
+2024-05-03 12:42:35.0761|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMA" accepted. 
+2024-05-03 12:42:35.0761|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMA" started. 
+2024-05-03 12:42:35.0961|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMB" accepted. 
+2024-05-03 12:42:35.0961|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMB" started. 
+2024-05-03 12:42:35.1436|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5148/swagger/index.html - - 
+2024-05-03 12:42:35.1734|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-05-03 12:42:35.1734|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-03 12:42:35.1970|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2024-05-03 12:42:35.1970|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-05-03 12:42:35.3025|1|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-05-03 12:42:35.4011|2|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-05-03 12:42:35.4011|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMA" completed keep alive response. 
+2024-05-03 12:42:35.4011|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5148/swagger/index.html - - - 200 - text/html;charset=utf-8 260.3323ms 
+2024-05-03 12:42:35.4276|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - 
+2024-05-03 12:42:35.4276|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMA" completed keep alive response. 
+2024-05-03 12:42:35.4276|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5148/_framework/aspnetcore-browser-refresh.js - - - 200 12062 application/javascript;+charset=utf-8 3.7801ms 
+2024-05-03 12:42:35.5257|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5148/_vs/browserLink - - 
+2024-05-03 12:42:35.5476|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMA" completed keep alive response. 
+2024-05-03 12:42:35.5476|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5148/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.0750ms 
+2024-05-03 12:42:35.6531|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5148/swagger/v1/swagger.json - - 
+2024-05-03 12:42:35.6531|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-03 12:42:35.6531|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-05-03 12:42:35.6531|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-05-03 12:42:35.8008|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMA" completed keep alive response. 
+2024-05-03 12:42:35.8008|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5148/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.9416ms 
+2024-05-03 12:42:47.6976|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMC" accepted. 
+2024-05-03 12:42:47.6976|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3B6FAOACMC" received FIN. 
+2024-05-03 12:42:47.6976|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMC" started. 
+2024-05-03 12:42:47.6976|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3B6FAOACMC" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-03 12:42:47.6976|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMD" accepted. 
+2024-05-03 12:42:47.6976|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMD" started. 
+2024-05-03 12:42:47.6976|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMC" disconnecting. 
+2024-05-03 12:42:47.6976|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMC" stopped. 
+2024-05-03 12:42:47.6976|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:5148/api/User application/json 108 
+2024-05-03 12:42:47.6976|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-03 12:42:47.6976|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/User' 
+2024-05-03 12:42:47.6976|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported' 
+2024-05-03 12:42:47.7103|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-05-03 12:42:47.7103|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-05-03 12:42:48.0486|2|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2024-05-03 12:42:48.0486|8|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2024-05-03 12:42:48.0526|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-05-03 12:42:48.0526|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-05-03 12:42:48.0526|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-05-03 12:42:48.0526|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported' 
+2024-05-03 12:42:48.0526|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported' 
+2024-05-03 12:42:48.0526|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMD" completed keep alive response. 
+2024-05-03 12:42:48.0526|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 OPTIONS http://localhost:5148/api/User application/json 108 - 405 0 - 353.8821ms 
+2024-05-03 12:42:48.0526|25|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN3B6FAOACMD", Request id "0HN3B6FAOACMD:00000001": started reading request body. 
+2024-05-03 12:42:48.0526|26|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN3B6FAOACMD", Request id "0HN3B6FAOACMD:00000001": done reading request body. 
+2024-05-03 12:42:55.8716|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 HEAD http://localhost:5148/api/User application/json 108 
+2024-05-03 12:42:55.8716|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-03 12:42:55.8716|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/User' 
+2024-05-03 12:42:55.8716|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported' 
+2024-05-03 12:42:55.8716|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-05-03 12:42:55.8716|2|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2024-05-03 12:42:55.8716|8|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2024-05-03 12:42:55.8716|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-05-03 12:42:55.8716|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-05-03 12:42:55.8716|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-05-03 12:42:55.8716|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported' 
+2024-05-03 12:42:55.8716|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported' 
+2024-05-03 12:42:55.8716|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMD" completed keep alive response. 
+2024-05-03 12:42:55.8716|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 HEAD http://localhost:5148/api/User application/json 108 - 405 - - 4.6934ms 
+2024-05-03 12:42:55.8716|25|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN3B6FAOACMD", Request id "0HN3B6FAOACMD:00000002": started reading request body. 
+2024-05-03 12:42:55.8716|26|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN3B6FAOACMD", Request id "0HN3B6FAOACMD:00000002": done reading request body. 
+2024-05-03 12:42:55.8812|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3B6FAOACMD" received FIN. 
+2024-05-03 12:42:55.8812|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3B6FAOACMD" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-03 12:42:55.8812|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMD" disconnecting. 
+2024-05-03 12:42:55.8812|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMD" stopped. 
+2024-05-03 12:43:00.6987|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3B6FAOACME" received FIN. 
+2024-05-03 12:43:00.6987|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACME" accepted. 
+2024-05-03 12:43:00.6987|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACME" started. 
+2024-05-03 12:43:00.6987|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3B6FAOACME" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-03 12:43:00.6987|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACME" disconnecting. 
+2024-05-03 12:43:00.6987|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMF" accepted. 
+2024-05-03 12:43:00.6987|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACME" stopped. 
+2024-05-03 12:43:00.6987|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMF" started. 
+2024-05-03 12:43:00.6987|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:5148/api/User application/json 108 
+2024-05-03 12:43:00.6987|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-05-03 12:43:00.6987|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/User' 
+2024-05-03 12:43:00.6987|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported' 
+2024-05-03 12:43:00.6987|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-05-03 12:43:00.6987|2|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2024-05-03 12:43:00.6987|8|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated. 
+2024-05-03 12:43:00.6987|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-05-03 12:43:00.6987|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-05-03 12:43:00.6987|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-05-03 12:43:00.6987|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported' 
+2024-05-03 12:43:00.6987|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported' 
+2024-05-03 12:43:00.6987|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMF" completed keep alive response. 
+2024-05-03 12:43:00.6987|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 OPTIONS http://localhost:5148/api/User application/json 108 - 405 0 - 3.3570ms 
+2024-05-03 12:43:00.6987|25|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN3B6FAOACMF", Request id "0HN3B6FAOACMF:00000001": started reading request body. 
+2024-05-03 12:43:00.6987|26|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN3B6FAOACMF", Request id "0HN3B6FAOACMF:00000001": done reading request body. 
+2024-05-03 12:43:35.6747|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3B6FAOACMB" received FIN. 
+2024-05-03 12:43:35.6794|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMB" disconnecting. 
+2024-05-03 12:43:35.6794|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3B6FAOACMB" stopped. 
+2024-05-03 12:43:35.6794|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3B6FAOACMB" sending FIN because: "The Socket transport's send loop completed gracefully." 
