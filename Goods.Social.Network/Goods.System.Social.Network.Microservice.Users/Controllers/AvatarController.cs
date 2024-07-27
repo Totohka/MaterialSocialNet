@@ -23,7 +23,7 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         }
 
         [Authorize]
-        [HttpGet]
+        [HttpGet("{userId:int}")]
         public IActionResult Get(int userId)
         {
             _logger.LogInformation($"Вызван метод Create");
@@ -50,18 +50,16 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
             }
         }
 
-        //[Authorize]
+        [Authorize]
         [HttpPut]
         public async Task<IActionResult> Update([FromForm] AvatarViewModel avatarViewModel)
         {
             _logger.LogInformation($"Вызван метод Update");
 
-            await _avatarService.UpdateAsync(avatarViewModel.photo, avatarViewModel.user_id);
-            return Ok(await _jwtService.UpdateTokenAsync(avatarViewModel.user_id));
-
             if (int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value) == avatarViewModel.user_id)
             {
-                
+                await _avatarService.UpdateAsync(avatarViewModel.photo, avatarViewModel.user_id);
+                return Ok(await _jwtService.UpdateTokenAsync(avatarViewModel.user_id));
             }
             else
             {
@@ -73,7 +71,7 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         }
 
         [Authorize]
-        [HttpDelete]
+        [HttpDelete("{userId:int}")]
         public IActionResult Delete(int userId)
         {
             _logger.LogInformation($"Вызван метод Delete");

@@ -40,7 +40,7 @@ namespace Goods.System.Social.Network.Microservice.Posts.Controllers
         }
 
         [Authorize]
-        [HttpGet]
+        [HttpGet("{id:int}")]
         public async Task<IActionResult> Get(int id) 
         {
             _logger.LogInformation($"Вызван метод Get");
@@ -61,7 +61,7 @@ namespace Goods.System.Social.Network.Microservice.Posts.Controllers
         }
 
         [Authorize]
-        [HttpGet("all")]
+        [HttpGet]
         public async Task<IActionResult> GetAll(string search = "", int userId = 0, int number = 0)
         {
             _logger.LogInformation($"Вызван метод GetAll");

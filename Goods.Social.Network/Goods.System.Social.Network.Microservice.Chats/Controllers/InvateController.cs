@@ -32,7 +32,7 @@ namespace Goods.System.Social.Network.Microservice.Chats.Controllers
         }
 
         [Authorize]
-        [HttpGet("all")]
+        [HttpGet]
         public async Task<IActionResult> GetUsersInChat(int chatId)
         {
             _logger.LogInformation($"Вызван метод GetUserInChat");

@@ -50,7 +50,7 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         }
 
         [Authorize]
-        [HttpDelete]
+        [HttpDelete("{userId:int}")]
         public void Delete(int userId)
         {
             //Пока не нужно, понадобится тогда, 
@@ -59,7 +59,6 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         }
 
         [Authorize]
-        [Route("all")]
         [HttpGet]
         public async Task<IActionResult> GetAll(string search = "", int number = 0, int who = 0) //реализация пагинации
         {
@@ -79,7 +78,7 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         }
 
         [Authorize]
-        [HttpGet]
+        [HttpGet("{id:int}")]
         public async Task<IActionResult> Get(int id)
         {
             _logger.LogInformation($"Вызван метод Get");

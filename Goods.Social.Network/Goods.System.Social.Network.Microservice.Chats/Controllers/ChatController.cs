@@ -60,7 +60,7 @@ namespace Goods.System.Social.Network.Microservice.Chats.Controllers
         }
 
         [Authorize]
-        [HttpGet("all")]
+        [HttpGet]
         public async Task<IActionResult> GetChats(string search = "", int number = 0)
         {
             _logger.LogInformation("Вызван метод GetChats");
@@ -69,7 +69,7 @@ namespace Goods.System.Social.Network.Microservice.Chats.Controllers
         }
 
         [Authorize]
-        [HttpGet]
+        [HttpGet("{chatId:int}")]
         public async Task<IActionResult> Get(int chatId)
         {
             _logger.LogInformation($"Вызван метод Get");
@@ -86,7 +86,7 @@ namespace Goods.System.Social.Network.Microservice.Chats.Controllers
         }
 
         [Authorize]
-        [HttpDelete]
+        [HttpDelete("{chatId:int}")]
         public IActionResult Delete(int chatId)
         {
             _logger.LogInformation($"Вызван метод Delete");
