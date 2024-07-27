@@ -54,7 +54,7 @@ namespace Goods.System.Social.Network.Microservice.Comments.Controllers
             return Ok();
         }
 
-        [HttpDelete]
+        [HttpDelete("{id:int}")]
         public async Task<IActionResult> DeleteComment(int id)
         {
             await _commentPostService.DeleteAsync(id);

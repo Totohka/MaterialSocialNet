@@ -22,7 +22,7 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         }
 
         [Authorize]
-        [HttpGet]
+        [HttpGet("{userId:int}")]
         public IActionResult Get(int userId)
         {
             _logger.LogInformation($"Вызван метод Get");
@@ -70,7 +70,7 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         }
 
         [Authorize]
-        [HttpDelete]
+        [HttpDelete("{userId:int}")]
         public IActionResult Delete(int userId)
         {
             _logger.LogInformation($"Вызван метод Delete");

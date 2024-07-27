@@ -31,7 +31,7 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
             return Ok(_galleryService.GetFourPhoto(userId));
         }
 
-        //[Authorize]
+        [Authorize]
         [HttpGet("all")]
         public IActionResult GetByUser(int userId)
         {
@@ -79,7 +79,7 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         }
 
         [Authorize]
-        [HttpDelete]
+        [HttpDelete("{imageId:int}")]
         public IActionResult Delete(int imageId, int userId)
         {
             _logger.LogInformation($"Вызван метод Update");

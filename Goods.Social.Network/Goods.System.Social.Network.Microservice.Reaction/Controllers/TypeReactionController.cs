@@ -19,7 +19,7 @@ namespace Goods.System.Social.Network.Microservice.Reaction.Controllers
             _typeReactionService = typeReactionService;
         }
 
-        [HttpGet]
+        [HttpGet("{id:int}")]
         public async Task<IActionResult> Get(int id)
         {
             _logger.LogInformation($"Вызван метод Get");
@@ -27,7 +27,7 @@ namespace Goods.System.Social.Network.Microservice.Reaction.Controllers
             return Ok(await _typeReactionService.GetAsync(id));
         }
 
-        [HttpGet("all")]
+        [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             _logger.LogInformation($"Вызван метод GetAll");
@@ -56,7 +56,7 @@ namespace Goods.System.Social.Network.Microservice.Reaction.Controllers
         }
 
         [Authorize(Roles = "Admin")]
-        [HttpDelete]
+        [HttpDelete("{id:int}")]
         public async Task<IActionResult> Delete(int id)
         {
             _logger.LogInformation($"Вызван метод Delete");
