@@ -1,0 +1,88 @@
+.message__reactions{
+    width: fit-content;
+    margin-top: -5px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding:3px;
+    display: flex;
+  }
+  .messageNav__allreactions{
+    margin-top: 5px;
+    width: fit-content;
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding:1px 5px;
+    display: none;
+  }
+  
+  .message__allreactions_button{
+    padding:5px 3px;
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(44, 44, 44);
+    margin-left: 3px;
+    margin-right:3px;
+    justify-content: center;
+  }
+  .message__allreactions_button:hover{
+    background: rgb(50, 125, 231);
+  }
+  .reacted{
+    background: rgb(50, 125, 231);
+  }
+  .reacted:hover{
+    background-color: rgb(40, 101, 187);
+  }
+  .message__allreactions_button img{
+    width:15px;
+    height: 15px;
+    pointer-events: none;
+  }
+  
+  .message__reactions_button{
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    width:15px;
+    height:15px;
+    padding:0px;
+    background-color: rgb(15, 15, 15);
+  }
+  .message__reactions_button img{
+    object-fit: fill;
+    width:100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  .out{
+    margin-right: 50px;
+    margin-left: auto;
+  }
+  .inc{
+    margin-left: 50px;
+    margin-right: auto;
+  }
+  .message__reactions_reaction{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: rgb(245, 245, 245);
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .message__reactions_reaction img{
+    margin-right:3px;
+    width: 15px;
+    height: 15px;
+  }
+  .hidden{
+    display:none
+  }
+  .showed{
+    display:flex
+  }

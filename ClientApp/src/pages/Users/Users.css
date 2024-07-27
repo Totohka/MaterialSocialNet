@@ -1,0 +1,94 @@
+.allUsers{
+    background-color: rgb(44, 44, 44);
+    width: 50%;
+    height: max-content;
+    padding: 10px 20px;
+}
+.usersSelect{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.usersSelect select{
+    box-sizing: border-box;
+    border: none;
+    
+    background: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 5px;
+}
+.bordered{
+    border: 1px solid rgb(0, 0, 0);
+}
+.findUser{
+    margin-top:20px;
+    display:flex;
+    width:100%;
+}
+.findUser_input{
+    width: 80%;
+    padding: 3px 20px;
+    border:none;
+    border-radius: 5px 0px 0px 5px;
+    background: rgb(15, 15, 15);
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.findUser_button{
+    width:20%;
+    padding: 7px 13px;
+    border-radius: 0px 5px 5px 0px;
+    background: rgb(50, 125, 231);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+}
+.users_pages{
+    display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top:10px;
+}
+.users_button{
+    margin: 5px;
+    text-align: center;
+    background: rgb(50, 125, 231);
+    border: none;
+    border-radius: 5px;
+    display: block;
+    padding: 2px 5px 5px 2px;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .findUser_button:hover, .users_button:hover{
+    background: rgb(40, 101, 187); 
+  }
+  .users_div{
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }

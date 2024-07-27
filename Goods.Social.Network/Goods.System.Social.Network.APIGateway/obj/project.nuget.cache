@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bZQ6cwx0U9DMn0X/U1Cq8VmYLb2jtCGBFWrL7ga4DdIwJhrO7D/ANzsDFm2dCR4sP9lQN5eHv6wQwlVnG+dIxQ==",
+  "dgSpecHash": "TvLITdLGXK0luiZgx54LZbQ+rbXBc47946YpaZo0Ir3GNSAB3IIjyqdB2TFu9CofXfxnoe2+ACxzIL/+wqjaHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\димон\\Desktop\\Я\\РУСАЛ\\SocialNet\\SocialNetworkSystem\\Goods.Social.Network\\Goods.System.Social.Network.APIGateway\\Goods.System.Social.Network.APIGateway.csproj",
+  "projectFilePath": "C:\\Users\\димон\\Desktop\\Я\\repSoc\\MaterialSocialNet\\Goods.Social.Network\\Goods.System.Social.Network.APIGateway\\Goods.System.Social.Network.APIGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\димон\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\димон\\.nuget\\packages\\ipaddressrange\\6.0.0\\ipaddressrange.6.0.0.nupkg.sha512",

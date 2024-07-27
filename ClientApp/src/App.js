@@ -1,72 +1,155 @@
 //#region import
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import './App.css';
-import Header from './components/Header/Header';
-import Profile from './components/Profile/Profile';
-import Auth from './components/Auth/Auth';
+import Header from './widgets/Header/Header';
+import Profile from './pages/Profile/Profile';
+import Auth from './pages/Auth/Auth';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Registration from './components/Registration/Registration';
-import ChatsConteiner from './components/Dialogs/ChatsContainer';
-import UsersContainer from './components/Users/UsersContainer';
-import Settings from './components/Settings/Setting';
-import SettingSecurity from './components/Settings/SettingSecurity/SettingSecurity';
-// import SettingNotifications from './components/Settings/SettingNotifications/SettingNotifications';
-import SettingBlacklist from './components/Settings/SettingBlacklist/SettingBlacklist';
-import AuthOrRegistration from './components/AuthOrRegistration/AuthOrRegistration';
-import SettingAccountContainer from './components/Settings/SettingAccount/SettingAccountContainer';
-import SettingPrivacyContainer from './components/Settings/SettingPrivacy/SettingPrivacyContainer';
-import GalleryAllPhotoContainer from './components/Profile/GalleryAllPhoto/GalleryAllPhotoContainer';
-import NewsContainer from './components/News/NewsContainer';
-import PostContainer from './components/Profile/MyPosts/Post/PostContainer';
-import RequireAuth from './components/RequireAuth/RequireAuth';
-import ProfileContainer from './components/Profile/ProfileContainer';
+import Registration from './pages/Registration/Registration';
 import {
-  useQuery,
-  useMutation,
-  useQueryClient,
   QueryClient,
   QueryClientProvider,
 } from 'react-query';
-import DashboardContainer from './components/Dashboard/DashboardContainer';
-import SettingNotificationsContainer from './components/Settings/SettingNotifications/SettingNotificationContainer';
-import NavBar from './components/NavBar/NavBar';
-import AuthContainer from './components/Auth/AuthContainer';
-import RegistrationContainer from './components/Registration/RegistrationContainer';
-import ChatContainer from './components/Dialogs/Chat/ChatContainer';
-import UserProfile from './components/UserProfile/UserProfile';
-import Chat from './components/Dialogs/Chat/Chat';
+// import DashboardContainer from './components/Dashboard/DashboardContainer';
+import NavBar from './widgets/NavBar/NavBar';
+import GalleryAllPhoto from './widgets/GalleryAllPhoto/GalleryAllPhoto';
+import Post from './pages/Post/Post';
+import News from './pages/News/News';
+import Users from './pages/Users/Users';
+import UserProfile from './pages/UserProfile/UserProfile';
+import Settings from './pages/Settings/Setting';
+import Chats from './pages/Chats/Chats';
+import Chat from './pages/Chat/Chat';
+import RequireAuth from './pages/RequireAuth/RequireAuth';
+import CreateChat from './pages/CreateChat/CreateChat';
+import { connection } from './app/helpers/withSignalR';
+import { HubConnectionState } from 'redux-signalr';
+import axios from 'axios';
+import { connectionNotif } from './app/helpers/signalRNotifications';
+import { useSelector } from 'react-redux';
 
 //#endregion
 
 const queryClient = new QueryClient();
 
 function App() {
+
+  const [page, setPage] = useState(0);
+  const [pageCount, setPageCount] = useState(0);
+  const user = useSelector(state=>state.user.userInfo);
+  const startConnect = useCallback(()=>{
+    if (connection.state !== HubConnectionState.Connected) {
+      connection
+        .start()
+        .then(() => console.log("Connection started"))
+        .catch((err) => console.error(err.toString()));
+    }
+  if (connectionNotif.state !== HubConnectionState.Connected) {
+    connectionNotif
+      .start()
+      .then(() => {console.log("Connection started");
+        connectionNotif.invoke('OnConnectedSendNotifications', String(user.id)).then(()=>console.log('Notififcations get'))
+        .catch(error=>console.log(error));
+      })
+      .catch((err) => console.error(err.toString()));
+  }
+     
+ },[])
+  const startChatsConnection = async() => {
+    let pageC=0;
+    let chatId;
+    try{
+      let response = await axios.get('http://25.32.11.98:8089/api/Chat/All', {
+        params:{number:page, search:''},
+        headers:{
+            'Authorization':localStorage.getItem('token')
+        }
+      });
+      let chatsInfo=response.data;
+      setPageCount(chatsInfo.pageCount);
+      console.log(chatsInfo);
+      pageC=chatsInfo.pageCount;
+      console.log(chatsInfo.chatRooms);
+      for (var chat in chatsInfo.chatRooms){
+        console.log(chatsInfo.chatRooms[chat]);
+        chatId = String(chatsInfo.chatRooms[chat].id);
+        connection.invoke("OnConnectedChatAsync", (chatId))
+        .then((data) => console.log("chat Connection started", data))
+        .catch((err) => console.error(err.toString()));
+      }
+    }finally{
+      let p = 0;
+      p++;
+      console.log(p);
+      while (p<pageC){
+        try{
+          let response = await axios.get('http://25.32.11.98:8089/api/Chat/All', {
+            params:{number:p, search:''},
+            headers:{
+                'Authorization':localStorage.getItem('token')
+            }
+          });
+          let chatsInfo=response.data;
+          p++;
+          console.log(chatsInfo);
+          for (var chat in chatsInfo.chatRooms.value){
+            console.log(chat);
+            chatId = String(chat.id);
+            connection.invoke("OnConnectedChatAsync", (chatId))
+            .then((data) => console.log("chat Connection started", data))
+            .catch((err) => console.error(err.toString()));
+          }
+        }catch(error){
+          console.log(error);
+        }
+        // await getChats({page:p, search:''}).then(()=>{
+        //   p++;
+        //   console.log(chatsInfo);
+        //   for (var chat in chatsInfo.chatRooms){
+        //     chatId = String(chat.id);
+        //     connection.invoke("OnConnectedChatAsync", (chatId))
+        //     .then(() => console.log("chat Connection started"))
+        //     .catch((err) => console.error(err.toString()));
+        //   }
+        // });
+      }
+    }
+  }
+  useEffect(()=>{
+    window.onload = function(){
+      if (window.location.pathname!='/login' && window.location.pathname!='/' && window.location.pathname!='/registration'){
+        console.log("Connecting...")
+         connection.baseUrl=`http://25.32.11.98:8089/chat?t=${localStorage.getItem('token')}`;
+        connectionNotif.baseUrl=`http://25.32.11.98:8090/notifications?t=${localStorage.getItem('token')}`;
+        startConnect();
+        startChatsConnection();
+      }
+    }
+  },[])
   return (
     <QueryClientProvider client={queryClient}>
     <BrowserRouter>
       <div className='app-wrapper'>
-        <Header /> 
+        <Header/> 
         <div className='app-wrapper-content'>
         <NavBar/>
           <Routes>
-            <Route path='/post/*' element={<RequireAuth><PostContainer/></RequireAuth>}/>
-            <Route path='/chats' element={<ChatsConteiner/>}></Route>
-            <Route path='/dialogs/*' element={<Chat/>}/>
-            <Route path='/profile' element={<RequireAuth><ProfileContainer/></RequireAuth>}/>  
-            <Route path='/users' element={<UsersContainer/>}/>  
-            <Route path='/user/*' element={<UserProfile/>}></Route>
-            <Route path='/' element={<AuthContainer/>}/>  
-            <Route path='/settings' element={<RequireAuth><Settings/></RequireAuth>}/>  
-            {/* <Route path='/settingAccount' element={<RequireAuth><SettingAccountContainer /></RequireAuth>}/> 
-            <Route path='/settingSecurity' element={<RequireAuth><SettingSecurity /></RequireAuth>}/> 
-            <Route path='/settingPrivacy' element={<RequireAuth><SettingPrivacyContainer/></RequireAuth>}/> 
-            <Route path='/settingNotification' element={<RequireAuth><SettingNotificationsContainer/></RequireAuth>}/> 
-            <Route path='/settingBlacklist' element={<RequireAuth><SettingBlacklist/></RequireAuth>}/>  */}
-            <Route path='/login' element={<AuthContainer/>}/>
-            <Route path='/registration' element={<RegistrationContainer/>}/>
-            <Route path='/gallery/*' element={<RequireAuth><GalleryAllPhotoContainer/></RequireAuth>}/>
-            <Route path='/news' element={<RequireAuth><NewsContainer /></RequireAuth>}/>
-            <Route path='/dashboard' element={<RequireAuth><DashboardContainer /></RequireAuth>}/>
+            <Route path='/' element={<Auth/>}/>  
+            <Route path='/login' element={<Auth/>}/>            
+            <Route path='/registration' element={<Registration/>}/>            
+            <Route path='/post/*' element={<RequireAuth><Post/></RequireAuth>}/>
+            <Route path='/chats' element={<RequireAuth><Chats/></RequireAuth>}></Route>
+            <Route path='/dialogs/*' element={<RequireAuth><Chat/></RequireAuth>}/>
+            <Route path='/profile' element={<RequireAuth><Profile/></RequireAuth>}/>  
+            <Route path='/users' element={<RequireAuth><Users/></RequireAuth>}/>  
+            <Route path='/user/*' element={<RequireAuth><UserProfile/></RequireAuth>}></Route>
+            <Route path='/createchat' element={<RequireAuth><CreateChat/></RequireAuth>}/>
+            <Route path='/settings' element={<RequireAuth><Settings/></RequireAuth>}/> 
+
+
+            <Route path='/gallery/*' element={<RequireAuth><GalleryAllPhoto/></RequireAuth>}/>
+            <Route path='/news' element={<RequireAuth><News/></RequireAuth>}/>
+            {/* <Route path='/dashboard' element={<RequireAuth>< /></RequireAuth>}/> */}
           </Routes>
         </div>       
       </div>  
@@ -74,5 +157,6 @@ function App() {
     </ QueryClientProvider>
   );
 }
+
 
 export default App;

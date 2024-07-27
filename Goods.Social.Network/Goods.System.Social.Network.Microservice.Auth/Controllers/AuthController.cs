@@ -1,16 +1,11 @@
 using Goods.System.Social.Network.DomainModel.Entities;
 using Goods.System.Social.Network.DomainServices.Interface;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
 
 namespace Goods.System.Social.Network.Microservice.Auth.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class AuthController : Controller
     {
         private readonly ILogger<AuthController> _logger;

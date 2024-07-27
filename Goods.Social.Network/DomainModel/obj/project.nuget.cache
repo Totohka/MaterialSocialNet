@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oF12zpUEksU3VhFe1B0Wa36RoF19ox9BGD8D8OrywtnA9zsQtnsl5fgsF5p7b7B0Aqd/MBMqb5Zfe+m0hZxYaA==",
+  "dgSpecHash": "dOZI1DvzBp9gQzX8xtLqdN+no+hyfEUTVB0h3QpKs3/gwdrvjVuMzlMxelL0zniEEvryNEDPOKQHsTYaAGwd0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\димон\\Desktop\\Я\\РУСАЛ\\SocialNet\\SocialNetworkSystem\\Goods.Social.Network\\DomainModel\\DomainModel.csproj",
+  "projectFilePath": "C:\\Users\\димон\\Desktop\\Я\\repSoc\\MaterialSocialNet\\Goods.Social.Network\\DomainModel\\DomainModel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\димон\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\димон\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

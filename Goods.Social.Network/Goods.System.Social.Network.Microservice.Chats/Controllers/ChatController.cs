@@ -31,7 +31,7 @@ namespace Goods.System.Social.Network.Microservice.Chats.Controllers
             _notificationChatRoomProducer = notificationChatRoomProducer;
         }
 
-        //[Authorize]
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> AddNewChat(ChatRoomViewModel chatRoom, int userId)
         {   

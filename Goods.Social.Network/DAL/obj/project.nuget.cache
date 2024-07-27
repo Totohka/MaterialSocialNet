@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GIjOzOniF9CXH82dBnkwgt/lOVZu46na3WGgavKaJZxqZAM5Qf//j+c76Lbe4FUfzsze15vF+5YDsyGnGuD5/A==",
+  "dgSpecHash": "zamVclFAC1voQAXLNowNv9u+0EgHxPBTFOi02DKTH3A3YG7XsuEAxiXfhsN1kfM8T/PfcWrDdvXPJhN2fhW0dQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\димон\\Desktop\\Я\\РУСАЛ\\SocialNet\\SocialNetworkSystem\\Goods.Social.Network\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\димон\\Desktop\\Я\\repSoc\\MaterialSocialNet\\Goods.Social.Network\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\димон\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\димон\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

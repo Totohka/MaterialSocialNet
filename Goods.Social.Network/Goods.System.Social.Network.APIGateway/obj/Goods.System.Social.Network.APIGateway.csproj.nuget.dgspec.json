@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\димон\\Desktop\\Я\\РУСАЛ\\SocialNet\\SocialNetworkSystem\\Goods.Social.Network\\Goods.System.Social.Network.APIGateway\\Goods.System.Social.Network.APIGateway.csproj": {}
+    "C:\\Users\\димон\\Desktop\\Я\\repSoc\\MaterialSocialNet\\Goods.Social.Network\\Goods.System.Social.Network.APIGateway\\Goods.System.Social.Network.APIGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\димон\\Desktop\\Я\\РУСАЛ\\SocialNet\\SocialNetworkSystem\\Goods.Social.Network\\Goods.System.Social.Network.APIGateway\\Goods.System.Social.Network.APIGateway.csproj": {
+    "C:\\Users\\димон\\Desktop\\Я\\repSoc\\MaterialSocialNet\\Goods.Social.Network\\Goods.System.Social.Network.APIGateway\\Goods.System.Social.Network.APIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\димон\\Desktop\\Я\\РУСАЛ\\SocialNet\\SocialNetworkSystem\\Goods.Social.Network\\Goods.System.Social.Network.APIGateway\\Goods.System.Social.Network.APIGateway.csproj",
+        "projectUniqueName": "C:\\Users\\димон\\Desktop\\Я\\repSoc\\MaterialSocialNet\\Goods.Social.Network\\Goods.System.Social.Network.APIGateway\\Goods.System.Social.Network.APIGateway.csproj",
         "projectName": "Goods.System.Social.Network.APIGateway",
-        "projectPath": "C:\\Users\\димон\\Desktop\\Я\\РУСАЛ\\SocialNet\\SocialNetworkSystem\\Goods.Social.Network\\Goods.System.Social.Network.APIGateway\\Goods.System.Social.Network.APIGateway.csproj",
+        "projectPath": "C:\\Users\\димон\\Desktop\\Я\\repSoc\\MaterialSocialNet\\Goods.Social.Network\\Goods.System.Social.Network.APIGateway\\Goods.System.Social.Network.APIGateway.csproj",
         "packagesPath": "C:\\Users\\димон\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\димон\\Desktop\\Я\\РУСАЛ\\SocialNet\\SocialNetworkSystem\\Goods.Social.Network\\Goods.System.Social.Network.APIGateway\\obj\\",
+        "outputPath": "C:\\Users\\димон\\Desktop\\Я\\repSoc\\MaterialSocialNet\\Goods.Social.Network\\Goods.System.Social.Network.APIGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

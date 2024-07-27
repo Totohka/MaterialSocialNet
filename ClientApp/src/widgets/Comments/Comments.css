@@ -1,0 +1,219 @@
+
+.comments{
+    margin-top: 20px;
+    max-height: 260px;
+    width: 100%;
+    border-radius: 5px;
+    background: rgb(44, 44, 44);
+    padding-top:3px;
+    display: flex;
+    flex-direction: column;
+}
+.comments p{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin:0px;
+    
+}
+.comment{
+    margin-top:10px;
+    width: 100%;
+    padding: 0px 5px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+#scrolled{
+    height: 100%;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+  }
+  #scrolled::-webkit-scrollbar{
+    width: 7px;
+    background: rgb(44, 44, 44);
+  }
+  #scrolled::-webkit-scrollbar-track{
+    border-radius: 5px;
+    background: rgb(15, 15, 15);
+  }
+  #scrolled::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: rgb(50, 125, 231);
+  }
+  
+.noComment{
+    max-width: 84%;
+    margin-top: 10px;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0px;
+    padding-top: 3px;
+    text-align: center;
+    white-space: wrap;
+}
+.comment p{
+    max-width: 84%;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0px;
+    margin-top: 0px;
+    padding-top: 3px;
+    text-align: left;
+    white-space: wrap;
+}
+.newComment{
+    display: flex;
+    margin-top: 10px;
+}
+.newComment textarea{
+    max-width: 78%;
+    min-width: 78%;
+    border-radius: 5px 0px 5px 5px;
+    background: rgb(44, 44, 44);
+    border:none;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.newComment input{
+    height: fit-content;
+    margin-top:0px;
+    width:22%;
+    border-radius: 0px 5px 5px 0px;
+    border:none;
+    background: rgb(50, 125, 231);
+    padding: 5px 10px 5px 10px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.newComment input:hover{
+    background-color: rgb(40, 101, 187);
+}
+.commentPicture{
+    /* Эллипс 1 */
+    margin-right: 13px;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* margin-top: -41px;
+    margin-left: 30px; */
+    min-width: 45px;
+    min-height: 45px; 
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: none;
+  }
+  .commentPicture:hover{
+    cursor:pointer;
+  }
+  .commentPicture img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .commentNav{
+    /* position: absolute; */
+    display:none;
+    width: 30px;
+    margin-top:5px;
+    /* margin-left: auto; */
+    /* margin-right:5px; */
+    border-radius: 5px;
+    background: rgb(15, 15, 15);
+  }
+  .commentNav__line{
+    width:100%;
+    height:0px;
+    border: 1px solid rgb(44, 44, 44);
+  }
+  .commentNav__button{
+  
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background-color:  rgb(15, 15, 15);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 0px;
+  }
+  .commentNav__button:hover{
+    background: rgb(50, 125, 231);
+  }
+  .commentnavShow{
+    margin-top: 20px;
+    border:none;
+    padding:0;
+    margin-left: auto;
+    margin-right:5px;
+    width:10px;
+    height:10px;
+    border-radius: 5px;
+    background-color:  rgb(50, 125, 231);
+  }
+  .commentnavShow:hover{
+    background-color:  rgb(40, 101, 187);
+  }
+  .commentInfo{
+    display: block;
+  }
+  .navComment{
+    align-self: flex-start;
+    margin-left: auto;
+    margin-right: 0px;
+  }
+  .commentInfo_userName{
+    color: #cacaca;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  .comment_text{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 5px;
+  }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nuJ1v9lPWpzsN0WPMOyW0HuYEj/WmehJkuKFiItTuy5oFgfybWeqMviVLSVU1drxrKjsdlEY32BUpVTBSYnbPg==",
+  "dgSpecHash": "9GFpBjWdtgiGjXski/qXZnAZ8AJGW6LYTN4932nODE+uOrKB7HEw3CN7HRXhHvkkPxKBBB0B4MNEJ2QCAl97NA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\димон\\Desktop\\Я\\РУСАЛ\\SocialNet\\SocialNetworkSystem\\Goods.Social.Network\\DomainService\\DomainServices.csproj",
+  "projectFilePath": "C:\\Users\\димон\\Desktop\\Я\\repSoc\\MaterialSocialNet\\Goods.Social.Network\\DomainService\\DomainServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\димон\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\димон\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

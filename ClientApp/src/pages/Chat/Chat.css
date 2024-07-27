@@ -1,0 +1,321 @@
+.dialogs{
+  height: 100%;
+  display:flex;
+  flex-direction: row;
+  width:78%;
+  /* border:1px solid white; */
+}
+.chat_item{
+  border-radius: 5px;
+  background: rgb(15, 15, 15);
+  width: 70%;
+  /* border:1px solid white; */
+}
+.chat_header{
+  width:100%;
+  border-radius: 5px;
+  background: rgb(44, 44, 44);
+  display:flex;
+  align-items: center;
+  padding:0px 20px;
+}
+.chat_img{
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.online{
+  margin-left:7px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.online div{
+  margin-right: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background: rgb(50, 125, 231);
+}
+.online p{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.interlocutor{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-left: auto;
+  width: 70%;
+  margin-right: 12%;
+}
+
+
+.messages_in_chat{
+  width:100%;
+  height: 75%;
+  padding: 15px; 
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  margin-top:2px;
+  /* border:1px solid white; */
+}
+
+
+
+#messages_in_chat::-webkit-scrollbar{
+  width: 5px;
+  background:  rgb(15, 15, 15);
+}
+#messages_in_chat::-webkit-scrollbar-track{
+  border-radius: 5px;
+  background: rgb(44, 44, 44);
+}
+#messages_in_chat::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  background: rgb(50, 125, 231);
+}
+
+
+
+.button_for_send_msg{
+  width:15%;
+  border:none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 0px 5px 5px 0px;
+  background: rgb(50, 125, 231);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.button_for_send_msg:hover{
+  background: rgb(40, 101, 187);
+}
+.send_button_in_chat{
+  display: flex;
+  align-items: flex-start;
+}
+
+.dialogs_item{
+  height: 60%;
+  min-height: 260px;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background: rgb(44, 44, 44);
+  width: 26%;
+}
+
+.small-chats-header{
+  height: 10%;
+  padding-top: 10px;
+  max-height: 40px;
+  display:flex;
+  width: 100%;
+  align-items: center;
+}
+.small-chats-header p{
+  margin-left: 38%;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.small-chats-header img{
+  width: 15px;
+  height: 15px;
+  margin-right: 5%;
+  margin-left: auto;
+}
+#dialogs-scroll{
+  height: 80%;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+}
+#dialogs-scroll::-webkit-scrollbar{
+  width: 7px;
+  background: rgb(44, 44, 44);
+}
+#dialogs-scroll::-webkit-scrollbar-track{
+  border-radius: 5px;
+  background: rgb(15, 15, 15);
+}
+#dialogs-scroll::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  background: rgb(50, 125, 231);
+}
+
+.messageNav{
+  display:none;
+  width: 150px;
+  margin-top:5px;
+  margin-left: auto;
+  border-radius: 5px;
+  background: rgb(44, 44, 44);
+}
+.messageNav__line{
+  width:100%;
+  height:0px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.messageNav__button{
+
+  color: rgb(255, 255, 255);
+  width: 100%;
+  background-color:  rgb(44, 44, 44);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+}
+.messageNav__button:hover{
+  background: rgb(82, 82, 82);
+}
+.navShow{
+  margin-top: 20px;
+  border:none;
+  padding:0;
+  width:10px;
+  height:10px;
+  border-radius: 5px;
+  background-color:  rgb(50, 125, 231);
+}
+.navShow:hover{
+  background-color:  rgb(40, 101, 187);
+}
+.showNav{
+  display:block;
+}
+.showPrev{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:20px;
+}
+.showPrev__button{
+  border:none;
+  background-color:  rgb(44, 44, 44);
+  color:white;
+  background-color:  rgb(44, 44, 44);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+}
+.showPrev__button:hover{
+  background-color: rgb(40, 101, 187);
+}
+.message__reactions{
+  width: fit-content;
+  background-color: rgb(44, 44, 44);
+  border-radius: 5px;
+  padding:3px;
+  display: flex;
+}
+.messageNav__allreactions{
+  margin-top: 5px;
+  width: fit-content;
+  background-color: rgb(44, 44, 44);
+  border-radius: 5px;
+  padding:1px 5px;
+  display: none;
+}
+
+.message__allreactions_button{
+  padding:5px 3px;
+  display:flex;
+  align-items: center;
+  border-radius: 5px;
+  border:none;
+  background-color: rgb(44, 44, 44);
+  margin-left: 3px;
+  margin-right:3px;
+  justify-content: center;
+}
+.message__allreactions_button:hover{
+  background: rgb(50, 125, 231);
+}
+.reacted{
+  background: rgb(50, 125, 231);
+}
+.reacted:hover{
+  background-color: rgb(40, 101, 187);
+}
+.message__allreactions_button img{
+  width:15px;
+  height: 15px;
+  pointer-events: none;
+}
+
+.message__reactions_button{
+  border: 1.5px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  width:15px;
+  height:15px;
+  padding:0px;
+  background-color: rgb(15, 15, 15);
+}
+.message__reactions_button img{
+  object-fit: fill;
+  width:100%;
+  height: 100%;
+  pointer-events: none;
+}
+.out{
+  margin-right: 50px;
+  margin-left: auto;
+}
+.inc{
+  margin-left: 50px;
+  margin-right: auto;
+}
+.message__reactions_reaction{
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  color: rgb(245, 245, 245);
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.message__reactions_reaction img{
+  margin-right:3px;
+  width: 15px;
+  height: 15px;
+}
