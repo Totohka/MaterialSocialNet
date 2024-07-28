@@ -6,7 +6,7 @@ namespace Goods.System.Social.Network.DAL.Repository.Interface
     public interface IGalleryRepository
     {
         string Get(int photoId, int userId);
-        List<string> GetByUser(int userId);
+        List<string> GetByUser(int userId, int take);
         Task CreateAsync(IFormFile photo, int userId);
         Task UpdateAsync(IFormFile photo, int userId, int photoId);
         void Delete(int photoId, int userId);
