@@ -8,16 +8,16 @@ namespace DomainModel.Entities.ViewModels
 {
     public class ChangeUserViewModel
     {
-        public int id { get; set; }
-        public string email { get; set; } = string.Empty;
-        public string first_name { get; set; } = string.Empty;
-        public string last_name { get; set; } = string.Empty;
-        public string city { get; set; } = string.Empty;
-        public string country { get; set; } = string.Empty;
-        public DateTime date_birthday { get; set;} = DateTime.MinValue;
-        public string status { get; set; } = string.Empty;
-        public string phone { get; set; } = string.Empty;
-        public string avatar { get; set;} = string.Empty;
-        public string background { get; set;} = string.Empty;
+        public int Id { get; set; }
+        public string Email { get; set; } = string.Empty;
+        public string FirstName { get; set; } = string.Empty;
+        public string LastName { get; set; } = string.Empty;
+        public string City { get; set; } = string.Empty;
+        public string Country { get; set; } = string.Empty;
+        public DateTime DateBirthday { get; set; } = DateTime.MinValue;
+        public string Status { get; set; } = string.Empty;
+        public string Phone { get; set; } = string.Empty;
+        public string Avatar { get; set;} = string.Empty;
+        public string Background { get; set;} = string.Empty;
     }
 }

@@ -43,14 +43,14 @@ namespace Goods.System.Social.Network.Microservice.Comments.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateComment(CommentPostViewModel commentPostViewModel)
         {
-            await _commentPostService.CreateAsync(commentPostViewModel.post_id, commentPostViewModel.user_id, commentPostViewModel.text);
+            await _commentPostService.CreateAsync(commentPostViewModel.PostId, commentPostViewModel.UserId, commentPostViewModel.Text);
             return Ok();
         }
 
         [HttpPut]
         public async Task<IActionResult> UpdateComment(CommentPostUpdateViewModel commentPostUpdateViewModel)
         {
-            await _commentPostService.UpdateAsync(commentPostUpdateViewModel.id, commentPostUpdateViewModel.text);
+            await _commentPostService.UpdateAsync(commentPostUpdateViewModel.Id, commentPostUpdateViewModel.Text);
             return Ok();
         }
 

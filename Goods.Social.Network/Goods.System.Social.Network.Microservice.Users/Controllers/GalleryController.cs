@@ -37,9 +37,9 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         {
             _logger.LogInformation($"Вызван метод Create");
 
-            if (int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value) == galleryCreateViewModel.user_id)
+            if (int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value) == galleryCreateViewModel.UserId)
             {
-                await _galleryService.CreateAsync(galleryCreateViewModel.photo, galleryCreateViewModel.user_id);
+                await _galleryService.CreateAsync(galleryCreateViewModel.Photo, galleryCreateViewModel.UserId);
                 return Ok();
             }
             else
@@ -56,9 +56,9 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         {
             _logger.LogInformation($"Вызван метод Update");
 
-            if (int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value) == galleryUpdateViewModel.user_id)
+            if (int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value) == galleryUpdateViewModel.UserId)
             {
-                await _galleryService.UpdateAsync(galleryUpdateViewModel.photo, galleryUpdateViewModel.user_id, galleryUpdateViewModel.photo_id);
+                await _galleryService.UpdateAsync(galleryUpdateViewModel.Photo, galleryUpdateViewModel.UserId, galleryUpdateViewModel.PhotoId);
                 return Ok();
             }
             else

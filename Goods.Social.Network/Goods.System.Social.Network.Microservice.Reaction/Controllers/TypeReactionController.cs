@@ -7,7 +7,7 @@ using NLog;
 namespace Goods.System.Social.Network.Microservice.Reaction.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class TypeReactionController : Controller
     {
         private readonly ILogger<TypeReactionController> _logger;

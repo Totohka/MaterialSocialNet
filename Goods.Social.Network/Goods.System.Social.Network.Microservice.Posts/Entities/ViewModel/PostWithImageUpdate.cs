@@ -5,11 +5,11 @@ namespace Goods.System.Social.Network.Microservice.Posts.Entities.ViewModel
 { 
     public class PostWithImageUpdate
     {
-        public int id { get; set; }
-        public IFormFile? image { get; set; } = null;
-        public string title { get; set; }
-        public int user_id { get; set; }
-        public string text { get; set; }
-        public string tags { get; set; }
+        public int Id { get; set; }
+        public IFormFile? Image { get; set; } = null;
+        public string Title { get; set; }
+        public int UserId { get; set; }
+        public string Text { get; set; }
+        public string Tags { get; set; }
     }
 }

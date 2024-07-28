@@ -36,11 +36,11 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         {
             _logger.LogInformation($"Вызван метод Update");
 
-            if (int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value) == changeUserViewModel.id)
+            if (int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value) == changeUserViewModel.Id)
             {
                 User user = _mapper.Map<User>(changeUserViewModel);
                 await _userService.UpdateAsync(user);
-                return Ok(await _jwtService.UpdateTokenAsync(changeUserViewModel.id));
+                return Ok(await _jwtService.UpdateTokenAsync(changeUserViewModel.Id));
             }
             else
             {
@@ -50,8 +50,8 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         }
 
         [Authorize]
-        [HttpDelete("{userId:int}")]
-        public void Delete(int userId)
+        [HttpDelete("{id:int}")]
+        public void Delete(int id)
         {
             //Пока не нужно, понадобится тогда, 
             //когда будем добавлять админку.

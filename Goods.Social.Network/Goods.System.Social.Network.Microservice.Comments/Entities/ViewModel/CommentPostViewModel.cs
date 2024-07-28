@@ -2,8 +2,8 @@
 {
     public class CommentPostViewModel
     {
-        public int post_id { get; set; }
-        public int user_id { get; set; }
-        public string text { get; set; }
+        public int PostId { get; set; }
+        public int UserId { get; set; }
+        public string Text { get; set; }
     }
 }

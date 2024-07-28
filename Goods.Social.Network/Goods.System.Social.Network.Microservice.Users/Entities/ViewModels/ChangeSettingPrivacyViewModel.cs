@@ -2,9 +2,9 @@
 {
     public class ChangeSettingPrivacyViewModel
     {
-        public int user_id { get; set; }
-        public int show_post { get; set; }
-        public int invate_chats { get; set; }
-        public int show_date_birthday { get; set; }
+        public int UserId { get; set; }
+        public int ShowPost { get; set; }
+        public int InvateChats { get; set; }
+        public int ShowDateBirthday { get; set; }
     }
 }

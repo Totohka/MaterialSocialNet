@@ -34,11 +34,11 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         {
             _logger.LogInformation($"Вызван метод ChangeSettingPrivacy");
 
-            if (changeSettingPrivacy.user_id == int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value))
+            if (changeSettingPrivacy.UserId == int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value))
             {
                 var settingPrivacy = _mapper.Map<SettingPrivacy>(changeSettingPrivacy);
-                await _userService.ChangeSettingPrivacyAsync(settingPrivacy, changeSettingPrivacy.user_id);
-                return Ok(await _jwtService.UpdateTokenAsync(changeSettingPrivacy.user_id));
+                await _userService.ChangeSettingPrivacyAsync(settingPrivacy, changeSettingPrivacy.UserId);
+                return Ok(await _jwtService.UpdateTokenAsync(changeSettingPrivacy.UserId));
             }
             else
             {
@@ -56,11 +56,11 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         {
             _logger.LogInformation($"Вызван метод ChangeSettingNotification");
 
-            if (changeSettingNotification.user_id == int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value))
+            if (changeSettingNotification.UserId == int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value))
             {
                 var settingNotification = _mapper.Map<SettingNotification>(changeSettingNotification);
-                await _userService.ChangeSettingNotificationAsync(settingNotification, changeSettingNotification.user_id);
-                return Ok(await _jwtService.UpdateTokenAsync(changeSettingNotification.user_id));
+                await _userService.ChangeSettingNotificationAsync(settingNotification, changeSettingNotification.UserId);
+                return Ok(await _jwtService.UpdateTokenAsync(changeSettingNotification.UserId));
             }
             else
             {

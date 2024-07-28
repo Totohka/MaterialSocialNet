@@ -94,15 +94,15 @@ namespace Goods.System.Social.Network.Microservice.Posts.Controllers
         public async Task<IActionResult> CreatePost([FromForm] PostWithImage postWithImage)
         {
             _logger.LogInformation($"Вызван метод CreatePost");
-            if (postWithImage.user_id == int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value))
+            if (postWithImage.UserId == int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value))
             {
                 Post post = _mapper.Map<Post>(postWithImage);
-                int postId = await _postService.CreateAsync(post, postWithImage.image);
-                var pageAllUsers = await _userService.GetAllAsync("", -1, postWithImage.user_id, 1);
+                int postId = await _postService.CreateAsync(post, postWithImage.Image);
+                var pageAllUsers = await _userService.GetAllAsync("", -1, postWithImage.UserId, 1);
                 var users = pageAllUsers.Users;
                 foreach (var user in users)
                 {
-                    var msgRMQ = new { AuthorId = postWithImage.user_id, SubscriberId = user.Id, PostId = postId };
+                    var msgRMQ = new { AuthorId = postWithImage.UserId, SubscriberId = user.Id, PostId = postId };
                     _notificationPostProducer.SendMessage(msgRMQ);
                 }
                 return Ok();
@@ -121,10 +121,10 @@ namespace Goods.System.Social.Network.Microservice.Posts.Controllers
         {
             _logger.LogInformation($"Вызван метод UpdatePost");
 
-            if (int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value) == postWithImageUpdate.user_id)
+            if (int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value) == postWithImageUpdate.UserId)
             {
                 Post post = _mapper.Map<Post>(postWithImageUpdate);
-                await _postService.UpdateAsync(post, postWithImageUpdate.image);
+                await _postService.UpdateAsync(post, postWithImageUpdate.Image);
                 return Ok();
             }
             else

@@ -11,7 +11,7 @@ using NLog;
 namespace Goods.System.Social.Network.Microservice.Reaction.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ReactionPostController : Controller
     {
         private readonly IReactionEntityService<ReactionPost> _reactionPostService;
@@ -61,9 +61,9 @@ namespace Goods.System.Social.Network.Microservice.Reaction.Controllers
         {
             _logger.LogInformation($"Вызван метод Create");
 
-            await _reactionPostService.CreateAsync(reactionPostViewModel.entity_id, 
-                                                   reactionPostViewModel.user_id, 
-                                                   reactionPostViewModel.type_reaction_id);
+            await _reactionPostService.CreateAsync(reactionPostViewModel.EntityId, 
+                                                   reactionPostViewModel.UserId, 
+                                                   reactionPostViewModel.TypeReactionId);
             return Ok();
         }
 
@@ -73,10 +73,10 @@ namespace Goods.System.Social.Network.Microservice.Reaction.Controllers
         {
             _logger.LogInformation($"Вызван метод Update");
 
-            await _reactionPostService.UpdateAsync(reactionPostUpdateViewModel.entity_id, 
-                                                   reactionPostUpdateViewModel.user_id, 
-                                                   reactionPostUpdateViewModel.type_reaction_id, 
-                                                   reactionPostUpdateViewModel.type_reaction_old_id);
+            await _reactionPostService.UpdateAsync(reactionPostUpdateViewModel.EntityId, 
+                                                   reactionPostUpdateViewModel.UserId, 
+                                                   reactionPostUpdateViewModel.TypeReactionId, 
+                                                   reactionPostUpdateViewModel.TypeReactionOldId);
             return Ok();
         }
 
@@ -86,9 +86,9 @@ namespace Goods.System.Social.Network.Microservice.Reaction.Controllers
         {
             _logger.LogInformation($"Вызван метод Delete");
 
-            await _reactionPostService.DeleteAsync(reactionPostViewModel.entity_id, 
-                                                   reactionPostViewModel.user_id, 
-                                                   reactionPostViewModel.type_reaction_id);
+            await _reactionPostService.DeleteAsync(reactionPostViewModel.EntityId, 
+                                                   reactionPostViewModel.UserId, 
+                                                   reactionPostViewModel.TypeReactionId);
             return Ok();
         }
     }

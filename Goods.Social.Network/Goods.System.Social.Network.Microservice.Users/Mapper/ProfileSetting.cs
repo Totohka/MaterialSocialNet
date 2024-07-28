@@ -10,13 +10,13 @@ namespace Goods.System.Social.Network.Microservice.Users.Mapper
     {
         public ProfileSetting() {
             CreateMap<ChangeSettingPrivacyViewModel, SettingPrivacy>()
-                .ForMember(dest => dest.ShowPost, opt => opt.MapFrom(src => src.show_post))
-                .ForMember(dest => dest.ShowDateBirthday, opt => opt.MapFrom(src => src.show_date_birthday))
-                .ForMember(dest => dest.InvateChats, opt => opt.MapFrom(src => src.invate_chats));
+                .ForMember(dest => dest.ShowPost, opt => opt.MapFrom(src => src.ShowPost))
+                .ForMember(dest => dest.ShowDateBirthday, opt => opt.MapFrom(src => src.ShowDateBirthday))
+                .ForMember(dest => dest.InvateChats, opt => opt.MapFrom(src => src.InvateChats));
             CreateMap<ChangeSettingNotificationViewModel, SettingNotification>()
-                .ForMember(dest => dest.NewSubscibe, opt => opt.MapFrom(src => src.new_subscribe))
-                .ForMember(dest => dest.NewPosts, opt => opt.MapFrom(src => src.new_posts))
-                .ForMember(dest => dest.NewMessage, opt => opt.MapFrom(src => src.new_message));
+                .ForMember(dest => dest.NewSubscibe, opt => opt.MapFrom(src => src.NewSubscribe))
+                .ForMember(dest => dest.NewPosts, opt => opt.MapFrom(src => src.NewPosts))
+                .ForMember(dest => dest.NewMessage, opt => opt.MapFrom(src => src.NewMessage));
         }
     }
 }

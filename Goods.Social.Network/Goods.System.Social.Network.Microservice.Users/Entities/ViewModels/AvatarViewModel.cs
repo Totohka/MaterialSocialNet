@@ -5,7 +5,7 @@ namespace DomainModel.Entities.ViewModels
 {
     public class AvatarViewModel
     {
-        public IFormFile photo { get; set; }
-        public int user_id { get; set; }
+        public IFormFile Photo { get; set; }
+        public int UserId { get; set; }
     }
 }

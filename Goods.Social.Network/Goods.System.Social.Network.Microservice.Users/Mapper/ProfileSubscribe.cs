@@ -9,8 +9,8 @@ namespace Goods.System.Social.Network.Microservice.Users.Mapper
     {
         public ProfileSubscribe() {
             CreateMap<UserSubscribeViewModel, UserFriend>()
-                .ForMember(dest => dest.UserId, opt => opt.MapFrom(src => src.user_id))
-                .ForMember(dest => dest.UserFriendId, opt => opt.MapFrom(src => src.user_friend_id));
+                .ForMember(dest => dest.UserId, opt => opt.MapFrom(src => src.UserId))
+                .ForMember(dest => dest.UserFriendId, opt => opt.MapFrom(src => src.UserFriendId));
         }
     }
 }

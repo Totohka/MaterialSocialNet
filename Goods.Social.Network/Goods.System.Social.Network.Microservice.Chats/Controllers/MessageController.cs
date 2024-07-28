@@ -48,26 +48,26 @@ namespace Goods.System.Social.Network.Microservice.Chats.Controllers
             _logger.LogInformation($"Вызван метод AddNewMessage");
             Message message = _mapper.Map<Message>(messageViewModel);
             int idMessage = await _messageService.CreateAsync(message);
-            List<User> usersByChat = await _inviteService.GetUsersInChatAsync(messageViewModel.chat_room_id);
-            usersByChat.Remove(usersByChat.Where(u => u.Id == messageViewModel.user_id).First());
+            List<User> usersByChat = await _inviteService.GetUsersInChatAsync(messageViewModel.ChatRoomId);
+            usersByChat.Remove(usersByChat.Where(u => u.Id == messageViewModel.UserId).First());
 
             _logger.LogInformation($"Вызван метод AddNewMessage RMQ");
 
             foreach (var user in usersByChat)
             {
-                var msgRMQ = new { ChatRoomId = messageViewModel.chat_room_id, UserId = user.Id };
+                var msgRMQ = new { ChatRoomId = messageViewModel.ChatRoomId, UserId = user.Id };
                 _notificationChatRoomProducer.SendMessage(msgRMQ);
             }
             _logger.LogInformation($"Вызван метод AddNewMessage signalR");
 
-            await _chatHub.Clients.Group(messageViewModel.chat_room_id.ToString()).SendAsync(
+            await _chatHub.Clients.Group(messageViewModel.ChatRoomId.ToString()).SendAsync(
                 "Receive", 
-                messageViewModel.chat_room_id.ToString(), 
-                messageViewModel.message, 
-                messageViewModel.first_name, 
-                messageViewModel.last_name, 
-                messageViewModel.user_id.ToString(), 
-                messageViewModel.date_send.ToString("s"), 
+                messageViewModel.ChatRoomId.ToString(), 
+                messageViewModel.Message, 
+                messageViewModel.FirstName, 
+                messageViewModel.LastName, 
+                messageViewModel.UserId.ToString(), 
+                messageViewModel.DateSend.ToString("s"), 
                 idMessage.ToString()
             );
 

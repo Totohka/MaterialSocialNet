@@ -5,8 +5,8 @@ namespace DomainModel.Entities.ViewModels
 {
     public class ReactionEntityViewModel
     {
-        public int entity_id { get; set; }
-        public int type_reaction_id { get; set; }
-        public int user_id { get; set;}
+        public int EntityId { get; set; }
+        public int TypeReactionId { get; set; }
+        public int UserId { get; set;}
     }
 }
