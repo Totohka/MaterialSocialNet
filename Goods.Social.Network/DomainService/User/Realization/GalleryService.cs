@@ -43,26 +43,14 @@ namespace Goods.System.Social.Network.DomainServices.Interface
             _galleryRepository.Delete(photoId, userId);
         }
 
-        public List<string> GetFourPhoto(int userId)
+        public List<string> GetPhotos(int userId, int take = 0)
         {
-            _logger.LogTrace($"Вызван метод GetFourPhoto с параметрами: userId: {userId}");
+            _logger.LogTrace($"Вызван метод GetPhotos с параметрами: userId: {userId}, take: {take}");
 
             var result = _idValidator.Validate(userId);
             if (!result.IsValid) throw new ValidationException(result.Errors);
 
-            var pathPhotoByUser = _galleryRepository.GetByUser(userId);
-            pathPhotoByUser.Reverse();
-            return pathPhotoByUser.Take(pathPhotoByUser.Count >= 4 ? 4 : pathPhotoByUser.Count).ToList();
-        }
-
-        public List<string> GetByUser(int userId)
-        {
-            _logger.LogTrace($"Вызван метод GetByUser с параметрами: userId: {userId}");
-
-            var result = _idValidator.Validate(userId);
-            if (!result.IsValid) throw new ValidationException(result.Errors);
-
-            var pathPhotoByUser = _galleryRepository.GetByUser(userId);
+            var pathPhotoByUser = _galleryRepository.GetByUser(userId, take);
             pathPhotoByUser.Reverse();
             return pathPhotoByUser;
         }

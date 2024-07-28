@@ -59,11 +59,11 @@ namespace Goods.System.Social.Network.DAL.Repository.Realization
         {
             _logger.LogTrace($"Вызван метод Get с параметрами: photoId : {photoId}, userId: {userId}");
 
-            var paths = GetByUser(userId);
+            var paths = GetByUser(userId, 0);
             return paths.Where(p => p.IndexOf($"{userId}/{photoId}") != -1).First();
         }
 
-        public List<string> GetByUser(int userId)
+        public List<string> GetByUser(int userId, int take = 0)///надо доделать
         {
             _logger.LogTrace($"Вызван метод GetByUser с параметрами: userId: {userId}");
 
@@ -77,7 +77,7 @@ namespace Goods.System.Social.Network.DAL.Repository.Realization
                     var oldString = "\\";
                     paths[i] = paths[i].Replace(oldString, "/");
                 }
-                return paths;
+                return take == 0 ? paths : paths.Take(take).ToList();
             }
             else { 
                 Directory.CreateDirectory(path);

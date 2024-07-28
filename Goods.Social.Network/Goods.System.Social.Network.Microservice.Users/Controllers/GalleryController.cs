@@ -23,21 +23,12 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         }
 
         [Authorize]
-        [HttpGet("user")]
-        public IActionResult GetFourPhoto(int userId)
+        [HttpGet]
+        public IActionResult GetPhotos(int userId, int take = 0)
         {
-            _logger.LogInformation($"Вызван метод GetFourPhoto");
+            _logger.LogInformation($"Вызван метод GetPhotos");
 
-            return Ok(_galleryService.GetFourPhoto(userId));
-        }
-
-        [Authorize]
-        [HttpGet("all")]
-        public IActionResult GetByUser(int userId)
-        {
-            _logger.LogInformation($"Вызван метод GetByUser");
-
-            return Ok(_galleryService.GetByUser(userId));
+            return Ok(_galleryService.GetPhotos(userId, take));
         }
 
         [Authorize]
