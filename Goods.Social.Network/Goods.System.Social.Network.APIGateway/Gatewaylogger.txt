@@ -93,3 +93,109 @@ Application started. Press Ctrl+C to shut down.
 Hosting environment: Development
 Content root path: C:\Users\Настя\Desktop\Social\SocialNetworkSystem\Goods.Social.Network\Goods.System.Social.Network.APIGateway
 Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\димон\Desktop\Я\repSoc\MaterialSocialNet\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Failed to determine the https port for redirect.
+An unhandled exception has occurred while executing the request.
+requestId: 0HN5F6MCOKPPI:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Auth
+requestId: 0HN5F6MCOKPPI:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/v1/Auth
+requestId: 0HN5F6MCOKPPI:00000001, previousRequestId: no previous request id, message: /api/Auth route does not require user to be authorized
+requestId: 0HN5F6MCOKPPI:00000001, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://26.38.50.104:8085/api/Auth?email=dimap190603@gmail.com&password=12345
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\димон\Desktop\Я\repSoc\MaterialSocialNet\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\димон\Desktop\Я\repSoc\MaterialSocialNet\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Failed to determine the https port for redirect.
+requestId: 0HN5F6V5QKOCC:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Auth?email={email}&password={password}
+requestId: 0HN5F6V5QKOCC:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/v1/Auth
+requestId: 0HN5F6V5QKOCC:00000001, previousRequestId: no previous request id, message: /api/Auth?email={email}&password={password} route does not require user to be authorized
+requestId: 0HN5F6V5QKOCC:00000001, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://26.38.50.104:8085/api/Auth?email=dimap190603@gmail.com&password=12345&email=dimap190603@gmail.com&password=12345
+requestId: 0HN5F6V5QKOCC:00000002, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Auth?email={email}&password={password}
+requestId: 0HN5F6V5QKOCC:00000002, previousRequestId: no previous request id, message: No authentication needed for /api/v1/Auth
+requestId: 0HN5F6V5QKOCC:00000002, previousRequestId: no previous request id, message: /api/Auth?email={email}&password={password} route does not require user to be authorized
+requestId: 0HN5F6V5QKOCC:00000002, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://26.38.50.104:8085/api/Auth?email=dimap190603@gmail.com&password=12345&email=dimap190603@gmail.com&password=12345
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\димон\Desktop\Я\repSoc\MaterialSocialNet\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Failed to determine the https port for redirect.
+requestId: 0HN5F71I7TPIF:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Auth?{everything}
+requestId: 0HN5F71I7TPIF:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/v1/Auth
+requestId: 0HN5F71I7TPIF:00000001, previousRequestId: no previous request id, message: /api/Auth?{everything} route does not require user to be authorized
+requestId: 0HN5F71I7TPIF:00000001, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://26.38.50.104:8085/api/Auth?email=dimap190603@gmail.com&password=12345&email=dimap190603@gmail.com
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\димон\Desktop\Я\repSoc\MaterialSocialNet\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Failed to determine the https port for redirect.
+requestId: 0HN5F73SL05J0:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Auth
+requestId: 0HN5F73SL05J0:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/v1/Auth
+requestId: 0HN5F73SL05J0:00000001, previousRequestId: no previous request id, message: /api/Auth route does not require user to be authorized
+requestId: 0HN5F73SL05J0:00000001, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://localhost:8085/api/Auth?email=dimap190603@gmail.com&password=12345
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\димон\Desktop\Я\repSoc\MaterialSocialNet\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Failed to determine the https port for redirect.
+requestId: 0HN5F78B5S8D8:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Auth
+requestId: 0HN5F78B5S8D8:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/v1/Auth
+requestId: 0HN5F78B5S8D8:00000001, previousRequestId: no previous request id, message: /api/Auth route does not require user to be authorized
+requestId: 0HN5F78B5S8D8:00000001, previousRequestId: no previous request id, message: 200 (OK) status code, request uri: http://localhost:8085/api/Auth?email=dimap190603@gmail.com&password=12345
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\димон\Desktop\Я\repSoc\MaterialSocialNet\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\димон\Desktop\Я\repSoc\MaterialSocialNet\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Failed to determine the https port for redirect.
+requestId: 0HN5F7EO0LVFT:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/Message
+requestId: 0HN5F7EO0LVFT:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/v1/Message
+requestId: 0HN5F7EO0LVFT:00000001, previousRequestId: no previous request id, message: /api/Message route does not require user to be authorized
+requestId: 0HN5F7EO0LVFT:00000001, previousRequestId: no previous request id, message: 401 (Unauthorized) status code, request uri: http://localhost:8089/api/Message?chatId=3
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\димон\Desktop\Я\repSoc\MaterialSocialNet\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Failed to determine the https port for redirect.
+requestId: 0HN5F7LE79RUT:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/CommentPost
+requestId: 0HN5F7LE79RUT:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/v1/CommentPost
+requestId: 0HN5F7LE79RUT:00000001, previousRequestId: no previous request id, message: /api/CommentPost route does not require user to be authorized
+requestId: 0HN5F7LE79RUT:00000001, previousRequestId: no previous request id, message: 401 (Unauthorized) status code, request uri: http://localhost:8091/api/CommentPost
+requestId: 0HN5F7LE79RUT:00000002, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /api/v1/CommentPost/1, verb: DELETE.
+requestId: 0HN5F7LE79RUT:00000002, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match Route configuration for upstream path: /api/v1/CommentPost/1, verb: DELETE. errors found in ResponderMiddleware. Setting error response for request path:/api/v1/CommentPost/1, request method: DELETE
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\димон\Desktop\Я\repSoc\MaterialSocialNet\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Failed to determine the https port for redirect.
+requestId: 0HN5F7OF3TH06:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/CommentPost/{id}
+requestId: 0HN5F7OF3TH06:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/v1/CommentPost/1
+requestId: 0HN5F7OF3TH06:00000001, previousRequestId: no previous request id, message: /api/CommentPost/{id} route does not require user to be authorized
+requestId: 0HN5F7OF3TH06:00000001, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://localhost:8091/api/CommentPost/1
+Now listening on: http://localhost:5252
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\димон\Desktop\Я\repSoc\MaterialSocialNet\Goods.Social.Network\Goods.System.Social.Network.APIGateway
+Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+Failed to determine the https port for redirect.
+requestId: 0HN5F7PA49I66:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/CommentPost/{id}
+requestId: 0HN5F7PA49I66:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/v1/CommentPost/1
+requestId: 0HN5F7PA49I66:00000001, previousRequestId: no previous request id, message: /api/CommentPost/{id} route does not require user to be authorized
+requestId: 0HN5F7PA49I66:00000001, previousRequestId: no previous request id, message: 404 (Not Found) status code, request uri: http://localhost:8091/api/CommentPost/1
