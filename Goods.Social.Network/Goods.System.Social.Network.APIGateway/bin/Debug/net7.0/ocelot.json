@@ -1,124 +1,237 @@
 {
   "Routes": [
+    // API Auth configure 
+    //---------------------------------------------------------------
     {
-      "DownstreamPathTemplate": "/{everything}",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 7197
-        }
-      ],
-      "UpstreamPathTemplate": "/UserService/{everything}",
-      "UpstreamHttpMethod": [ "Get", "Put", "Post" ]
-    },
-    {
-      "DownstreamPathTemplate": "/{everything}",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 7172
-        }
-      ],
-      "UpstreamPathTemplate": "/ChatsService/{everything}",
-      "UpstreamHttpMethod": [ "Get", "Put", "Post" ]
-    },
-    {
-      "DownstreamPathTemplate": "/{everything}",
+      "UpstreamPathTemplate": "/api/v1/Auth",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5148
+          "Port": 8085
         }
       ],
-      "UpstreamPathTemplate": "/UserServicehttp/{everything}",
-      "UpstreamHttpMethod": [ "Get", "Put", "Post" ]
+      "DownstreamPathTemplate": "/api/Auth"
     },
+    //---------------------------------------------------------------
+
+    // API Chats configure 
+    //---------------------------------------------------------------
     {
-      "DownstreamPathTemplate": "/{everything}",
+      "UpstreamPathTemplate": "/api/v1/Chat",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5289
+          "Port": 8089
         }
       ],
-      "UpstreamPathTemplate": "/ChatsServicehttp/{everything}",
-      "UpstreamHttpMethod": [ "Get", "Put", "Post" ]
+      "DownstreamPathTemplate": "/api/Chat"
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/Invate",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8089
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Invate"
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/Message",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8089
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Message"
+    },
+    //---------------------------------------------------------------
+
+    // API Comments configure 
+    //---------------------------------------------------------------
+    {
+      "UpstreamPathTemplate": "/api/v1/CommentPost",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8091
+        }
+      ],
+      "DownstreamPathTemplate": "/api/CommentPost"
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/CommentPost/{id}",
+      "UpstreamHttpMethod": [ "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8091
+        }
+      ],
+      "DownstreamPathTemplate": "/api/CommentPost/{id}"
+    },
+
+    //---------------------------------------------------------------
+
+    // API Posts configure 
+    //---------------------------------------------------------------
+    {
+      "UpstreamPathTemplate": "/api/v1/Post",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8087
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Post"
+    },
+    //---------------------------------------------------------------
+
+    // API Reaction configure 
+    //---------------------------------------------------------------
+    {
+      "UpstreamPathTemplate": "/api/v1/ReactionMessage",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8088
+        }
+      ],
+      "DownstreamPathTemplate": "/api/ReactionMessage"
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/ReactionPost",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8088
+        }
+      ],
+      "DownstreamPathTemplate": "/api/ReactionPost"
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/TypeReaction",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8088
+        }
+      ],
+      "DownstreamPathTemplate": "/api/TypeReaction"
+    },
+    //---------------------------------------------------------------
+
+    // API User configure 
+    //---------------------------------------------------------------
+    {
+      "UpstreamPathTemplate": "/api/v1/Avatar",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Avatar"
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/Background",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Background"
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/Gallery",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Gallery"
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/Setting",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Setting"
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/Subscribe",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Subscribe"
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/User",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/User"
     }
-    //{
-    //  "DownstreamPathTemplate": "/{thing}?{anything}",
-    //  "DownstreamScheme": "https",
-    //  "DownstreamHostAndPorts": [
-    //    {
-    //      "Host": "localhost",
-    //      "Port": 7197
-    //    }
-    //  ],
-    //  "UpstreamPathTemplate": "/UserService/{thing}?{anything}",
-    //  "UpstreamHttpMethod": [ "Get", "Put", "Post" ]
-    //},
-    //{
-    //  "DownstreamPathTemplate": "/{thing}?{anything}",
-    //  "DownstreamScheme": "https",
-    //  "DownstreamHostAndPorts": [
-    //    {
-    //      "Host": "localhost",
-    //      "Port": 7172
-    //    }
-    //  ],
-    //  "UpstreamPathTemplate": "/UserService/{thing}?{anything}",
-    //  "UpstreamHttpMethod": [ "Get", "Put", "Post" ]
-    //}
-    //{
-    //  "DownstreamPathTemplate": "/Registration",
-    //  "DownstreamScheme": "https",
-    //  "DownstreamHostAndPorts": [
-    //    {
-    //      "Host": "localhost",
-    //      "Port": 7197
-    //    }
-    //  ],
-    //  "UpstreamPathTemplate": "/Registration",
-    //  "UpstreamHttpMethod": [ "Get", "Post" ]
-    //},
-    //{
-    //  "DownstreamPathTemplate": "/token",
-    //  "DownstreamScheme": "https",
-    //  "DownstreamHostAndPorts": [
-    //    {
-    //      "Host": "localhost",
-    //      "Port": 7197
-    //    }
-    //  ],
-    //  "UpstreamPathTemplate": "/token",
-    //  "UpstreamHttpMethod": [ "Get", "Post" ]
-    //}//,
-    //{
-    //  "DownstreamPathTemplate": "/api/Values/getlogin",
-    //  "DownstreamScheme": "https",
-    //  "DownstreamHostAndPorts": [
-    //    {
-    //      "Host": "localhost",
-    //      "Port": 7197
-    //    }
-    //  ],
-    //  "UpstreamPathTemplate": "getlogin",
-    //  "UpstreamHttpMethod": [ "Get", "Post" ]
-    //},
-    //{
-    //  "DownstreamPathTemplate": "/api/Values/getrole",
-    //  "DownstreamScheme": "https",
-    //  "DownstreamHostAndPorts": [
-    //    {
-    //      "Host": "localhost",
-    //      "Port": 7197
-    //    }
-    //  ],
-    //  "UpstreamPathTemplate": "/getrole",
-    //  "UpstreamHttpMethod": [ "Get", "Post" ]
-    //}
+    //---------------------------------------------------------------
+
   ]
 }

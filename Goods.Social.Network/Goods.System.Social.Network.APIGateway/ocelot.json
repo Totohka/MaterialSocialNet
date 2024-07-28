@@ -1,30 +1,407 @@
 {
   "Routes": [
+    // API Auth configure 
+    //---------------------------------------------------------------
     {
-      "UpstreamPathTemplate": "/api/Auth",
+      "UpstreamPathTemplate": "/api/v1/Auth",
       "UpstreamHttpMethod": [ "Get", "Post" ],
 
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7197
+          "Port": 8085
         }
       ],
       "DownstreamPathTemplate": "/api/Auth"
-
     },
+    //---------------------------------------------------------------
+
+    // API Chats configure 
+    //---------------------------------------------------------------
+
     {
-      "DownstreamPathTemplate": "/{everything}",
-      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/api/v1/Chat",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7197
+          "Port": 8089
         }
       ],
-      "UpstreamPathTemplate": "/UserService/{everything}",
-      "UpstreamHttpMethod": [ "Get", "Put", "Post" ]
+      "DownstreamPathTemplate": "/api/Chat"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Chat/{chatId}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8089
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Chat/chatId"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Invate",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8089
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Invate"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Message",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8089
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Message"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Message/{messageId}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8089
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Message/{messageId}"
+    },
+
+    //---------------------------------------------------------------
+
+    // API Comments configure 
+    //---------------------------------------------------------------
+    {
+      "UpstreamPathTemplate": "/api/v1/CommentPost",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8091
+        }
+      ],
+      "DownstreamPathTemplate": "/api/CommentPost"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/CommentPost/{id}",
+      "UpstreamHttpMethod": [ "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8091
+        }
+      ],
+      "DownstreamPathTemplate": "/api/CommentPost/{id}"
+    },
+
+    //---------------------------------------------------------------
+
+    // API Posts configure 
+    //---------------------------------------------------------------
+    {
+      "UpstreamPathTemplate": "/api/v1/Post",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8087
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Post"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Post/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8087
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Post/{id}"
+    },
+    //---------------------------------------------------------------
+
+    // API Reaction configure 
+    //---------------------------------------------------------------
+
+    {
+      "UpstreamPathTemplate": "/api/v1/ReactionMessage",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8088
+        }
+      ],
+      "DownstreamPathTemplate": "/api/ReactionMessage"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/ReactionMessage/all",
+      "UpstreamHttpMethod": [ "Get" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8088
+        }
+      ],
+      "DownstreamPathTemplate": "/api/ReactionMessage/all"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/ReactionPost",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8088
+        }
+      ],
+      "DownstreamPathTemplate": "/api/ReactionPost"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/ReactionPost/all",
+      "UpstreamHttpMethod": [ "Get" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8088
+        }
+      ],
+      "DownstreamPathTemplate": "/api/ReactionPost/all"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/TypeReaction",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8088
+        }
+      ],
+      "DownstreamPathTemplate": "/api/TypeReaction"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/TypeReaction/{id}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8088
+        }
+      ],
+      "DownstreamPathTemplate": "/api/TypeReaction/{id}"
+    },
+
+    //---------------------------------------------------------------
+
+    // API User configure 
+    //---------------------------------------------------------------
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Avatar",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Avatar"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Avatar/{userId}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Avatar/{userId}"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Background",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Background"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Background/{userId}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Background/{userId}"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Gallery",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Gallery"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Gallery/{imageId}",
+      "UpstreamHttpMethod": [ "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Gallery/{imageId}"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Setting/privacy",
+      "UpstreamHttpMethod": [ "Put" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Setting/privacy"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Setting/notification",
+      "UpstreamHttpMethod": [ "Put" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Setting/notification"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Subscribe",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Subscribe"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/User",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/User"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/User/id",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8086
+        }
+      ],
+      "DownstreamPathTemplate": "/api/User/id"
     }
+
+    //---------------------------------------------------------------
+
   ]
 }
