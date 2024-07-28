@@ -12,10 +12,10 @@ namespace Goods.System.Social.Network.Microservice.Chats.Infrastructure.Mapper
             CreateMap<User, UserDTO>();
             CreateMap<Message, UserMessageDTO>();
             CreateMap<MessageViewModel, Message>()
-                .ForMember(dest => dest.ChatRoomId, opt => opt.MapFrom(src => src.chat_room_id))
-                .ForMember(dest => dest.UserId, opt => opt.MapFrom(src => src.user_id))
-                .ForMember(dest => dest.Msg, opt => opt.MapFrom(src => src.message))
-                .ForMember(dest => dest.DateSend, opt => opt.MapFrom(src => src.date_send));
+                .ForMember(dest => dest.ChatRoomId, opt => opt.MapFrom(src => src.ChatRoomId))
+                .ForMember(dest => dest.UserId, opt => opt.MapFrom(src => src.UserId))
+                .ForMember(dest => dest.Msg, opt => opt.MapFrom(src => src.Message))
+                .ForMember(dest => dest.DateSend, opt => opt.MapFrom(src => src.DateSend));
         }
     }
 }

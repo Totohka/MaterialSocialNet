@@ -2,9 +2,9 @@
 {
     public class ChangeSettingNotificationViewModel
     {
-        public int user_id { get; set; }
-        public bool new_message { get; set; }
-        public bool new_subscribe { get; set; }
-        public bool new_posts { get; set; }
+        public int UserId { get; set; }
+        public bool NewMessage { get; set; }
+        public bool NewSubscribe { get; set; }
+        public bool NewPosts { get; set; }
     }
 }

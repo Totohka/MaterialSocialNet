@@ -5,8 +5,8 @@ namespace DomainModel.Entities.ViewModels
 {
     public class GalleryUpdateViewModel
     {
-        public IFormFile photo { get; set; }
-        public int user_id { get; set; }
-        public int photo_id { get; set;}
+        public IFormFile Photo { get; set; }
+        public int UserId { get; set; }
+        public int PhotoId { get; set;}
     }
 }

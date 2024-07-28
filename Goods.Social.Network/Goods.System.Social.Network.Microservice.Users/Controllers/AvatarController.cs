@@ -37,10 +37,10 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         {
             _logger.LogInformation($"Вызван метод Create");
 
-            if (int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value) == avatarViewModel.user_id)
+            if (int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value) == avatarViewModel.UserId)
             {
-                await _avatarService.CreateAsync(avatarViewModel.photo, avatarViewModel.user_id);
-                return Ok(await _jwtService.UpdateTokenAsync(avatarViewModel.user_id));
+                await _avatarService.CreateAsync(avatarViewModel.Photo, avatarViewModel.UserId);
+                return Ok(await _jwtService.UpdateTokenAsync(avatarViewModel.UserId));
             }
             else
             {
@@ -56,10 +56,10 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
         {
             _logger.LogInformation($"Вызван метод Update");
 
-            if (int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value) == avatarViewModel.user_id)
+            if (int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value) == avatarViewModel.UserId)
             {
-                await _avatarService.UpdateAsync(avatarViewModel.photo, avatarViewModel.user_id);
-                return Ok(await _jwtService.UpdateTokenAsync(avatarViewModel.user_id));
+                await _avatarService.UpdateAsync(avatarViewModel.Photo, avatarViewModel.UserId);
+                return Ok(await _jwtService.UpdateTokenAsync(avatarViewModel.UserId));
             }
             else
             {

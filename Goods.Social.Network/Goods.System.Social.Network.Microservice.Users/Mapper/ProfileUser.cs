@@ -10,16 +10,16 @@ namespace Goods.System.Social.Network.Microservice.Users.Mapper
         public ProfileUser() {
             CreateMap<User, UserDTO>();
             CreateMap<ChangeUserViewModel, User>()
-                .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.id))
-                .ForMember(dest => dest.FirstName, opt => opt.MapFrom(src => src.first_name))
-                .ForMember(dest => dest.LastName, opt => opt.MapFrom(src => src.last_name))
-                .ForMember(dest => dest.DateBirthday, opt => opt.MapFrom(src => src.date_birthday))
-                .ForMember(dest => dest.City, opt => opt.MapFrom(src => src.city))
-                .ForMember(dest => dest.Country, opt => opt.MapFrom(src => src.country))
-                .ForMember(dest => dest.Status, opt => opt.MapFrom(src => src.status))
-                .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.email))
-                .ForMember(dest => dest.Avatar, opt => opt.MapFrom(src => src.avatar))
-                .ForMember(dest => dest.Background, opt => opt.MapFrom(src => src.background));
+                .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
+                .ForMember(dest => dest.FirstName, opt => opt.MapFrom(src => src.FirstName))
+                .ForMember(dest => dest.LastName, opt => opt.MapFrom(src => src.LastName))
+                .ForMember(dest => dest.DateBirthday, opt => opt.MapFrom(src => src.DateBirthday))
+                .ForMember(dest => dest.City, opt => opt.MapFrom(src => src.City))
+                .ForMember(dest => dest.Country, opt => opt.MapFrom(src => src.Country))
+                .ForMember(dest => dest.Status, opt => opt.MapFrom(src => src.Status))
+                .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.Email))
+                .ForMember(dest => dest.Avatar, opt => opt.MapFrom(src => src.Avatar))
+                .ForMember(dest => dest.Background, opt => opt.MapFrom(src => src.Background));
             CreateMap<User, User>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
                 .ForMember(dest => dest.FirstName, opt => opt.MapFrom(src => src.FirstName != string.Empty))
