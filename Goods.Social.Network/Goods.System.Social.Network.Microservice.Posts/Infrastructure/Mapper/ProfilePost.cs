@@ -11,7 +11,7 @@ namespace Goods.System.Social.Network.Microservice.Posts.Infrastructure.Mapper
         public ProfilePost()
         {
             CreateMap<Post, PostDTO>();
-            CreateMap<PostWithImage, Post>()
+            CreateMap<PostWithImageViewModel, Post>()
                 .ForMember(dest => dest.DateCreate, opt => opt.MapFrom(src => src.DateCreate))
                 .ForMember(dest => dest.Text, opt => opt.MapFrom(src => src.Text))
                 .ForMember(dest => dest.UserId, opt => opt.MapFrom(src => src.UserId))
@@ -19,7 +19,7 @@ namespace Goods.System.Social.Network.Microservice.Posts.Infrastructure.Mapper
                 .ForMember(dest => dest.Tags, opt => opt.MapFrom(src => src.Tags))
                 .ForMember(dest => dest.Image, opt => opt.MapFrom(src => ""));
 
-            CreateMap<PostWithImageUpdate, Post>()
+            CreateMap<PostWithImageUpdateViewModel, Post>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
                 .ForMember(dest => dest.Text, opt => opt.MapFrom(src => src.Text))
                 .ForMember(dest => dest.UserId, opt => opt.MapFrom(src => src.UserId))

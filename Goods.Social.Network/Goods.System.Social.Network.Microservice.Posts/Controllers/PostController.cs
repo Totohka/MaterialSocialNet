@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
 using NLog;
+using System.Net;
 
 namespace Goods.System.Social.Network.Microservice.Posts.Controllers
 {
@@ -38,9 +39,17 @@ namespace Goods.System.Social.Network.Microservice.Posts.Controllers
             _reactionPostService = reactionPostService;
             _notificationPostProducer = notificationPostProducer;
         }
-
+        /// <summary>
+        /// Получение поста
+        /// </summary>
+        /// <param name="id">Id поста</param>
+        /// <returns></returns>
+        /// <response code="200">Пост DTO</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpGet("{id:int}")]
+        [ProducesResponseType(typeof(PostDTO), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
         public async Task<IActionResult> Get(int id) 
         {
             _logger.LogInformation($"Вызван метод Get");
@@ -59,9 +68,19 @@ namespace Goods.System.Social.Network.Microservice.Posts.Controllers
             else postDTO.TypeReaction = "";
             return Ok(postDTO);
         }
-
+        /// <summary>
+        /// Получение постов
+        /// </summary>
+        /// <param name="search">Строка поиска</param>
+        /// <param name="userId">Указывать если нужны посты определённого юзера, иначе не отправлять или отправлять равным 0</param>
+        /// <param name="number">Параметр пагинации</param>
+        /// <returns></returns>
+        /// <response code="200">Страница постов DTO</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpGet]
+        [ProducesResponseType(typeof(PagePostDTO), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
         public async Task<IActionResult> GetAll(string search = "", int userId = 0, int number = 0)
         {
             _logger.LogInformation($"Вызван метод GetAll");
@@ -88,10 +107,18 @@ namespace Goods.System.Social.Network.Microservice.Posts.Controllers
             PagePostDTO pagePostDTO = new PagePostDTO(pagePost.CountAllPosts, pagePost.PageCount, pagePost.NumberPage, postDTOs);
             return Ok(pagePostDTO);
         }
-
+        /// <summary>
+        /// Создание поста
+        /// </summary>
+        /// <param name="postWithImage">Модель для создания поста</param>
+        /// <returns></returns>
+        /// <response code="200">Id созданного поста</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> CreatePost([FromForm] PostWithImage postWithImage)
+        [ProducesResponseType(typeof(int), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
+        public async Task<IActionResult> CreatePost([FromForm] PostWithImageViewModel postWithImage)
         {
             _logger.LogInformation($"Вызван метод CreatePost");
             if (postWithImage.UserId == int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value))
@@ -105,7 +132,7 @@ namespace Goods.System.Social.Network.Microservice.Posts.Controllers
                     var msgRMQ = new { AuthorId = postWithImage.UserId, SubscriberId = user.Id, PostId = postId };
                     _notificationPostProducer.SendMessage(msgRMQ);
                 }
-                return Ok();
+                return Ok(postId);
             }
             else
             {
@@ -114,10 +141,18 @@ namespace Goods.System.Social.Network.Microservice.Posts.Controllers
                 return StatusCode(401);
             }
         }
-
+        /// <summary>
+        /// Создание чатов
+        /// </summary>
+        /// <param name="postWithImageUpdate">Модель для редактирования поста</param>
+        /// <returns></returns>
+        /// <response code="200">Всё ок</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpPut]
-        public async Task<IActionResult> UpdatePost([FromForm] PostWithImageUpdate postWithImageUpdate)
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
+        public async Task<IActionResult> UpdatePost([FromForm] PostWithImageUpdateViewModel postWithImageUpdate)
         {
             _logger.LogInformation($"Вызван метод UpdatePost");
 
@@ -135,15 +170,25 @@ namespace Goods.System.Social.Network.Microservice.Posts.Controllers
             }
         }
 
+        /// <summary>
+        /// Удаление поста
+        /// </summary>
+        /// <param name="id">Id поста</param>
+        /// <param name="userId">Id юзера</param>
+        /// <returns></returns>
+        /// <response code="200">Всё ок</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
-        [HttpDelete]
-        public IActionResult DeletePost(int userId, int postId)
+        [HttpDelete("{id:int}")]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
+        public IActionResult DeletePost(int userId, int id)
         {
             _logger.LogInformation($"Вызван метод DeletePost");
 
             if (int.Parse(HttpContext.User.FindFirst(claim => claim.Type == "id").Value) == userId)
             {
-                _postService.Delete(userId, postId);
+                _postService.Delete(userId, id);
                 return Ok();
             }
             else
