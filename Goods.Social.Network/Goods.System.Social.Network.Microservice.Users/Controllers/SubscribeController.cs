@@ -6,6 +6,7 @@ using Goods.System.Social.Network.Microservice.Users.Entities.DTO;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NLog;
+using System.Net;
 
 namespace Goods.System.Social.Network.Microservice.Users.Controllers
 {
@@ -24,8 +25,17 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Получение подписчиков юзера
+        /// Сейчас не работает
+        /// </summary>
+        /// <returns></returns>
+        /// <response code="200">Список юзеров</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpGet]
+        [ProducesResponseType(typeof(int), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
         public async Task<List<UserDTO>> GetSubscribeByUser()
         {
             _logger.LogInformation($"Вызван метод GetSubscribeByUser");
@@ -33,8 +43,17 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
             return new List<UserDTO>(); //нужно доделать
         }
 
+        /// <summary>
+        /// Получение типа реакции
+        /// </summary>
+        /// <param name="userSubscribe">Модель подписки на юзера</param>
+        /// <returns></returns>
+        /// <response code="200">Всё ок</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpPost]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
         public async Task<IActionResult> AddSubscribe(UserSubscribeViewModel userSubscribe)
         {
             _logger.LogInformation($"Вызван метод AddSubscribe");
@@ -43,8 +62,17 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Получение типа реакции
+        /// </summary>
+        /// <param name="userSubscribe">Модель подписки на юзера</param>
+        /// <returns></returns>
+        /// <response code="200">Всё ок</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpDelete]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
         public async Task<IActionResult> DeleteSubscribe(UserSubscribeViewModel userSubscribe)
         {
             _logger.LogInformation($"Вызван метод DeleteSubscribe");

@@ -68,7 +68,13 @@ try
     builder.Services.AddScoped<ISubscribeService, SubscribeService>();
     builder.Services.AddScoped<IAvatarService, AvatarService>();
 
-    builder.Services.AddSwaggerGen();
+    builder.Services.AddSwaggerGen(options =>
+    {
+        var basePath = AppContext.BaseDirectory;
+
+        var xmlPath = Path.Combine(basePath, "Goods.System.Social.Network.Microservice.Users.xml");
+        options.IncludeXmlComments(xmlPath);
+    });
 
     builder.Services.AddScoped<IRepository<CountUsers>, DashboardContextRepository<CountUsers>>();
     builder.Services.AddScoped<IUserRepository, UserRepository>();
@@ -96,11 +102,11 @@ try
     var app = builder.Build();
 
     // Configure the HTTP request pipeline.
-    if (app.Environment.IsDevelopment())
-    {
+    //if (app.Environment.IsDevelopment())
+    //{
         app.UseSwagger();
         app.UseSwaggerUI();
-    }
+    //}
 
     app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
     app.UseHttpsRedirection();

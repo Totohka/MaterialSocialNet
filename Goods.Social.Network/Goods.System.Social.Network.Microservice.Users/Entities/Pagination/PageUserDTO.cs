@@ -10,9 +10,25 @@ namespace Goods.System.Social.Network.Microservice.Users.Entities.Pagination
             PageCount = pageCount;
             NumberPage = numberPage;
         }
+
+        /// <summary>
+        /// Количество всех юзеров
+        /// </summary>
         public int CountAllUsers { get; private set; }
+
+        /// <summary>
+        /// Количество страниц
+        /// </summary>
         public int PageCount { get; private set; }
+
+        /// <summary>
+        /// Номер страницы
+        /// </summary>
         public int NumberPage { get; private set; }
+
+        /// <summary>
+        /// Список юзеров
+        /// </summary>
         public List<UserDTO> Users { get; private set; }
     }
 }
