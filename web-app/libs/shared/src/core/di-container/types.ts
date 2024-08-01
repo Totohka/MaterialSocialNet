@@ -1,0 +1,18 @@
+export const TYPES = {
+  EnvReader: Symbol.for('EnvReader'),
+  AuthClient: Symbol.for('AuthClient'),
+  HttpBackendClient: Symbol.for('HttpBackendClient'),
+  UserRepository: Symbol.for('UserRepository'),
+  ChatRepository: Symbol.for('ChatRepository'),
+  InvateRepository: Symbol.for('InvateRepository'),
+  MessageRepository: Symbol.for('MessageRepository'),
+  PostRepository: Symbol.for('PostRepository'),
+  CommentPostRepository: Symbol.for('CommentPostRepository'),
+  ReactionPostRepository: Symbol.for('ReactionPostRepository'),
+  ReactionMessageRepository: Symbol.for('ReactionMessageRepository'),
+  SubscribeRepository: Symbol.for('SubscribeRepository'),
+  SettingRepository: Symbol.for('SettingRepository'),
+  AvatarRepository: Symbol.for('AvatarRepository'),
+  BackgroundRepository: Symbol.for('BackgroundRepository'),
+  GalleryRepository: Symbol.for('GalleryRepository'),
+};
