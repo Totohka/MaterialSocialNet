@@ -10,6 +10,7 @@ using Goods.System.Social.Network.Microservice.Chats.Services.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
+using System.Net;
 
 namespace Goods.System.Social.Network.Microservice.Chats.Controllers
 {
@@ -41,8 +42,17 @@ namespace Goods.System.Social.Network.Microservice.Chats.Controllers
             _inviteService = inviteService;
         }
 
+        /// <summary>
+        /// Создание сообщения
+        /// </summary>
+        /// <param name="messageViewModel">Модель связи чата и юзера</param>
+        /// <returns></returns>
+        /// <response code="200">Всё ок</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpPost]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
         public async Task<IActionResult> AddNewMessage(MessageViewModel messageViewModel)
         {
             _logger.LogInformation($"Вызван метод AddNewMessage");
@@ -75,8 +85,18 @@ namespace Goods.System.Social.Network.Microservice.Chats.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Получение страницы сообщений
+        /// </summary>
+        /// <param name="chatId">Id чата</param>
+        /// <param name="number">Параметр пагинации, по стандарту равен 0</param>
+        /// <returns></returns>
+        /// <response code="200">Id созданного чата</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpGet]
+        [ProducesResponseType(typeof(PageMessageDTO), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
         public async Task<IActionResult> GetMessageByChat(int chatId, int number = 0)
         {
             _logger.LogInformation($"Вызван метод GetMessageByChat");
@@ -97,22 +117,44 @@ namespace Goods.System.Social.Network.Microservice.Chats.Controllers
             return Ok(pageMessageDTO);
         }
 
+        /// <summary>
+        /// Получение сообщения
+        /// </summary>
+        /// <param name="id">Id сообщения</param>
+        /// <returns></returns>
+        /// <response code="200">Модель с данными по сообщению</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
-        [HttpGet("{messageId:int}")]
-        public async Task<IActionResult> Get(int messageId)
+        [HttpGet("{id:int}")]
+        [ProducesResponseType(typeof(UserMessageDTO), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
+        public async Task<IActionResult> Get(int id)
         {
             _logger.LogInformation($"Вызван метод Get");
-            Message message = await _messageService.GetAsync(messageId);
+            Message message = await _messageService.GetAsync(id);
             var userMessageDTO = _mapper.Map<UserMessageDTO>(message);
             return Ok(userMessageDTO);
         }
 
+        /// <summary>
+        /// Редактирование сообщения
+        /// </summary>
+        /// <param name="messageUpdateViewModel">Модель редактирования сообщения</param>
+        /// <returns></returns>
+        /// <response code="200">Всё ок</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpPut]
-        public async Task<IActionResult> UpdateMessage(Message message)
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
+        public async Task<IActionResult> UpdateMessage(MessageUpdateViewModel messageUpdateViewModel)
         {
             _logger.LogInformation($"Вызван метод UpdateMessage");
-            _messageService.UpdateAsync(message);
+
+            var message = _mapper.Map<Message>(messageUpdateViewModel);
+
+            await _messageService.UpdateAsync(message);
+            message = await _messageService.GetAsync(message.Id);
 
             await _chatHub.Clients.Group(message.ChatRoomId.ToString()).SendAsync(
                 "UpdateMessage",
@@ -124,17 +166,25 @@ namespace Goods.System.Social.Network.Microservice.Chats.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Удаление сообщения
+        /// </summary>
+        /// <param name="id">Id сообщения</param>
+        /// <param name="chatId">Id чата</param>
+        /// <returns></returns>
+        /// <response code="200">Id созданного чата</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
-        [HttpDelete("{messageId:int}")]
-        public async Task<IActionResult> Delete(int messageId, int chatId)
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> Delete(int id, int chatId)
         {
             _logger.LogInformation($"Вызван метод Delete");
             
-            await _messageService.DeleteAsync(messageId);
+            await _messageService.DeleteAsync(id);
 
             await _chatHub.Clients.Group(chatId.ToString()).SendAsync(
                 "DeleteMessage",
-                messageId.ToString(),
+                id.ToString(),
                 chatId.ToString()
             );
 

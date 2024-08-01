@@ -9,6 +9,10 @@ namespace Goods.System.Social.Network.Microservice.Chats.Infrastructure.Mapper
     {
         public ProfileChat()
         {
+            CreateMap<ChatRoomUserViewModel, ChatRoomUser>();
+            CreateMap<ChatRoom, ChatRoomDTO>();
+            CreateMap<ChatRoomUpdateViewModel, ChatRoom>();
+            CreateMap<ChatRoomViewModel, ChatRoom>();
             CreateMap<User, UserDTO>();
             CreateMap<Message, UserMessageDTO>();
             CreateMap<MessageViewModel, Message>()
@@ -16,6 +20,7 @@ namespace Goods.System.Social.Network.Microservice.Chats.Infrastructure.Mapper
                 .ForMember(dest => dest.UserId, opt => opt.MapFrom(src => src.UserId))
                 .ForMember(dest => dest.Msg, opt => opt.MapFrom(src => src.Message))
                 .ForMember(dest => dest.DateSend, opt => opt.MapFrom(src => src.DateSend));
+            CreateMap<MessageUpdateViewModel, Message>();
         }
     }
 }
