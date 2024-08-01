@@ -7,7 +7,7 @@ namespace DAL.Repository.Comments.Interface
         Task<CommentPost> GetAsync(int id);
         Task<List<CommentPost>> GetAllAsync();
         Task<List<CommentPost>> GetAllByPostAsync(int postId);
-        void Create(CommentPost commentPost);
+        int Create(CommentPost commentPost);
         void Update(CommentPost commentPost);
         Task DeleteAsync(int id);
     }
