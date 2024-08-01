@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NLog;
 using System.Diagnostics.Contracts;
+using System.Net;
 
 namespace Goods.System.Social.Network.Microservice.Users.Controllers
 {
@@ -22,8 +23,18 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Получение типа реакции
+        /// </summary>
+        /// <param name="userId">Id типа реакции</param>
+        /// <param name="take">Id типа реакции</param>
+        /// <returns></returns>
+        /// <response code="200">Список путей до фоток</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpGet]
+        [ProducesResponseType(typeof(List<string>), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
         public IActionResult GetPhotos(int userId, int take = 0)
         {
             _logger.LogInformation($"Вызван метод GetPhotos");
@@ -31,8 +42,17 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
             return Ok(_galleryService.GetPhotos(userId, take));
         }
 
+        /// <summary>
+        /// Получение типа реакции
+        /// </summary>
+        /// <param name="id">Id типа реакции</param>
+        /// <returns></returns>
+        /// <response code="200">Всё ок</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpPost]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
         public async Task<IActionResult> Create([FromForm] GalleryCreateViewModel galleryCreateViewModel)
         {
             _logger.LogInformation($"Вызван метод Create");
@@ -50,8 +70,17 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
             }
         }
 
+        /// <summary>
+        /// Получение типа реакции
+        /// </summary>
+        /// <param name="id">Id типа реакции</param>
+        /// <returns></returns>
+        /// <response code="200">Всё ок</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpPut]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
         public async Task<IActionResult> Update([FromForm] GalleryUpdateViewModel galleryUpdateViewModel)
         {
             _logger.LogInformation($"Вызван метод Update");
@@ -69,8 +98,17 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
             }
         }
 
+        /// <summary>
+        /// Получение типа реакции
+        /// </summary>
+        /// <param name="id">Id типа реакции</param>
+        /// <returns></returns>
+        /// <response code="200">Всё ок</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpDelete("{imageId:int}")]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
         public IActionResult Delete(int imageId, int userId)
         {
             _logger.LogInformation($"Вызван метод Update");

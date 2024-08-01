@@ -18,13 +18,14 @@ namespace DAL.Repository.Comments.Implementation
             _contextFactory = dbContextFactory;
         }
 
-        public void Create(CommentPost commentPost)
+        public int Create(CommentPost commentPost)
         {
             _logger.LogTrace($"Вызван метод Create с параметрами: commentPost: {commentPost}");
 
             using var db = _contextFactory.CreateDbContext();
             db.CommentPosts.Add(commentPost);
             db.SaveChanges();
+            return db.CommentPosts.Max(cp => cp.Id);
         }
 
         public async Task DeleteAsync(int id)

@@ -7,6 +7,7 @@ using Goods.System.Social.Network.Microservice.Users.Entities.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NLog;
+using System.Net;
 using System.Text.Json;
 
 namespace Goods.System.Social.Network.Microservice.Users.Controllers
@@ -28,8 +29,17 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
             _jwtService = jwtService;
         }
 
+        /// <summary>
+        /// Изменение параметров приватности
+        /// </summary>
+        /// <param name="changeSettingPrivacy">Модель изменения параметров приватности</param>
+        /// <returns></returns>
+        /// <response code="200">Новый JWT токен</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpPut("privacy")]
+        [ProducesResponseType(typeof(string), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
         public async Task<IActionResult> ChangeSettingPrivacy(ChangeSettingPrivacyViewModel changeSettingPrivacy)
         {
             _logger.LogInformation($"Вызван метод ChangeSettingPrivacy");
@@ -50,8 +60,17 @@ namespace Goods.System.Social.Network.Microservice.Users.Controllers
             
         }
 
+        /// <summary>
+        /// Изменение параметров уведомлений
+        /// </summary>
+        /// <param name="changeSettingNotification">Модель изменения параметров уведомлений</param>
+        /// <returns></returns>
+        /// <response code="200">Новый JWT токен</response>
+        /// <response code="401">Ошибка авторизации</response>
         [Authorize]
         [HttpPut("notification")]
+        [ProducesResponseType(typeof(string), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(ProblemDetails), (int)HttpStatusCode.Unauthorized)]
         public async Task<IActionResult> ChangeSettingNotification(ChangeSettingNotificationViewModel changeSettingNotification)
         {
             _logger.LogInformation($"Вызван метод ChangeSettingNotification");

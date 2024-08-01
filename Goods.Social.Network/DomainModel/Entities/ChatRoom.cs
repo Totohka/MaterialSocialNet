@@ -1,4 +1,6 @@
-﻿namespace Goods.System.Social.Network.DomainModel.Entities
+﻿using System.Text.Json.Serialization;
+
+namespace Goods.System.Social.Network.DomainModel.Entities
 {
     public class ChatRoom
     {

@@ -7,6 +7,8 @@ using Goods.System.Social.Network.DomainModel.Entities;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Microsoft.Extensions.Logging;
 using NLog;
+using System.Reflection;
+
 namespace DomainServices.Chat.Realization
 {
     public class ChatService : IChatService
@@ -62,7 +64,7 @@ namespace DomainServices.Chat.Realization
             return await _chatRepository.GetAsync(chatId);
         }
 
-        public async Task<PageChatViewModel> GetChatsAsync(int userId, int number, string search)
+        public async Task<PageChat> GetChatsAsync(int userId, int number, string search)
         {
             _logger.LogTrace($"Вызван метод GetChatsAsync с параметрами: userId: {userId}, number: {number}, search:{search}");
 
@@ -77,7 +79,8 @@ namespace DomainServices.Chat.Realization
 
             foreach (var chatRoomUser in chatRoomUsers)
             {
-                chatsByUser.Add(chats.Where(c => c.Id == chatRoomUser.ChatRoomId).First());
+                if (chats.Where(c => c.Id == chatRoomUser.ChatRoomId).Any())
+                    chatsByUser.Add(chats.Where(c => c.Id == chatRoomUser.ChatRoomId).First());
             }
 
             chatsByUser = chatsByUser.Where(c => c.Name.Contains(search)).ToList();
@@ -86,7 +89,7 @@ namespace DomainServices.Chat.Realization
             {
                 chatByUser.Messages = null;
             }
-            PageChatViewModel pageChatViewModel = new PageChatViewModel(chatsByUser.Count,
+            PageChat pageChatViewModel = new PageChat(chatsByUser.Count,
                 (int)Math.Ceiling((double)chatsByUser.Count / _countReturnChatRooms),
                 number,
                 chatsByUser.Skip(_countReturnChatRooms * number).Take(_countReturnChatRooms).ToList()
@@ -94,14 +97,19 @@ namespace DomainServices.Chat.Realization
             return pageChatViewModel; 
         }
 
-        public void Update(ChatRoom chatRoom)
+        public async Task UpdateAsync(ChatRoom chatRoom)
         {
             _logger.LogTrace($"Вызван метод Update с параметрами: chatRoom: {chatRoom}");
 
             var result = _chatRoomValidator.Validate(chatRoom);
             if (!result.IsValid) throw new ValidationException(result.Errors);
 
-            _chatRepository.Update(chatRoom);
+            ChatRoom chatRoomOld = await GetAsync(chatRoom.Id);
+
+            chatRoomOld.Name = chatRoom.Name;
+            chatRoomOld.Description = chatRoom.Description;
+
+            _chatRepository.Update(chatRoomOld);
         }
     }
 }

@@ -1,23 +1,37 @@
-﻿using Goods.System.Social.Network.DomainModel.Entities;
-using Swashbuckle.AspNetCore.Annotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Goods.System.Social.Network.Microservice.Chats.Entities.ViewModels
 {
-    public class ChatRoomViewModel : ChatRoom
+    /// <summary>
+    /// Модель для создания чата
+    /// </summary>
+    public class ChatRoomViewModel
     {
-        [SwaggerSchema(ReadOnly = true)]
-        public int Id { get; set; } = 0;
+        /// <summary>
+        /// Название чата
+        /// </summary>
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Параметр Name обязателен")]
+        [Range(1, 50, ErrorMessage = "Длина названия  от {1} до {2} символов")]
+        public string Name { get; set; }
 
-        [SwaggerSchema(ReadOnly = true)]
-        public List<ChatRoomUser>? ChatRoomUsers { get; set; } = null;
+        /// <summary>
+        /// Описание чата
+        /// </summary>
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Параметр Description обязателен")]
+        [Range(1, 50, ErrorMessage = "Длина названия  от {1} до {2} символов")]
+        public string Description { get; set; }
 
-        [SwaggerSchema(ReadOnly = true)]
-        public List<Message>? Messages { get; set; } = null;
+        /// <summary>
+        /// Id юзера, который создаёт чат
+        /// </summary>
+        [Required(ErrorMessage = "Параметр UserId обязателен")]
+        public int UserId { get; set; }
 
-        [SwaggerSchema(ReadOnly = true)]
-        public List<NotificationChatRoom>? NotificationChatRooms { get; set; } = null;
-
+        /// <summary>
+        /// Id всех юзеров, которых нужно пригласить в чат при его создании
+        /// Если никого не нужно приглашать, то отправлять список пустым
+        /// </summary>
+        [Required(ErrorMessage = "Параметр UserIdsByChat обязателен")]
         public List<int> UserIdsByChat {  get; set; }
     }
 }
