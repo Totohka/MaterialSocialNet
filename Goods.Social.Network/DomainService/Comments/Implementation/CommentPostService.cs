@@ -15,13 +15,13 @@ namespace DomainServices.Comments.Implementation
             _commentPostRepository = commentPostRepository;
             _commentRepository = commentRepository;
         }
-        public async Task CreateAsync(int entityId, int userId, string text)
+        public async Task<int> CreateAsync(int entityId, int userId, string text)
         {
             Comment comment = new Comment { UserId = userId };
             _commentRepository.Create(comment);
             comment = await _commentRepository.GetByUserAsync(userId);
             CommentPost commentPost = new CommentPost { CommentId = comment.Id, PostId = entityId, Text = text };
-            _commentPostRepository.Create(commentPost);
+            return _commentPostRepository.Create(commentPost);
         }
 
         public async Task DeleteAsync(int id)

@@ -2,9 +2,9 @@
 
 namespace DomainModel.Entities.ViewModels
 {
-    public class PageChatViewModel
+    public class PageChat
     {
-        public PageChatViewModel(int countAllChats, int pageCount, int numberPage, List<ChatRoom> chatRooms) { 
+        public PageChat(int countAllChats, int pageCount, int numberPage, List<ChatRoom> chatRooms) { 
             CountAllChats = countAllChats;
             ChatRooms = chatRooms;
             PageCount = pageCount;

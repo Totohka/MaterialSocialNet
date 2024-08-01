@@ -8,7 +8,7 @@ namespace DomainServices.Comments.Interface
         where T : class //CommentPost
     {
         Task<List<T>> GetAllByEntityAsync(int entityId);
-        Task CreateAsync(int entityId, int userId, string text);
+        Task<int> CreateAsync(int entityId, int userId, string text);
         Task UpdateAsync(int id, string text);
         Task DeleteAsync(int id);
     }

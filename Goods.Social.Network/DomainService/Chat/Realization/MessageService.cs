@@ -103,10 +103,7 @@ namespace DomainServices.Chat.Realization
             if (!result.IsValid) throw new ValidationException(result.Errors);
 
             var msg = await _messageRepository.GetAsync(message.Id);
-            msg.DateSend = message.DateSend;
             msg.Msg = message.Msg;
-            msg.ChatRoomId = message.ChatRoomId;
-            msg.UserId = message.UserId;    
             _messageRepository.Update(msg);
         }
     }
