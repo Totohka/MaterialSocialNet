@@ -1,14 +1,11 @@
-import { inject, injectable } from 'inversify';
-import { TYPES } from '../di-container';
-import { AuthService } from '../auth';
+import { AuthService, getAuthService } from '../auth';
 import { EnvironmentService } from '../environment-service';
 import { joinUrl, mergeParams, RequestParameters } from './http-utils';
 
-@injectable()
 export class HttpBackendClient {
   constructor(
-    @inject(TYPES.AuthClient) private _authService: AuthService,
-    @inject(TYPES.EnvReader) private _envReader: EnvironmentService
+    private _authService: AuthService,
+    private _envReader: EnvironmentService
   ) {}
 
   private get _baseUrl() {
@@ -83,3 +80,6 @@ export class HttpBackendClient {
     });
   }
 }
+
+export const getHttpBackendClient = () =>
+  new HttpBackendClient(getAuthService(), new EnvironmentService());

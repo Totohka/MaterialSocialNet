@@ -1,23 +1,17 @@
-import { inject, injectable } from 'inversify';
-import {
-  HttpBackendClient,
-  TYPES,
-  DIContainer,
-  body,
-  queryParams,
-  responseJson,
-} from '@socnet/shared';
 import {
   SettingPrivacyPutBody,
   SettingNotificationPutBody,
 } from './setting-dto';
+import {
+  body,
+  getHttpBackendClient,
+  HttpBackendClient,
+  responseJson,
+} from '@socnet/shared';
 
 /** /api/v1/setting */
-@injectable()
-export class SettingRepository {
-  constructor(
-    @inject(TYPES.HttpBackendClient) private _httpClient: HttpBackendClient
-  ) {}
+class SettingRepository {
+  constructor(private _httpClient: HttpBackendClient) {}
 
   /** PUT /api/v1/setting/privacy */
   putPrivacy(params: SettingPrivacyPutBody) {
@@ -35,4 +29,4 @@ export class SettingRepository {
 }
 
 export const getSettingRepository = () =>
-  DIContainer.get<SettingRepository>(TYPES.SettingRepository);
+  new SettingRepository(getHttpBackendClient());

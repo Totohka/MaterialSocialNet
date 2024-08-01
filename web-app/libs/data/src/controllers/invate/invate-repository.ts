@@ -1,25 +1,20 @@
-import { inject, injectable } from 'inversify';
-import {
-  HttpBackendClient,
-  TYPES,
-  DIContainer,
-  body,
-  queryParams,
-  responseJson,
-} from '@socnet/shared';
 import {
   InvateDeleteQuery,
   InvateGetListQuery,
   InvateGetListReturn,
   InvatePostBody,
 } from './invate-dto';
+import {
+  body,
+  getHttpBackendClient,
+  HttpBackendClient,
+  queryParams,
+  responseJson,
+} from '@socnet/shared';
 
 /** /api/invate */
-@injectable()
-export class InvateRepository {
-  constructor(
-    @inject(TYPES.HttpBackendClient) private _httpClient: HttpBackendClient
-  ) {}
+class InvateRepository {
+  constructor(private _httpClient: HttpBackendClient) {}
 
   /** POST /api/v1/invate */
   post(payload: InvatePostBody) {
@@ -44,4 +39,4 @@ export class InvateRepository {
 }
 
 export const getInvateRepository = () =>
-  DIContainer.get<InvateRepository>(TYPES.InvateRepository);
+  new InvateRepository(getHttpBackendClient());

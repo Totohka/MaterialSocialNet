@@ -1,12 +1,3 @@
-import { inject, injectable } from 'inversify';
-import {
-  HttpBackendClient,
-  TYPES,
-  DIContainer,
-  body,
-  queryParams,
-  responseJson,
-} from '@socnet/shared';
 import {
   ReactionDeleteBody,
   ReactionGetListQuery,
@@ -15,6 +6,13 @@ import {
   ReactionPostBody,
   ReactionPutBody,
 } from './reaction-dto';
+import {
+  body,
+  getHttpBackendClient,
+  HttpBackendClient,
+  queryParams,
+  responseJson,
+} from '@socnet/shared';
 
 /** /api/v1/reactionMessage */
 class ReactionRepository {
@@ -59,22 +57,19 @@ class ReactionRepository {
   }
 }
 
-@injectable()
-export class ReactionPostRepository extends ReactionRepository {
-  constructor(@inject(TYPES.HttpBackendClient) httpClient: HttpBackendClient) {
+class ReactionPostRepository extends ReactionRepository {
+  constructor(httpClient: HttpBackendClient) {
     super(httpClient, '/api/v1/ReactionPost');
   }
 }
 
-@injectable()
-export class ReactionMessageRepository extends ReactionRepository {
-  constructor(@inject(TYPES.HttpBackendClient) httpClient: HttpBackendClient) {
+class ReactionMessageRepository extends ReactionRepository {
+  constructor(httpClient: HttpBackendClient) {
     super(httpClient, '/api/v1/ReactionMessage');
   }
 }
 
 export const getReactionPostRepository = () =>
-  DIContainer.get<ReactionPostRepository>(TYPES.ReactionPostRepository);
-
+  new ReactionPostRepository(getHttpBackendClient());
 export const getReactionMessageRepository = () =>
-  DIContainer.get<ReactionMessageRepository>(TYPES.ReactionMessageRepository);
+  new ReactionMessageRepository(getHttpBackendClient());

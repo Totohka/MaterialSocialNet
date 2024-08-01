@@ -1,20 +1,15 @@
-import { inject, injectable } from 'inversify';
-import {
-  HttpBackendClient,
-  TYPES,
-  DIContainer,
-  body,
-  responseJson,
-  objectToFormData,
-} from '@socnet/shared';
 import { BackgroundPostBody, BackgroundPutBody } from './background-dto';
+import {
+  body,
+  getHttpBackendClient,
+  HttpBackendClient,
+  objectToFormData,
+  responseJson,
+} from '@socnet/shared';
 
 /** /api/v1/background */
-@injectable()
-export class BackgroundRepository {
-  constructor(
-    @inject(TYPES.HttpBackendClient) private _httpClient: HttpBackendClient
-  ) {}
+class BackgroundRepository {
+  constructor(private _httpClient: HttpBackendClient) {}
 
   /** GET /api/background/{userId} */
   get(userId: number) {
@@ -48,4 +43,4 @@ export class BackgroundRepository {
 }
 
 export const getBackgroundRepository = () =>
-  DIContainer.get<BackgroundRepository>(TYPES.BackgroundRepository);
+  new BackgroundRepository(getHttpBackendClient());

@@ -1,25 +1,20 @@
-import { inject, injectable } from 'inversify';
-import {
-  HttpBackendClient,
-  TYPES,
-  DIContainer,
-  body,
-  queryParams,
-  responseJson,
-} from '@socnet/shared';
 import {
   UserGetListQuery,
   UserGetListReturn,
   UserGetReturn,
   UserPutBody,
 } from './user-dto';
+import {
+  body,
+  getHttpBackendClient,
+  HttpBackendClient,
+  queryParams,
+  responseJson,
+} from '@socnet/shared';
 
 /** /api/v1/user */
-@injectable()
-export class UserRepository {
-  constructor(
-    @inject(TYPES.HttpBackendClient) private _httpClient: HttpBackendClient
-  ) {}
+class UserRepository {
+  constructor(private _httpClient: HttpBackendClient) {}
 
   // TODO: Реализовать метод post и delete, когда будет готов бэк
 
@@ -46,4 +41,4 @@ export class UserRepository {
 }
 
 export const getUserRepository = () =>
-  DIContainer.get<UserRepository>(TYPES.UserRepository);
+  new UserRepository(getHttpBackendClient());

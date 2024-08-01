@@ -1,19 +1,14 @@
-import { inject, injectable } from 'inversify';
+import { SubscribeDeleteBody, SubscribePostBody } from './subscribe-dto';
 import {
-  HttpBackendClient,
-  TYPES,
-  DIContainer,
   body,
+  getHttpBackendClient,
+  HttpBackendClient,
   responseJson,
 } from '@socnet/shared';
-import { SubscribeDeleteBody, SubscribePostBody } from './subscribe-dto';
 
 /** /api/v1/subscribe */
-@injectable()
-export class SubscribeRepository {
-  constructor(
-    @inject(TYPES.HttpBackendClient) private _httpClient: HttpBackendClient
-  ) {}
+class SubscribeRepository {
+  constructor(private _httpClient: HttpBackendClient) {}
 
   /** POST /api/subscribe */
   post(params: SubscribePostBody) {
@@ -31,4 +26,4 @@ export class SubscribeRepository {
 }
 
 export const getSubscribeRepository = () =>
-  DIContainer.get<SubscribeRepository>(TYPES.SubscribeRepository);
+  new SubscribeRepository(getHttpBackendClient());

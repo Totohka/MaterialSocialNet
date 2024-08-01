@@ -1,12 +1,3 @@
-import { inject, injectable } from 'inversify';
-import {
-  HttpBackendClient,
-  TYPES,
-  DIContainer,
-  body,
-  queryParams,
-  responseJson,
-} from '@socnet/shared';
 import {
   MessageDeleteQuery,
   MessageGetListQuery,
@@ -15,13 +6,17 @@ import {
   MessagePostBody,
   MessagePutBody,
 } from './message-dto';
+import {
+  body,
+  getHttpBackendClient,
+  HttpBackendClient,
+  queryParams,
+  responseJson,
+} from '@socnet/shared';
 
 /** /api/message */
-@injectable()
-export class MessageRepository {
-  constructor(
-    @inject(TYPES.HttpBackendClient) private _httpClient: HttpBackendClient
-  ) {}
+class MessageRepository {
+  constructor(private _httpClient: HttpBackendClient) {}
 
   /** POST /api/v1/message */
   post(payload: MessagePostBody) {
@@ -60,4 +55,4 @@ export class MessageRepository {
 }
 
 export const getMessageRepository = () =>
-  DIContainer.get<MessageRepository>(TYPES.MessageRepository);
+  new MessageRepository(getHttpBackendClient());

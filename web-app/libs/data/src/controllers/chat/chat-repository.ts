@@ -1,12 +1,3 @@
-import { inject, injectable } from 'inversify';
-import {
-  HttpBackendClient,
-  TYPES,
-  DIContainer,
-  body,
-  queryParams,
-  responseJson,
-} from '@socnet/shared';
 import {
   ChatGetListQuery,
   ChatGetListReturn,
@@ -14,13 +5,17 @@ import {
   ChatPostBody,
   ChatPutBody,
 } from './chat-dto';
+import {
+  body,
+  getHttpBackendClient,
+  HttpBackendClient,
+  queryParams,
+  responseJson,
+} from '@socnet/shared';
 
 /** /api/chat */
-@injectable()
-export class ChatRepository {
-  constructor(
-    @inject(TYPES.HttpBackendClient) private _httpClient: HttpBackendClient
-  ) {}
+class ChatRepository {
+  constructor(private _httpClient: HttpBackendClient) {}
 
   /** POST /api/v1/chat */
   post(payload: ChatPostBody) {
@@ -58,4 +53,4 @@ export class ChatRepository {
 }
 
 export const getChatRepository = () =>
-  DIContainer.get<ChatRepository>(TYPES.UserRepository);
+  new ChatRepository(getHttpBackendClient());

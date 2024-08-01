@@ -1,13 +1,3 @@
-import { inject, injectable } from 'inversify';
-import {
-  HttpBackendClient,
-  TYPES,
-  DIContainer,
-  body,
-  responseJson,
-  objectToFormData,
-  queryParams,
-} from '@socnet/shared';
 import {
   GalleryDeleteQuery,
   GalleryGetQuery,
@@ -15,13 +5,18 @@ import {
   GalleryPostBody,
   GalleryPutBody,
 } from './gallery-dto';
+import {
+  body,
+  getHttpBackendClient,
+  HttpBackendClient,
+  objectToFormData,
+  queryParams,
+  responseJson,
+} from '@socnet/shared';
 
 /** /api/v1/gallery */
-@injectable()
-export class GalleryRepository {
-  constructor(
-    @inject(TYPES.HttpBackendClient) private _httpClient: HttpBackendClient
-  ) {}
+class GalleryRepository {
+  constructor(private _httpClient: HttpBackendClient) {}
 
   /** GET /api/gallery */
   get(query: GalleryGetQuery) {
@@ -55,4 +50,4 @@ export class GalleryRepository {
 }
 
 export const getGalleryRepository = () =>
-  DIContainer.get<GalleryRepository>(TYPES.GalleryRepository);
+  new GalleryRepository(getHttpBackendClient());

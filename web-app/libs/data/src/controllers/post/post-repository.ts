@@ -1,13 +1,3 @@
-import { inject, injectable } from 'inversify';
-import {
-  HttpBackendClient,
-  TYPES,
-  DIContainer,
-  body,
-  queryParams,
-  responseJson,
-  objectToFormData,
-} from '@socnet/shared';
 import {
   PostDeleteQuery,
   PostGetListQuery,
@@ -16,13 +6,18 @@ import {
   PostPostBody,
   PostPutBody,
 } from './post-dto';
+import {
+  objectToFormData,
+  body,
+  HttpBackendClient,
+  queryParams,
+  responseJson,
+  getHttpBackendClient,
+} from '@socnet/shared';
 
 /** /api/v1/post */
-@injectable()
-export class PostRepository {
-  constructor(
-    @inject(TYPES.HttpBackendClient) private _httpClient: HttpBackendClient
-  ) {}
+class PostRepository {
+  constructor(private _httpClient: HttpBackendClient) {}
 
   /** GET /api/v1/post/{id} */
   get(idPost: number) {
@@ -61,4 +56,4 @@ export class PostRepository {
 }
 
 export const getPostRepository = () =>
-  DIContainer.get<PostRepository>(TYPES.PostRepository);
+  new PostRepository(getHttpBackendClient());

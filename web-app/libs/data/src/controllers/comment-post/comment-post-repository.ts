@@ -1,25 +1,20 @@
-import { inject, injectable } from 'inversify';
-import {
-  HttpBackendClient,
-  TYPES,
-  DIContainer,
-  body,
-  queryParams,
-  responseJson,
-} from '@socnet/shared';
 import {
   CommentPostGetListQuery,
   CommentPostGetListReturn,
   CommentPostPostBody,
   CommentPostPutBody,
 } from './comment-post-dto';
+import {
+  body,
+  getHttpBackendClient,
+  HttpBackendClient,
+  queryParams,
+  responseJson,
+} from '@socnet/shared';
 
 /** /api/v1/comment-post */
-@injectable()
-export class CommentPostRepository {
-  constructor(
-    @inject(TYPES.HttpBackendClient) private _httpClient: HttpBackendClient
-  ) {}
+class CommentPostRepository {
+  constructor(private _httpClient: HttpBackendClient) {}
 
   /** GET /api/v1/comment-post */
   get(query: CommentPostGetListQuery) {
@@ -49,4 +44,4 @@ export class CommentPostRepository {
 }
 
 export const getCommentPostRepository = () =>
-  DIContainer.get<CommentPostRepository>(TYPES.CommentPostRepository);
+  new CommentPostRepository(getHttpBackendClient());

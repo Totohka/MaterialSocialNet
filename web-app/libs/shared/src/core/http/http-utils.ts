@@ -1,5 +1,4 @@
 import { AxiosResponse } from 'axios';
-import { objectToFormData } from '../../utils';
 
 export interface RequestParameters {
   params?: { [x: string]: unknown };

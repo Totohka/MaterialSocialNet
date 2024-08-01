@@ -1,17 +1,12 @@
 import axios, { Axios } from 'axios';
-import { inject, injectable } from 'inversify';
-import { DIContainer, TYPES } from '../di-container';
 import { EnvironmentService } from '../environment-service';
 import { body, joinUrl, queryParams } from '../http';
 import { LoginData, SignUpData } from './auth-types';
 import { AUTH_TOKEN } from '../../consts';
 
-@injectable()
 export class AuthService {
   private axiosInstance: Axios | null = null;
-  public constructor(
-    @inject(TYPES.EnvReader) private _envReader: EnvironmentService
-  ) {}
+  public constructor(private _envReader: EnvironmentService) {}
 
   private get _authUrl() {
     return joinUrl(this._envReader.getBackendUrl(), 'api/v1/auth');
@@ -53,5 +48,4 @@ export class AuthService {
   }
 }
 
-export const getAuthService = () =>
-  DIContainer.get<AuthService>(TYPES.AuthClient);
+export const getAuthService = () => new AuthService(new EnvironmentService());

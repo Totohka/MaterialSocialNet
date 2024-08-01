@@ -1,20 +1,15 @@
-import { inject, injectable } from 'inversify';
-import {
-  HttpBackendClient,
-  TYPES,
-  DIContainer,
-  body,
-  responseJson,
-  objectToFormData,
-} from '@socnet/shared';
 import { AvatarPostBody, AvatarPutBody } from './avatar-dto';
+import {
+  body,
+  getHttpBackendClient,
+  HttpBackendClient,
+  objectToFormData,
+  responseJson,
+} from '@socnet/shared';
 
 /** /api/v1/avatar */
-@injectable()
-export class AvatarRepository {
-  constructor(
-    @inject(TYPES.HttpBackendClient) private _httpClient: HttpBackendClient
-  ) {}
+class AvatarRepository {
+  constructor(private _httpClient: HttpBackendClient) {}
 
   /** GET /api/avatar/{userId} */
   get(userId: number) {
@@ -48,4 +43,4 @@ export class AvatarRepository {
 }
 
 export const getAvatarRepository = () =>
-  DIContainer.get<AvatarRepository>(TYPES.AvatarRepository);
+  new AvatarRepository(getHttpBackendClient());
