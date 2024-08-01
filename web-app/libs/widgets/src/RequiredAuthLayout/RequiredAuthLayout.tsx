@@ -1,15 +1,16 @@
 'use client';
 
-import { redirect } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { PropsWithChildren, useLayoutEffect } from 'react';
 import { getRoute, RoutesEnum } from '@socnet/shared';
 
 export const RequiredAuthLayout = ({ children }: PropsWithChildren) => {
+  const router = useRouter();
   useLayoutEffect(() => {
     const isAuth = !!localStorage.getItem('token');
 
     if (!isAuth) {
-      return redirect(getRoute(RoutesEnum.Login));
+      return router.push(getRoute(RoutesEnum.Login));
     }
   }, []);
 

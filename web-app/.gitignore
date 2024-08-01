@@ -47,3 +47,6 @@ out
 
 
 .vscode
+storybook-static
+production
+publish

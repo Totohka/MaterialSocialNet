@@ -1,4 +1,5 @@
-export const printLogo = console.log(`
+const printLogo = () =>
+  console.log(`
 
   ██████  ▒█████   ▄████▄   ███▄    █ ▓█████▄▄▄█████▓
 ▒██    ▒ ▒██▒  ██▒▒██▀ ▀█   ██ ▀█   █ ▓█   ▀▓  ██▒ ▓▒
@@ -12,3 +13,5 @@ export const printLogo = console.log(`
                   ░
 
   `);
+
+module.exports = { printLogo };

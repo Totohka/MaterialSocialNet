@@ -1,4 +1,5 @@
 import './global.css';
+import 'reflect-metadata';
 
 export const metadata = {
   title: 'Welcome to soc-net-web',
