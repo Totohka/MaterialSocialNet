@@ -50,17 +50,23 @@ builder.Services.AddScoped<ICommentPostRepository, CommentPostRepository> ();
 builder.Services.AddAutoMapper(typeof(ProfileCommentPost));
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    var basePath = AppContext.BaseDirectory;
+
+    var xmlPath = Path.Combine(basePath, "Goods.System.Social.Network.Microservice.Comments.xml");
+    options.IncludeXmlComments(xmlPath);
+});
 
 var app = builder.Build();
 app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 app.UseHttpsRedirection();
 
