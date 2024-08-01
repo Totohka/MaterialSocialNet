@@ -77,16 +77,22 @@ try
     builder.Services.AddAutoMapper(typeof(ProfileReaction));
 
     builder.Services.AddEndpointsApiExplorer();
-    builder.Services.AddSwaggerGen();
+    builder.Services.AddSwaggerGen(options =>
+    {
+        var basePath = AppContext.BaseDirectory;
+
+        var xmlPath = Path.Combine(basePath, "Goods.System.Social.Network.Microservice.Reaction.xml");
+        options.IncludeXmlComments(xmlPath);
+    });
 
     var app = builder.Build();
 
     // Configure the HTTP request pipeline.
-    if (app.Environment.IsDevelopment())
-    {
+    //if (app.Environment.IsDevelopment())
+    //{
         app.UseSwagger();
         app.UseSwaggerUI();
-    }
+    //}
 
     app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
     app.UseMiddleware<ValidationExceptionHandlingMiddleware>();
