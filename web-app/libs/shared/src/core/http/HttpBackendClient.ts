@@ -1,15 +1,18 @@
 import { AuthService, getAuthService } from '../auth';
-import { EnvironmentService } from '../environment-service';
+import {
+  EnvironmentService,
+  getEnvironmentService,
+} from '../environment-service';
 import { joinUrl, mergeParams, RequestParameters } from './http-utils';
 
 export class HttpBackendClient {
   constructor(
     private _authService: AuthService,
-    private _envReader: EnvironmentService
+    private _environmentService: EnvironmentService
   ) {}
 
   private get _baseUrl() {
-    return this._envReader.getBackendUrl();
+    return this._environmentService.getBackendUrl();
   }
 
   private get _axios() {
@@ -82,4 +85,4 @@ export class HttpBackendClient {
 }
 
 export const getHttpBackendClient = () =>
-  new HttpBackendClient(getAuthService(), new EnvironmentService());
+  new HttpBackendClient(getAuthService(), getEnvironmentService());
