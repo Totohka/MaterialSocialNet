@@ -75,12 +75,18 @@ namespace Goods.System.Social.Network.Microservice.Posts.Services.Implementation
                                                          dataNotificationPost.AuthorId,
                                                          dataNotificationPost.PostId);
                     var user = await _userService.GetAsync(dataNotificationPost.AuthorId);
+
+                    var obj = new {
+                        user.FirstName,
+                        user.LastName,
+                        user.Id,
+                        dataNotificationPost.PostId
+                    };
+
+                    string json = JsonConvert.SerializeObject(obj);
+
                     await _notificationHub.Clients.Client(notification.NotificationConnectionId)
-                            .SendAsync("NotificationPost",
-                                       user.FirstName,
-                                       user.LastName,
-                                       user.Id.ToString(),
-                                       dataNotificationPost.PostId.ToString());
+                            .SendAsync("NotificationPost", json);
                 }
             }
             else if (content.Contains("ChatRoomId"))
@@ -99,11 +105,18 @@ namespace Goods.System.Social.Network.Microservice.Posts.Services.Implementation
                                                                    dataNotificationChatRoom.UserId,
                                                                    dataNotificationChatRoom.ChatRoomId);
                     var chat = await _chatService.GetAsync(dataNotificationChatRoom.ChatRoomId);
+
+                    var obj = new
+                    {
+                        chat.Name,
+                        chat.LastMessage,
+                        dataNotificationChatRoom.ChatRoomId
+                    };
+
+                    string json = JsonConvert.SerializeObject(obj);
+
                     await _notificationHub.Clients.Client(notification.NotificationConnectionId)
-                            .SendAsync("NotificationChat",
-                                       chat.Name,
-                                       chat.LastMessage,
-                                       dataNotificationChatRoom.ChatRoomId.ToString());
+                            .SendAsync("NotificationChat", json);
                 }
             }
             
