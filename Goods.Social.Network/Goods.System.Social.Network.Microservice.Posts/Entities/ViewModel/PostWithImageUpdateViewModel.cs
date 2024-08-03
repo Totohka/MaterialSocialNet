@@ -24,7 +24,7 @@ namespace Goods.System.Social.Network.Microservice.Posts.Entities.ViewModel
         /// Заголовок
         /// </summary>
         [Required(AllowEmptyStrings = false, ErrorMessage = "Параметр Title обязателен")]
-        [Range(1, 100, ErrorMessage = "Длина заголовка от {1} до {2} символов")]
+        [StringLength(100, ErrorMessage = "Длина заголовка от 1 до {1} символов")]
         public string Title { get; set; }
 
         /// <summary>
@@ -43,7 +43,7 @@ namespace Goods.System.Social.Network.Microservice.Posts.Entities.ViewModel
         /// Теги поста
         /// </summary>
         [Required(AllowEmptyStrings = false, ErrorMessage = "Параметр Tags обязателен")]
-        [Range(1, 100, ErrorMessage = "Длина тегов от {1} до {2} символов")]
+        [StringLength(100, ErrorMessage = "Длина тегов от 1 до {1} символов")]
         public string Tags { get; set; }
     }
 }

@@ -10,6 +10,7 @@ using Goods.System.Social.Network.Microservice.Chats.Services.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
+using Newtonsoft.Json;
 using System.Net;
 
 namespace Goods.System.Social.Network.Microservice.Chats.Controllers
@@ -70,15 +71,21 @@ namespace Goods.System.Social.Network.Microservice.Chats.Controllers
             }
             _logger.LogInformation($"Вызван метод AddNewMessage signalR");
 
+            var obj = new
+            {
+                chatId = messageViewModel.ChatRoomId,
+                message = messageViewModel.Message,
+                firstName = messageViewModel.FirstName,
+                lastName = messageViewModel.LastName,
+                userId = messageViewModel.UserId,
+                dateSend = messageViewModel.DateSend.ToString("s"),
+                messageId = idMessage
+            };
+
+            string json = JsonConvert.SerializeObject(obj);
+
             await _chatHub.Clients.Group(messageViewModel.ChatRoomId.ToString()).SendAsync(
-                "Receive", 
-                messageViewModel.ChatRoomId.ToString(), 
-                messageViewModel.Message, 
-                messageViewModel.FirstName, 
-                messageViewModel.LastName, 
-                messageViewModel.UserId.ToString(), 
-                messageViewModel.DateSend.ToString("s"), 
-                idMessage.ToString()
+                "Receive", json
             );
 
             _logger.LogInformation($"Заканчивается метод AddNewMessage");
@@ -156,11 +163,17 @@ namespace Goods.System.Social.Network.Microservice.Chats.Controllers
             await _messageService.UpdateAsync(message);
             message = await _messageService.GetAsync(message.Id);
 
+            var obj = new
+            {
+                id = message.Id,   
+                message = message.Msg,
+                chatId = message.ChatRoomId
+            };
+
+            string json = JsonConvert.SerializeObject(obj);
+
             await _chatHub.Clients.Group(message.ChatRoomId.ToString()).SendAsync(
-                "UpdateMessage",
-                message.Id.ToString(),
-                message.Msg,
-                message.ChatRoomId.ToString()
+                "UpdateMessage", json
             );
 
             return Ok();
@@ -182,10 +195,16 @@ namespace Goods.System.Social.Network.Microservice.Chats.Controllers
             
             await _messageService.DeleteAsync(id);
 
+            var obj = new
+            {
+                id = id,
+                chatId = chatId
+            };
+
+            string json = JsonConvert.SerializeObject(obj);
+
             await _chatHub.Clients.Group(chatId.ToString()).SendAsync(
-                "DeleteMessage",
-                id.ToString(),
-                chatId.ToString()
+                "DeleteMessage", json
             );
 
             return Ok();

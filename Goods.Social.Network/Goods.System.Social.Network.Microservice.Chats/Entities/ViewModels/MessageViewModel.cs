@@ -11,7 +11,7 @@ namespace Goods.System.Social.Network.Microservice.Chats.Entities.ViewModels
         /// Текст сообщения
         /// </summary>
         [Required(AllowEmptyStrings = false, ErrorMessage = "Параметр Message обязателен")]
-        [Range(1, 500, ErrorMessage = "Длина сообщения от 1 до 500 символов")]
+        [StringLength(500, ErrorMessage = "Длина сообщения от 1 до {1} символов")]
         public string Message { get; set; }
 
         /// <summary>
@@ -36,14 +36,14 @@ namespace Goods.System.Social.Network.Microservice.Chats.Entities.ViewModels
         /// Имя юзера
         /// </summary>
         [Required(AllowEmptyStrings = false, ErrorMessage = "Параметр FirstName обязателен")]
-        [Range(1, 25, ErrorMessage = "Длина имени от {1} до {2} символов")]
+        [StringLength(25, ErrorMessage = "Длина имени от 1 до {1} символов")]
         public string FirstName { get; set; }
 
         /// <summary>
         /// Фамилия юзера
         /// </summary>
         [Required(AllowEmptyStrings = false, ErrorMessage = "Параметр LastName обязателен")]
-        [Range(1, 25, ErrorMessage = "Длина фамилии от {1} до {2} символов")]
+        [StringLength(25, ErrorMessage = "Длина фамилии от 1 до {1} символов")]
         public string LastName { get; set; }
     }
 }

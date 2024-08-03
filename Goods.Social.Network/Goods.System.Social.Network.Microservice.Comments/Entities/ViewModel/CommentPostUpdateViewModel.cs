@@ -17,7 +17,7 @@ namespace Goods.System.Social.Network.Microservice.Comments.Entities.ViewModel
         /// Текст коммента
         /// </summary>
         [Required(AllowEmptyStrings = false, ErrorMessage = "Параметр Text обязателен")]
-        [Range(1, 300, ErrorMessage = "Длина комментария от 1 до 500 символов")]
+        [StringLength(300, ErrorMessage = "Длина комментария от 1 до {1} символов")]
         public string Text { get; set; }
     }
 }
