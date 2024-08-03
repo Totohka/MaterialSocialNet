@@ -1,0 +1,48 @@
+.login {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-left: -7%;
+  margin-top: -3%;
+}
+.image {
+  position: relative;
+  width: 230px;
+  height: 230px;
+}
+.formWrapper {
+  position: relative;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 5px;
+  background: rgb(44, 44, 44);
+}
+.formWrapper a,
+.formWrapper a::after {
+  margin-bottom: 3px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.formWrapper a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+::-webkit-calendar-picker-indicator {
+  background-color: rgba(255, 255, 255);
+  border-radius: 2px;
+  padding-right: 3px;
+  margin-right: 10px;
+}

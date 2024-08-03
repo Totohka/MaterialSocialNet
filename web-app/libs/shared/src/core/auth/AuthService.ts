@@ -5,7 +5,6 @@ import {
 } from '../environment-service';
 import { body, joinUrl, queryParams } from '../http';
 import { LoginData, SignUpData } from './auth-types';
-import { AUTH_TOKEN } from '../../consts';
 import { StorageInterface } from '../storage/storage-interface';
 import { getLocalStorage } from '../storage/local-storage';
 
@@ -26,6 +25,7 @@ export class AuthService {
       queryParams(credentials)
     );
     this._storage.setAccessToken(response.data);
+    return response.data;
   }
 
   async signUp(signUpData: SignUpData) {
