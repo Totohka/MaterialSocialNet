@@ -4,10 +4,17 @@
   "sourceRoot": "libs/widgets/src",
   "projectType": "library",
   "tags": [],
-  "// targets": "to see all targets run: nx show project widgets --web",
   "targets": {
     "lint": {
       "executor": "@nx/eslint:lint"
+    },
+    "stylelint": {
+      "executor": "nx-stylelint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/widgets/**/*.css"],
+        "formatter": "json"
+      }
     }
   }
 }

@@ -4,7 +4,6 @@
   "sourceRoot": "apps/web-storybook",
   "projectType": "application",
   "tags": [],
-  "// targets": "to see all targets run: nx show project web-storybook --web",
   "targets": {
     "storybook": {
       "executor": "@nx/storybook:storybook",
@@ -28,6 +27,14 @@
     },
     "lint": {
       "executor": "@nx/eslint:lint"
+    },
+    "stylelint": {
+      "executor": "nx-stylelint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/web-storybook/**/*.css"],
+        "formatter": "json"
+      }
     }
   }
 }

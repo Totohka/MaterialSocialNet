@@ -4,7 +4,6 @@
   "sourceRoot": "apps/soc-net-web",
   "projectType": "application",
   "tags": [],
-  "// targets": "to see all targets run: nx show project soc-net-web --web",
   "targets": {
     "build": {
       "executor": "@nx/next:build",
@@ -52,6 +51,14 @@
     },
     "lint": {
       "executor": "@nx/eslint:lint"
+    },
+    "stylelint": {
+      "executor": "nx-stylelint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/soc-net-web/**/*.css"],
+        "formatter": "json"
+      }
     }
   }
 }
