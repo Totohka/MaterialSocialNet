@@ -44,14 +44,8 @@ export class WebsocketClient {
     await this._hubConnection?.invoke(command, data);
   }
 
-  onKek() {
-    // this._hubConnection?.onclose((error) => console.log(error));
-    // this._hubConnection;
-    this._hubConnection?.start();
-  }
-
   stop() {
-    this._hubConnection?.stop();
+    this._hubConnection?.invoke('Disconnect').then(this._hubConnection?.stop);
   }
 }
 
