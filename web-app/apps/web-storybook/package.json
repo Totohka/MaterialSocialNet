@@ -1,0 +1,9 @@
+{
+  "name": "web-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

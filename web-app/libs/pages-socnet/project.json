@@ -1,0 +1,17 @@
+{
+  "name": "pages-socnet",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/pages-socnet/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "stylelint": {
+      "executor": "nx-stylelint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/pages-socnet/**/*.css"],
+        "formatter": "json"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "web-app"
+    },
+    {
+      "path": "ClientApp"
+    }
+  ],
+  "settings": {
+    "cSpell.words": ["Invate", "socnet"]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "soc-net-web",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/soc-net-web",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "./production"
+      },
+      "configurations": {
+        "development": {
+          "outputPath": "apps/pay-in-parts-ssr-legacy"
+        },
+        "production": {}
+      }
+    },
+    "build-standalone": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "node build-scripts/soc-net-web/before-build.js",
+          "npx nx run soc-net-web:build",
+          "node build-scripts/soc-net-web/after-build.js"
+        ],
+        "parallel": false
+      }
+    },
+    "serve": {
+      "executor": "@nx/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "soc-net-web:build",
+        "port": 3010,
+        "dev": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "soc-net-web:build:development",
+          "dev": true
+        },
+        "production": {
+          "buildTarget": "soc-net-web:build:production",
+          "dev": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "stylelint": {
+      "executor": "nx-stylelint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/soc-net-web/**/*.css"],
+        "formatter": "json"
+      }
+    }
+  }
+}
